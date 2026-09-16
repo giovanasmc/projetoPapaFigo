@@ -1,0 +1,97 @@
+:: StoryTitle
+Papa-Figo
+
+
+:: StoryData
+{
+  "ifid": "CC19D44A-B55D-4434-8079-D4A81AA5AE1F",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Apresentação do médico",
+  "zoom": 1
+}
+
+
+:: Apresentação do médico {"position":"800,300","size":"100,100"}
+A história começa apresentando um médico renomado, que trabalha em um hospital de respeito como cirurgião chefe.
+
+[[Proximo|MotivoDoTrafico]]
+
+
+:: Buca para a cura {"position":"1200,700","size":"100,100"}
+Assim, ele reuniu forças para caminhar, e foi até uma igreja, onde se confessou para o padre. Ele contou ao padre o que fazia no hospital, da morte do garoto, de todos os outros pecados que havia cometido, e disse que por isso estava amaldiçoado com essa terrível doença.
+
+[[Fala do padre]]
+
+
+:: DecisaoFrancisco {"position":"1400,900","size":"100,100"}
+Então Francisco foi para casa, ele começou a ler a bíblia, e se deparou com uma parte, onde Jesus diz que as crianças são as mais puras, ele estava comendo figado todo dia, para não ficar fraco por causa da doença, mas ele não queria apenas um tratamento, ele estava desesperado por cura. Então, seguindo o conselho do pastor de buscar pureza e a sua própria insanidade, Francisco se convenceu de que o único jeito de se curar daquela "maldição" seria comendo o fígado de uma criança pura.
+
+
+
+:: EscolhaPobre {"position":"600,700","size":"100,100"}
+Você escolheu dar o rim para a criança pobre, oq faz com q depois chegue outro figado e possa salvar a criança rica, e depois de salvar as duas crianças ele abandona a vida de ganância, se tornando um médico renomado e bem sucedido.
+
+
+:: EscolhaRica {"position":"800,900","size":"100,100"}
+O menino pobre faleceu por não ter recebido o órgão logo, então, uma senhora, avó do falecido garoto, que já suspeitava da ganância do médico e que agora estava enfurecida com a morte de seu neto, saiu do hospital gritando.
+
+[[Fala da avó]]
+
+
+:: Fala da avó {"position":"1000,900","size":"100,100"}
+ "Ele não merecia morrer, eu te amaldiçoo".
+ 
+ [[Proximo|Reação do médico]]
+
+
+:: Fala do padre {"position":"1200,900","size":"100,100"}
+"Apenas Jesus poderia perdoar seus pecados, que Jesus é capaz de curar qualquer doença e acabar com qualquer maldição. Continue se cuidando, orando, e tendo fé, leia a bíblia, começando do novo testamento, e busque ser o mais puro possível."
+
+[[Proximo|DecisaoFrancisco]]
+
+
+:: MotivoDoTrafico {"position":"800,500","size":"100,100"}
+Após ficar responsável pela coordenação dos órgãos, ele é consumido pela ganância, começa a dar prioridade para parentes de pessoas ricas e até vender alguns órgãos para um traficante, assim, ele vai ficando cada vez mais rico.
+
+[[Proximo|PrimeiraEscolha]]
+
+
+:: Possivel Causa {"position":"1200,500","size":"100,100"}
+Então, enquanto Francisco comia para se recuperar, ele lembrou do fígado que negou ao pobre garoto de sangue único, e da fala daquela senhora, então começou a ficar paranóico, e pensar que realmente havia sido amaldiçoado.
+
+[[Proximo|Buca para a cura]]
+
+
+:: PrimeiraEscolha {"position":"800,700","size":"100,100"}
+Certo dia, duas crianças precisavam de um fígado pois estavam muito doentes, uma das crianças era filha de um homem rico, e a outra era um garoto de uma família pobre, mas o tipo sanguíneo de ambas é O-, que apenas recebe dele mesmo. O garoto estava pior e já estava esperando pelo fígado a muito tempo, porém o pai da menina pagou a Francisco uma boa quantia para que o órgão fosse para sua filha, e ele aceitou por ganância.
+
+
+Quem você deseja salvar?
+
+[[Criança Pobre|EscolhaPobre]]
+[[Criança Rica|EscolhaRica]]
+
+
+:: Reação do médico {"position":"1000,700","size":"100,100"}
+Francisco apenas encarou como um comentário da boca pra fora, ele nunca acreditou em coisas como maldições. Porém, cerca de um mês depois, ele começou a se sentir muito mal, então como era médico ele tentou entender o que estava acontecendo.
+
+ [[Proximo|Sobre a doença]]
+
+
+:: Sintomas da doença {"position":"1000,300","size":"100,100"}
+Com o tempo, a doença afetou sua pele, deixando-a com um tom pálido e com aparência envelhecida, afetou sua coluna, o deixando corcunda, o cabelo de sua cabeça, que começou a cair, deixando-o apenas com sua barba, e suas orelhas e nariz ficaram maiores, além de deixar seu corpo mais magro e desnutrido, e também afetar a quantidade de ferro em seu corpo, oq deixava ele fraco.
+
+[[Proximo|Tratamento]]
+
+
+:: Sobre a doença {"position":"1000,500","size":"100,100"}
+Mesmo após fazer muitos testes, não conseguiu descobrir qual era aquela doença. Era algo que ele nunca havia visto na vida, e que não estava escrito em nenhum livro ou site de medicina. Uma doença nova e desconhecida.
+
+[[Proximo|Sintomas da doença]]
+
+
+:: Tratamento {"position":"1200,300","size":"100,100"}
+Era realmente uma doença terrível, estava afetando demais o seu corpo, então, para poder pelo menos levantar da cama, ele começou a comer fígado de boi, maçã, feijão e outros alimentos ricos em ferro todos os dias, o que com o tempo foi repondo o ferro em seu corpo, dando mais forças para se levantar.
+
+[[Proximo|Possivel Causa]]
