@@ -1,0 +1,277 @@
+:: StoryTitle
+Papa-Figo
+
+
+:: StoryData
+{
+  "ifid": "CC19D44A-B55D-4434-8079-D4A81AA5AE1F",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Apresentação do traficante",
+  "tag-colors": {
+    "Atualizado-0.1": "green"
+  },
+  "zoom": 1
+}
+
+
+:: Apresentação do traficante [Atualizado-0.1] {"position":"100,100","size":"100,100"}
+Este é Mosca, um traficante que compra órgãos de um médico renomado que trabalha em um hospital de respeito como cirurgião chefe.
+
+[[Proximo|PrimeiraEscolha]]
+
+
+:: EscolhaPobre [Atualizado-0.1] {"position":"300,300","size":"100,100"}
+Você escolheu dar o figado para a criança pobre, oq faz com q depois chegue outro figado para salvar a criança rica, abandonando a vida de ganância, entregando o Mosca e se tornando um médico renomado e bem sucedido.
+
+
+:: EscolhaRica [Atualizado-0.1] {"position":"500,100","size":"100,100"}
+Dois meses depois, o traficante recebe uma ligação do médico, dizendo que estava se aposentando, que não deveria ter feito nada do que fez, e que iria parar de vender órgãos, sendo interrompido pelo traficante que insiste em continuar, ele pede desculpas e desliga subtamente.
+
+[[Proximo|desesperoDoTraficante]]
+
+
+:: FlashBack [Atualizado-0.1] {"position":"7100,100","size":"100,100"}
+O traficante usa uma escada e um cartão para ter acesso e abrir a janela pelo lado de fora, entrando com o clorofórmio, o cachorro morde seu braço, ele derruba o líquido, bate no cachorro e o prende dentro do armário, mas Bernardo acorda com o barulho. O traficante se esconde embaixo da cama, pois não quer que Bernardo grite, ele espera o menino se distrair com o cachorro e desmaia os dois usando clorofórmio, coloca o garoto em seu carro, vai até um beco e troca por dinheiro com um homem desconhecido.
+
+[[Proximo|aSenha]]
+
+
+
+
+:: Olhar no armario [Atualizado-0.1] {"position":"2300,200","size":"100,100"}
+Após olhar o armário, Adriana (mãe de Bernardo), encontra Dexter dormindo como uma pedra. Enquanto seu marido chama a policia, ela decide olhar o taco de baseball
+(set: $armarioOpen to true)
+
+[[Olhar taco de baseball|camaVazia]] 
+
+
+:: Olhar taco de baseball [Atualizado-0.1] {"position":"2300,0","size":"100,100"}
+Após olhar o taco de baseball, Adriana (mãe de Bernardo) repara sangue em sua ponta, assustada ela olha em baixo da cama e vê o corpo de Dexter ensanguentado. Enquanto seu marido chama a policia, ela decide olhar dentro do armario.
+
+[[Olhar no armario|armarioVazio]]
+
+
+:: PassagemDoTempo [Atualizado-0.1] {"position":"900,100","size":"100,100"}
+Um mes depois.... 
+na casa de uma familia aleatoria
+
+[[Proximo|apresentacaoDaCrianca]]
+
+
+:: PrimeiraEscolha [Atualizado-0.1] {"position":"300,100","size":"100,100"}
+Certo dia, duas crianças precisavam de um fígado pois estavam muito doentes, uma das crianças era filha de um homem rico, e a outra era um garoto de uma família pobre. Como as duas crianças tinham o sangue do tipo O-, não era fácil conseguir um órgão para elas. Porém, um fígado compatível com ambas as crianças finalmente chegou. O garoto pobre estava pior e já estava esperando pelo fígado a muito tempo, porém o pai da criança rica pagou ao médico Francisco, uma boa quantia para que o órgão fosse para sua filha. 
+Então ele pensa e decide entregar o orgão para:
+
+[[Criança Pobre|EscolhaPobre]]
+[[Criança Rica|EscolhaRica]]
+
+
+:: aCamera [Atualizado-0.1] {"position":"4300,100","size":"100,100"}
+A casa da Adriana não tinha nenhuma câmera que pegasse a janela de Bernardo, porém, ela notou que uma vizinha tinha uma câmera que apontava para seu jardim, que por consequencia pegava os pontos cegos de suas cameras que apontam para a rua.
+
+[[Proximo|oVideo]]
+
+
+:: aCarta [Atualizado-0.1] {"position":"3900,100","size":"100,100"}
+Ao ler a carta, ela identifica algumas manchas de tinta da caneta, indicando que logo após escrever a pessoa passou a mão por cima, o que indica que o sequestrador provavelmente é canhoto.
+
+[[Proximo|fraseEstranha]]
+
+
+:: aInvasao [Atualizado-0.1] {"position":"5900,100","size":"100,100"}
+Adriana sai correndo seguindo Dexter, até que ele para na frente de uma casa, cheirando o tapete, aparentemente ele estava reconhecendo o cheiro. ela manda Dexter esperar do lado de fora, quebra a janela da garagem, vendo o Corolla preto lá dentro, e então anda sorrateiramente até a porta da frente, destrancando para Dexter entrar.
+
+[[Proximo|oCheiro]]
+
+
+
+:: aLambida [Atualizado-0.1] {"position":"1700,100","size":"100,100"}
+Bernardo se sente totalmente aliviado por não ser um monstro, se abaixando para fazer carinho em Dexter, quando se dá conta de algo. Quem o trancou ali dentro? E se ele estava lá, em o que fez carinho a 10 segundos atrás? 
+
+[[Proximo|oSequestro]]
+
+
+:: aMentalista [Atualizado-0.1] {"position":"6700,100","size":"100,100"}
+Ele cai no chão com a dor, então Adriana pega ele, o amarra em uma cadeira e pergunta onde está Bernardo. Ele diz que não faz ideia de quem ela está falando. Ao se aproximar, Dexter mostra onde tinha mordido o traficante. Adriana diz que ele deixou sangue da mordida no quarto e mente dizendo que já fez o exame e sabe que o sangue é dele.
+
+[[Proximo|aTortura]]
+
+
+:: aPorta [Atualizado-0.1] {"position":"6300,100","size":"100,100"}
+Ao abrir o guarda roupa, apenas é possível ver algumas roupas penduradas, porém, ela enxerga uma luz vindo de atrás das roupas, onde havia uma porta.
+
+[[Proximo|oEsconderijo]]
+
+
+:: aSenha [Atualizado-0.1] {"position":"7300,100","size":"100,100"}
+Na sala onde eles estão, tem uma porta de metal, que abre com senha, a mãe de Bernardo acredita que o traficante está mentindo e seu filho está lá atrás, então fala para o traficante escrever a senha, mas o traficante se recusa, fazendo ela continuar o torturando, até ele desistir. Ela pega um papel que está na bancada de trabalho e coloca em frente a sua mão, mandando ele escrever a senha, descobrindo que ele escreve com a mão direita.
+
+[[Proximo|oCofre]]
+
+
+:: aTortura [Atualizado-0.1] {"position":"6900,100","size":"100,100"}
+Então o traficante diz que ele fez o sequestro, estava devendo pessoas perigosas e que pagaram bem pelo sequestro, mas que não sabia onde estava a criança. A Adriana manda ele contar com detalhes como sequestrou seu filho e oq fez com ele depois, mas ele se recusa, então Adriana tortura ele e ele começa a falar.
+
+[[FlashBack]]
+
+
+:: apresentacaoDaCrianca [Atualizado-0.1] {"position":"1100,100","size":"100,100"}
+A criança, Bernardo, diz a sua mãe que tem um monstro dentro de seu armário e que está com medo, então a mãe de Bernardo diz que ele já é um menino grande e não precisa ter medo de nada, pois seu cachorro Dexter iria ficar com ele, então Dexter deita embaixo da cama e a Mãe de Bernardo vai dormir.
+
+[[Proximo|duranteANoite]]
+
+
+:: armarioVazio [Atualizado-0.1] {"position":"2500,0","size":"100,100"}
+Ao olhar o armário, ela encotra um envelope. Atrás do envelope está escrito "sinto muito pelo seu filho, eu não tive escolha", e dentro do envelope está R$ 30.000 em notas de 100, decidindo guardar ele em seu bolso.
+
+[[Proximo|chegadaPolicia]]
+
+
+:: asMultas [Atualizado-0.1] {"position":"5300,100","size":"100,100"}
+Em casa, fazendo uma pesquisa com um computador comum, usando a placa e os documentos que conseguiu, Adriana acessa o histórico de multas do carro, vendo que o sequestrador não dirige de forma cuidadosa e não se importa em levar multa, já que o carro não está em seu nome.
+
+[[Proximo|oMapa]]
+
+
+:: camaVazia [Atualizado-0.1] {"position":"2500,200","size":"100,100"}
+Ao olhar o taco de baseball, ela encotra um envelope em baixo da cama. Atrás do envelope está escrito "sinto muito pelo seu filho, eu não tive escolha", e dentro do envelope está R$ 30.000 em notas de 100, decidindo guardar ele em seu bolso.
+
+[[Proximo|chegadaPolicia]]
+
+
+:: chegadaPolicia [Atualizado-0.1] {"position":"2700,100","size":"100,100"}
+Um tempo depois, com a chegada da policia, imediatamente é iniciada a busca por qualquer vestígio para saberem se foi um sequestro ou se Bernardo teria fugido de casa. 
+
+[[Poximo|depoimento]]
+
+
+:: depoimento [Atualizado-0.1] {"position":"2900,100","size":"100,100"}
+(if: $armarioOpen is true)[A polícia pergunta para os pais de Bernardo oq havia acontecido, então a mãe diz que havia colocado Bernardo para dormir perto de seu cachorro e que a janela estava trancada, quando acordaram, Bernardo havia sumido e cachorro estava dormindo no armario, o pai fica bravo com o cachorro e o culpa por não ter protegido a criança.]
+
+(else:) [A polícia pergunta para os pais de Bernardo oq havia acontecido, então a mãe diz que havia colocado Bernardo para dormir perto de seu cachorro e que a janela estava trancada, quando acordaram, Bernardo havia sumido e cachorro estava morto em baixo da cama.]
+
+[[Proximo|investicagao]]
+
+
+:: desesperoDoTraficante [Atualizado-0.1] {"position":"700,100","size":"100,100"}
+Desesperado, o traficande começa a quebrar as coisas a sua volta, dizendo que o médico não podia fazer isso com ele assim do nada, que ele precisa muito desses órgãos, que o médico não entende sua situação.
+
+[[Proximo|PassagemDoTempo]]
+
+
+:: duranteANoite [Atualizado-0.1] {"position":"1300,100","size":"100,100"}
+Durante a noite, Bernardo acorda com o barulho em seu quarto, assustado, tem quase certeza de que viu um vulto, percebendo que a porta do seu armário está se mexendo, ele fica aterrorizado, pensando que havia um monstro lá dentro, ele se cobre com o cobertor e tenta não pensar naquilo, porém o barulho da porta batendo, deixa ele mais assustado, colocando a mão em baixo da cama, ele faz carinho no pelo de Dexter, o que deixa ele mais calmo, reunindo coragem para levantar da cama, pegando seu taco de beisebol que estava ao seu lado e caminhando até seu armário.
+
+[[Proximo|oSusto]]
+
+
+:: fraseEstranha [Atualizado-0.1] {"position":"4100,100","size":"100,100"}
+Porém, o que ela ainda não conseguia entender era o motivo de o sequestrador escrever “eu não tive escolha”, não parecia fazer sentido uma pessoa rica ser ameaçada para sequestrar uma criança.
+
+[[Proximo|aCamera]]
+
+
+:: investicagao [Atualizado-0.1] {"position":"3100,100","size":"100,100"}
+Então a polícia investiga a janela, o líquido e o cachorro. Ao fazerem um breve teste, descobrem que se trata de clorofórmio, mostrando que foi um sequestro, já na janela, não acham digitais ou sinais de arrombamento, mas acham uma mancha de sangue, então pegam uma amostra para análise e pedem para que os pais de Bernardo não entrem no quarto para não contaminarem a cena do crime, e que voltariam para mais investigações.
+
+[[Proximo|investigacaoMae]]
+
+
+:: investigacaoMae [Atualizado-0.1] {"position":"3300,100","size":"100,100"}
+Adriana espera a polícia sair, então entra no quarto e pega uma amostra do sangue também. Alexandre pergunta para ela o porquê dela estar interferindo na investigação e escondendo provas, e ela diz que não confia na polícia para achar o Bernardo, que se você quer um trabalho bem feito deve fazer você mesmo, ja que é uma ex perita criminal, que saiu da polícia após um caso de assassinato onde ela tinha certeza de quem era o assassino, porém a polícia não prendeu o homem por falta de provas.
+
+[[Proximo|laboratorio]]
+
+
+:: laboratorio [Atualizado-0.1] {"position":"3500,100","size":"100,100"}
+Então Adriana sai de casa e vai até um laboratório criminal, onde encontra uma velha amiga da época de quando trabalhava para a polícia. Ela chega dizendo que veio cobrar um favor, e pede para a amiga analisar uma amostra de sangue. Ela fica com medo de perder o emprego, mas aceita pela amizade e para pagar sua dívida, mas avisa que vai demorar alguns dias para o teste ficar pronto.
+
+[[Proximo|quadro]]
+
+
+:: manhaSegunite [Atualizado-0.1] {"position":"2100,100","size":"100,100"}
+Ao acordar, os pais de Bernardo vão até o quarto dele, e se deparam com um quarto vazio, uma janela aberta. Ao olhar ao redor eles veem um liquido estranho derramado em frente a porta do armario e em baixo da cama uma parte do taco de baseball. Ao notar o desaparecimento de seu filho, Alexandre corre ligar para a policia enquanto Adriana decide:
+
+[[Olhar taco de baseball]]
+[[Olhar no armario]]
+
+
+:: oBairro [Atualizado-0.1] {"position":"5700,100","size":"100,100"}
+Ela vai até um lugar suspeito e compra uma arma ilegal de um homem, um 38. Então ela pega Dexter e vai até o tal bairro, pede para ver as câmeras de algumas casas, até que acha uma que pega o Corolla passando, ela segue o caminho que o carro estava fazendo, até que Dexter começa a correr.
+
+[[Proximo|aInvasao]]
+
+
+:: oBurro {"position":"7700,100","size":"100,100"}
+O traficante olha para o envelope e diz algo como: “aquele burro”, então Adriana pergunta mais uma vez com quem está o filho dela, já ameaçando voltar a torturar ele.
+
+[[Proximo|
+
+
+:: oCheiro [Atualizado-0.1] {"position":"6100,100","size":"100,100"}
+A casa parece estar totalmente vazia, mas o carro estava na garagem, então Adriana vai andando pela casa com Dexter seguindo o cheiro, até que Dexter chama a atenção de Adriana para um guarda roupa. 
+
+[[Proximo|aPorta]]
+
+
+:: oCofre [Atualizado-0.1] {"position":"7500,100","size":"100,100"}
+Após abrir a porta e ver que lá só tinha um freezer cheio de órgãos e pacotes de drogas e dinheiro, ela compara a letra do que o traficante acabou de escrever com a letra do envelope, mostra para o traficante e pergunta, se ele estava lá sozinho e estava fazendo aquilo por dinheiro como havia contado, quem escreveu aquilo e deixou o dinheiro.
+
+
+[[Proximo|oBurro]]
+
+
+:: oEndereco [Atualizado-0.1] {"position":"4900,100","size":"100,100"}
+Então, ela volta para o laboratório, chegando lá, pergunta para a amiga se a amostra do sangue já estava pronta, sua amiga diz que ainda não, pois é um processo demorado. Então Adriana pede para fazer uma pesquisa no computador, e pesquisa a placa do carro pelo sistema da polícia, descobrindo o endereço do dono do carro.
+
+[[Proximo|oProprietario]]
+
+
+:: oEsconderijo [Atualizado-0.1] {"position":"6500,100","size":"100,100"}
+Quando Adriana passa pela porta, se depara com o traficante, então aponta a arma para ele, mandando ele ficar parado com as mãos para cima, ele pensa que ela é da polícia e não pode atirar nele por estar desarmado, então tenta fugir, mas assim que ele se mexe ela dá um tiro na coxa dele.
+
+[[Proximo|aMentalista]]
+
+
+:: oMapa [Atualizado-0.1] {"position":"5500,100","size":"100,100"}
+Usando esses dados, ela marca em um mapa todas as localizações onde o homem levou multa, vendo que a maioria das multas foi em volta de um bairro específico, provavelmente o bairro onde o sequestrador de seu filho mora.
+
+[[Proximo|oBairro]]
+
+
+
+:: oProprietario [Atualizado-0.1] {"position":"5100,100","size":"100,100"}
+Ela vai até o endereço, onde encontra o dono, que diz que seu carro foi roubado, Adriana promete a ele recuperá-lo, porém, em troca ela pede alguns documentos, que o homem fornece.
+
+[[Proximo|asMultas]]
+
+
+:: oSequestro [Atualizado-0.1] {"position":"1900,100","size":"100,100"}
+Porém quando Bernardo se dá conta já é tarde demais, antes que ele possa se virar em direção a cama, ele é agarrado por trás, quando um lenço é colocado em seu rosto, fazendo-o pegar no sono rapidamente.
+
+[[Proximo|manhaSegunite]]
+
+
+:: oSusto [Atualizado-0.1] {"position":"1500,100","size":"100,100"}
+Ao tentar abrir o armário ele percebe que está fechado com uma pequena tranca, e as portas estão balançando como se algo lá dentro quisesse sair, estão Bernardo levanta seu taco com uma mão, e rapidamente abre a tranca com a outra, porém, quando as portas do armário se abrem, Dexter estava lá dentro, empurrando a porta com a pata esse tempo todo para sair.
+
+[[Proximo|aLambida]]
+
+
+:: oVideo [Atualizado-0.1] {"position":"4500,100","size":"100,100"}
+Ao falar com a vizinha, ela deixa ver as câmeras de segurança, mas só o que Adriana consegue ver é um corolla preto, de vidros escuros, saindo daquela rua de madrugada. Então Adriana pede a fita, compra uma máquina de vídeo e usa para dar um zoom mais nítido, conseguindo ler a placa do carro.
+
+[[Proximo|perguntas]]
+
+
+:: perguntas [Atualizado-0.1] {"position":"4700,100","size":"100,100"}
+Enquanto Adriana organizava as suas provas, a polícia bate em sua porta, então ela esconde o quadro. O policial faz mais algumas perguntas, pergunta lugares onde Bernardo frequentava (escola e igreja), pergunta se tinha alguém que pudesse querer algum tipo de vingança contra a família (sendo ex perita criminal, a mãe dá alguns nomes), e depois de algumas perguntas o policial vai embora.
+
+[[Proxmo|oEndereco]]
+
+
+:: quadro [Atualizado-0.1] {"position":"3700,100","size":"100,100"}
+Ela volta para casa e começa a montar um quadro tentando achar suspeitos. Ela suspeita de que a pessoa que sequestrou seu filho tinha muito dinheiro, então provavelmente não se tratava de tráfico humano, e se fosse apenas um assassino não teria sequestrado, pois seria fácil matar Bernardo enquanto ele dormia, oq significava que havia grandes chances de seu filho ainda estar vivo, preso em algum lugar por algum motivo desconhecido.
+
+[[Proximo|aCarta]]
