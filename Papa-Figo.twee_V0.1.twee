@@ -1,0 +1,118 @@
+:: StoryTitle
+Papa-Figo
+
+
+:: StoryData
+{
+  "ifid": "CC19D44A-B55D-4434-8079-D4A81AA5AE1F",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Apresentação do traficante",
+  "tag-colors": {
+    "Atualizado-0.1": "green"
+  },
+  "zoom": 1
+}
+
+
+:: Apresentação do traficante [Atualizado-0.1] {"position":"800,200","size":"100,100"}
+Este é Mosca, um traficante que compra órgãos de um médico renomado que trabalha em um hospital de respeito como cirurgião chefe.
+
+[[Proximo|PrimeiraEscolha]]
+
+
+:: EscolhaPobre [Atualizado-0.1] {"position":"600,400","size":"100,100"}
+Você escolheu dar o figado para a criança pobre, oq faz com q depois chegue outro figado para salvar a criança rica, abandonando a vida de ganância, entregando o Mosca e se tornando um médico renomado e bem sucedido.
+
+
+:: EscolhaRica [Atualizado-0.1] {"position":"800,600","size":"100,100"}
+ Dois meses depois, o traficante recebe uma ligação do médico, dizendo que estava se aposentando, que não deveria ter feito nada do que fez, e que iria parar de vender órgãos, sendo interrompido pelo traficante que insiste em continuar, ele pede desculpas e desliga subtamente.
+
+[[Proximo|desesperoDoTraficante]]
+
+
+:: Olhar no armario [Atualizado-0.1] {"position":"1400,400","size":"100,100"}
+Após olhar o armário, Adriana (mãe de Bernardo), encontra Dexter dormindo como uma pedra. Enquanto seu marido chama a policia, ela decide olhar o taco de baseball
+
+[[Olhar taco de baseball|camaVazia]]
+
+
+:: Olhar taco de baseball [Atualizado-0.1] {"position":"1200,400","size":"100,100"}
+Após olhar o taco de baseball, Adriana (mãe de Bernardo) repara sangue em sua ponta, assustada ela olha em baixo da cama e vê o corpo de Dexter ensanguentado. Enquanto seu marido chama a policia, ela decide olhar dentro do armario.
+
+[[Olhar no armario|armarioVazio]] 
+
+
+:: PassagemDoTempo [Atualizado-0.1] {"position":"800,1000","size":"100,100"}
+Um mes depois.... 
+na casa de uma familia aleatoria
+
+[[Proximo|apresentacaoDaCrianca]]
+
+
+:: PrimeiraEscolha [Atualizado-0.1] {"position":"800,400","size":"100,100"}
+Certo dia, duas crianças precisavam de um fígado pois estavam muito doentes, uma das crianças era filha de um homem rico, e a outra era um garoto de uma família pobre. Como as duas crianças tinham o sangue do tipo O-, não era fácil conseguir um órgão para elas. Porém, um fígado compatível com ambas as crianças finalmente chegou. O garoto pobre estava pior e já estava esperando pelo fígado a muito tempo, porém o pai da criança rica pagou ao médico Francisco, uma boa quantia para que o órgão fosse para sua filha. 
+Então ele pensa e decide entregar o orgão para:
+
+[[Criança Pobre|EscolhaPobre]]
+[[Criança Rica|EscolhaRica]]
+
+
+:: aLambida [Atualizado-0.1] {"position":"1000,400","size":"100,100"}
+Bernardo se sente totalmente aliviado por não ser um monstro, se abaixando para fazer carinho em Dexter, quando se dá conta de algo. Quem o trancou ali dentro? E se ele estava lá, em o que fez carinho a 10 segundos atrás? 
+
+[[Proximo|oSequestro]]
+
+
+:: apresentacaoDaCrianca [Atualizado-0.1] {"position":"1000,1000","size":"100,100"}
+A criança, Bernardo, diz a sua mãe que tem um monstro dentro de seu armário e que está com medo, então a mãe de Bernardo diz que ele já é um menino grande e não precisa ter medo de nada, pois seu cachorro Dexter iria ficar com ele, então Dexter deita embaixo da cama e a Mãe de Bernardo vai dormir.
+
+[[Proximo|duranteANoite]]
+
+
+:: armarioVazio [Atualizado-0.1] {"position":"1200,600","size":"100,100"}
+Ao olhar o armário, ela encotra um envelope. Atrás do envelope está escrito "sinto muito pelo seu filho, eu não tive escolha", e dentro do envelope está R$ 30.000 em notas de 100, decidindo guardar ele em seu bolso.
+
+[[Proximo|chegadaPolicia]]
+
+
+:: camaVazia [Atualizado-0.1] {"position":"1400,600","size":"100,100"}
+Ao olhar o taco de baseball, ela encotra um envelope em baixo da cama. Atrás do envelope está escrito "sinto muito pelo seu filho, eu não tive escolha", e dentro do envelope está R$ 30.000 em notas de 100, decidindo guardar ele em seu bolso.
+
+[[Proximo|chegadaPolicia]]
+
+
+:: chegadaPolicia [Atualizado-0.1] {"position":"1300,800","size":"100,100"}
+Um tempo depois, com a chegada da policia, imediatamente é iniciada a busca por qualquer vestígio para saberem se foi um sequestro ou se Bernardo teria fugido de casa.
+
+
+
+:: desesperoDoTraficante [Atualizado-0.1] {"position":"800,800","size":"100,100"}
+Desesperado, o traficande começa a quebrar as coisas a sua volta, dizendo que o médico não podia fazer isso com ele assim do nada, que ele precisa muito desses órgãos, que o médico não entende sua situação.
+
+[[Proximo|PassagemDoTempo]]
+
+
+:: duranteANoite [Atualizado-0.1] {"position":"1000,800","size":"100,100"}
+Durante a noite, Bernardo acorda com o barulho em seu quarto, assustado, tem quase certeza de que viu um vulto, percebendo que a porta do seu armário está se mexendo, ele fica aterrorizado, pensando que havia um monstro lá dentro, ele se cobre com o cobertor e tenta não pensar naquilo, porém o barulho da porta batendo, deixa ele mais assustado, colocando a mão em baixo da cama, ele faz carinho no pelo de Dexter, o que deixa ele mais calmo, reunindo coragem para levantar da cama, pegando seu taco de beisebol que estava ao seu lado e caminhando até seu armário.
+
+[[Proximo|oSusto]]
+
+
+:: manhaSegunite [Atualizado-0.1] {"position":"1300,200","size":"100,100"}
+Ao acordar, os pais de Bernardo vão até o quarto dele, e se deparam com um quarto vazio, uma janela aberta. Ao olhar ao redor eles veem um liquido estranho derramado em frente a porta do armario e em baixo da cama uma parte do taco de baseball. Ao notar o desaparecimento de seu filho, Alexandre corre ligar para a policia enquanto Adriana decide:
+
+[[Olhar taco de baseball]]
+[[Olhar no armario]]
+
+
+:: oSequestro [Atualizado-0.1] {"position":"1000,200","size":"100,100"}
+Porém quando Bernardo se dá conta já é tarde demais, antes que ele possa se virar em direção a cama, ele é agarrado por trás, quando um lenço é colocado em seu rosto, fazendo-o pegar no sono rapidamente.
+
+[[Proximo|manhaSegunite]]
+
+
+:: oSusto [Atualizado-0.1] {"position":"1000,600","size":"100,100"}
+Ao tentar abrir o armário ele percebe que está fechado com uma pequena tranca, e as portas estão balançando como se algo lá dentro quisesse sair, estão Bernardo levanta seu taco com uma mão, e rapidamente abre a tranca com a outra, porém, quando as portas do armário se abrem, Dexter estava lá dentro, empurrando a porta com a pata esse tempo todo para sair.
+
+[[Proximo|aLambida]]
