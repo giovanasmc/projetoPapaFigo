@@ -1,0 +1,441 @@
+:: StoryTitle
+Papa-Figo
+
+
+:: StoryData
+{
+  "ifid": "CC19D44A-B55D-4434-8079-D4A81AA5AE1F",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "apresentaçãoDoTraficante",
+  "tag-colors": {
+    "Atualizado-0.1": "green"
+  },
+  "zoom": 1
+}
+
+
+:: PrimeiraEscolha [Atualizado-0.1] {"position":"300,1400","size":"100,100"}
+Certo dia, duas crianças precisavam de um fígado pois estavam muito doentes, uma das crianças era filha de um homem rico, e a outra era um garoto de uma família pobre. Como as duas crianças tinham o sangue do tipo O-, não era fácil conseguir um órgão para elas. Porém, um fígado compatível com ambas as crianças finalmente chegou. O garoto pobre estava pior e já estava esperando pelo fígado a muito tempo, porém o pai da criança rica pagou ao médico Francisco, uma boa quantia para que o órgão fosse para sua filha. 
+Então ele pensa e decide entregar o orgão para:
+
+[[Criança Pobre|escolhaPobre]]
+[[Criança Rica|escolhaRica]]
+
+
+:: aAutodefesa {"position":"11900,1400","size":"100,100"}
+Então a Adriana diz algo fofão tipo “sempre tem outra opção, seu lunático”. Ela dá dois tiros no peito de Francisco, com Francisco já morto no chão, ela bate em Francisco, depois dá um soco em si mesma e um tiro em sua própria perna, então, coloca as digitais de Francisco na arma, tira sua luva, pega a arma, e depois joga no chão, (fazendo parecer que Francisco atirou nela, houve uma briga, ela conseguiu tomar a arma dele, e então atirou nele para se defender).
+
+[[Proximo|finalPrincipal]]
+
+
+:: aBiblia {"position":"11100,1400","size":"100,100"}
+Então Francisco foi para casa, ele começou a ler a bíblia, e se deparou com uma parte, onde Jesus diz que as crianças são as mais puras.
+
+[[Proximo|aCura]]
+
+
+:: aCamera [Atualizado-0.1] {"position":"4300,1400","size":"100,100"}
+A casa da Adriana não tinha nenhuma câmera que pegasse a janela de Bernardo, porém, ela notou que uma vizinha tinha uma câmera que apontava para seu jardim, que por consequencia pegava os pontos cegos de suas cameras que apontam para a rua.
+
+[[Proximo|oVideo]]
+
+
+:: aCarta [Atualizado-0.1] {"position":"3900,1400","size":"100,100"}
+Ao ler a carta, ela identifica algumas manchas de tinta da caneta, indicando que logo após escrever a pessoa passou a mão por cima, o que indica que o sequestrador provavelmente é canhoto.
+
+[[Proximo|fraseEstranha]]
+
+
+:: aCasa {"position":"8500,1400","size":"100,100"}
+Ela vai até a casa do médico, ainda com o carro do traficante, e acha uma janela aberta, por onde ela entra e leva Dexter com ela.
+
+[[Proximo|oPorao]]
+
+
+:: aCrianca {"position":"11500,1400","size":"100,100"}
+Ele viu que havia muitas crianças que frequentavam a igreja, porém, todas as crianças tinham medo da sua aparência, menos Bernardo, um garoto ruivo que era o único que não tratava Francisco diferente ou sentia medo dele, por isso, Francisco entendeu que Bernardo era a criança mais pura ali, e decidiu que seria ele a quem iria sequestrar.
+
+[[Proximo|oTrabalho]]
+
+
+:: aCura {"position":"11300,1400","size":"100,100"}
+Ele estava comendo figado todo dia, para não ficar fraco por causa da doença, mas ele não queria apenas um tratamento, ele estava desesperado por cura. Então, seguindo o conselho do padre de buscar pureza e a sua própria insanidade, Francisco se convenceu de que o único jeito de se curar daquela "maldição" seria comendo o fígado de uma criança pura.
+
+[[Proxino|aCrianca]]
+
+
+:: aDoenca {"position":"9700,1400","size":"100,100"}
+Francisco apenas encarou como um comentário da boca pra fora, ele nunca acreditou em coisas como maldições. Porém, cerca de um mês depois, ele começou a se sentir muito mal, então como era médico ele tentou entender o que estava acontecendo.
+
+[[Proximo|osExames]]
+
+
+:: aEscolha {"position":"9300,1400","size":"100,100"}
+Certo dia, duas crianças precisavam de um fígado pois estavam muito doentes, uma das crianças era filha de um homem rico, e a outra era um garoto de uma família pobre. Como as duas crianças tinham o sangue do tipo -O, não era fácil conseguir um órgão para elas. Porém, um fígado compatível com ambas as crianças finalmente chegou. O garoto estava pior e já estava esperando pelo fígado a muito tempo, porém o pai da menina pagou a Francisco uma boa quantia para que o órgão fosse para sua filha, e ele aceitou por ganância.
+
+[[Proximo|aMaldicao]]
+
+
+:: aHistoria {"position":"9100,1400","size":"100,100"}
+Após ficar responsável pela coordenação dos órgãos, ele é consumido pela ganância, começa a dar prioridade para parentes de pessoas ricas e até vender alguns órgãos para um traficante, assim, ele vai ficando cada vez mais rico.
+
+[[Proximo|aEscolha]]
+
+
+:: aInvasao [Atualizado-0.1] {"position":"5900,1400","size":"100,100"}
+Adriana sai correndo seguindo Dexter, até que ele para na frente de uma casa, cheirando o tapete, aparentemente ele estava reconhecendo o cheiro. ela manda Dexter esperar do lado de fora, quebra a janela da garagem, vendo o Corolla preto lá dentro, e então anda sorrateiramente até a porta da frente, destrancando para Dexter entrar.
+
+[[Proximo|oCheiro]]
+
+
+:: aLambida [Atualizado-0.1] {"position":"1700,1400","size":"100,100"}
+Bernardo se sente totalmente aliviado por não ser um monstro, se abaixando para fazer carinho em Dexter, quando se dá conta de algo. Quem o trancou ali dentro? E se ele estava lá, em o que fez carinho a 10 segundos atrás? 
+
+[[Proximo|oSequestro]]
+
+
+:: aLigacao {"position":"300,2200","size":"100,100"}
+Francisco liga para o traficante, dizendo que não deveria ter feito nada do que fez, e que iria parar de vender órgãos, sendo interrompido pelo traficante que insiste em continuar, ele pede desculpas e desliga subtamente.
+
+[[Próximo|aTraicao]]
+
+
+:: aMaldicao {"position":"9500,1400","size":"100,100"}
+O menino pobre faleceu por não ter recebido o órgão logo, então, uma senhora, avó do falecido garoto, que já suspeitava da ganância do médico e que agora estava enfurecida com a morte de seu neto, saiu do hospital gritando "ele não merecia morrer, eu te amaldiçoo".
+
+[[Proximo|aDoenca]]
+
+
+:: aMentalista [Atualizado-0.1] {"position":"6700,1400","size":"100,100"}
+Ele cai no chão com a dor, então Adriana pega ele, o amarra em uma cadeira e pergunta onde está Bernardo. Ele diz que não faz ideia de quem ela está falando. Ao se aproximar, Dexter mostra onde tinha mordido o traficante. Adriana diz que ele deixou sangue da mordida no quarto e mente dizendo que já fez o exame e sabe que o sangue é dele.
+
+[[Proximo|aTortura]]
+
+
+:: aOutraCrianca {"position":"300,1800","size":"100,100"}
+Um tempo depois, chega outro fígado compatível, assim, é possível salvar também a vida da criança rica, sem a necessidade de chantágem.
+
+[[Proximo|mudancaDeVida]]
+
+
+:: aParanoia {"position":"10500,1400","size":"100,100"}
+Então, enquanto Francisco comia para se recuperar, ele lembrou do fígado que negou ao pobre garoto, e da fala daquela senhora, então começou a ficar paranóico, e pensar que realmente havia sido amaldiçoado.
+
+[[Proximo|oPadre]]
+
+
+:: aPorta [Atualizado-0.1] {"position":"6300,1400","size":"100,100"}
+Ao abrir o guarda roupa, apenas é possível ver algumas roupas penduradas, porém, ela enxerga uma luz vindo de atrás das roupas, onde havia uma porta.
+
+[[Proximo|oEsconderijo]]
+
+
+:: aSenha [Atualizado-0.1] {"position":"7300,1400","size":"100,100"}
+Na sala onde eles estão, tem uma porta de metal, que abre com senha, a mãe de Bernardo acredita que o traficante está mentindo e seu filho está lá atrás, então fala para o traficante escrever a senha, mas o traficante se recusa, fazendo ela continuar o torturando, até ele desistir. Ela pega um papel que está na bancada de trabalho e coloca em frente a sua mão, mandando ele escrever a senha, descobrindo que ele escreve com a mão direita.
+
+[[Proximo|oCofre]]
+
+
+:: aTortura [Atualizado-0.1] {"position":"6900,1400","size":"100,100"}
+Então o traficante diz que ele fez o sequestro, estava devendo pessoas perigosas e que pagaram bem pelo sequestro, mas que não sabia onde estava a criança. A Adriana manda ele contar com detalhes como sequestrou seu filho e oq fez com ele depois, mas ele se recusa, então Adriana tortura ele e ele começa a falar.
+
+[[Flashback|oFlashback]]
+
+
+:: aTraicao {"position":"300,2400","size":"100,100"}
+Assim que a ligação se encerra, o traficante ouve sons de sirene em volta de sua casa e uma vóz vindo de um megafone dizendo "é a polícia, você está cercado, não tente nada e não será ferido".
+
+[[Próximo|prisaoPrecoce]]
+
+
+:: apresentacaoDaCrianca [Atualizado-0.1] {"position":"1100,1400","size":"100,100"}
+A criança, Bernardo, diz a sua mãe que tem um monstro dentro de seu armário e que está com medo, então a mãe de Bernardo diz que ele já é um menino grande e não precisa ter medo de nada, pois seu cachorro Dexter iria ficar com ele, então Dexter deita embaixo da cama e a Mãe de Bernardo vai dormir.
+
+[[Proximo|duranteANoite]]
+
+
+:: apresentaçãoDoTraficante [Atualizado-0.1] {"position":"100,1400","size":"100,100"}
+Este é Mosca, um traficante que compra órgãos de um médico renomado que trabalha em um hospital de respeito como cirurgião chefe.
+
+[[Proximo|PrimeiraEscolha]]
+
+
+:: armarioVazio [Atualizado-0.1] {"position":"2500,1300","size":"100,100"}
+Ao olhar o armário, ela encotra um envelope. Atrás do envelope está escrito "sinto muito pelo seu filho, eu não tive escolha", e dentro do envelope está R$ 30.000 em notas de 100, decidindo guardar ele em seu bolso.
+
+[[Proximo|chegadaPolicia]]
+
+
+:: asMultas [Atualizado-0.1] {"position":"5300,1400","size":"100,100"}
+Em casa, fazendo uma pesquisa com um computador comum, usando a placa e os documentos que conseguiu, Adriana acessa o histórico de multas do carro, vendo que o sequestrador não dirige de forma cuidadosa e não se importa em levar multa, já que o carro não está em seu nome.
+
+[[Proximo|oMapa]]
+
+
+:: camaVazia [Atualizado-0.1] {"position":"2500,1500","size":"100,100"}
+Ao olhar o taco de baseball, ela encotra um envelope em baixo da cama. Atrás do envelope está escrito "sinto muito pelo seu filho, eu não tive escolha", e dentro do envelope está R$ 30.000 em notas de 100, decidindo guardar ele em seu bolso.
+
+[[Proximo|chegadaPolicia]]
+
+
+:: chegadaPolicia [Atualizado-0.1] {"position":"2700,1400","size":"100,100"}
+Um tempo depois, com a chegada da policia, imediatamente é iniciada a busca por qualquer vestígio para saberem se foi um sequestro ou se Bernardo teria fugido de casa. 
+
+[[Poximo|depoimento]]
+
+
+:: depoimento [Atualizado-0.1] {"position":"2900,1400","size":"100,100"}
+(if: $armarioOpen is true)[A polícia pergunta para os pais de Bernardo oq havia acontecido, então a mãe diz que havia colocado Bernardo para dormir perto de seu cachorro e que a janela estava trancada, quando acordaram, Bernardo havia sumido e cachorro estava dormindo no armario, o pai fica bravo com o cachorro e o culpa por não ter protegido a criança.]
+
+(else:) [A polícia pergunta para os pais de Bernardo oq havia acontecido, então a mãe diz que havia colocado Bernardo para dormir perto de seu cachorro e que a janela estava trancada, quando acordaram, Bernardo havia sumido e cachorro estava morto em baixo da cama.]
+
+[[Proximo|investicagao]]
+
+
+:: desesperoDoTraficante [Atualizado-0.1] {"position":"700,1400","size":"100,100"}
+Desesperado, o traficande começa a quebrar as coisas a sua volta, dizendo que o médico não podia fazer isso com ele assim do nada, que ele precisa muito desses órgãos, que o médico não entende sua situação.
+
+[[Proximo|passagemDoTempo]]
+
+
+:: duranteANoite [Atualizado-0.1] {"position":"1300,1400","size":"100,100"}
+Durante a noite, Bernardo acorda com o barulho em seu quarto, assustado, tem quase certeza de que viu um vulto, percebendo que a porta do seu armário está se mexendo, ele fica aterrorizado, pensando que havia um monstro lá dentro, ele se cobre com o cobertor e tenta não pensar naquilo, porém o barulho da porta batendo, deixa ele mais assustado, colocando a mão em baixo da cama, ele faz carinho no pelo de Dexter, o que deixa ele mais calmo, reunindo coragem para levantar da cama, pegando seu taco de beisebol que estava ao seu lado e caminhando até seu armário.
+
+[[Proximo|oSusto]]
+
+
+:: escolhaPobre {"position":"300,1600","size":"100,100"}
+Você escolhe rejeitar a chantagem do pai da menina e dá o órgão para a criança pobre. A família da criança fica muito feliz que ele vai sobreviver depois de tanto tempo esperando um fígado. 
+
+[[Proximo|aOutraCrianca]]
+
+
+:: escolhaRica [Atualizado-0.1] {"position":"500,1400","size":"100,100"}
+Dois meses depois, o traficante recebe uma ligação do médico, dizendo que estava se aposentando, que não deveria ter feito nada do que fez, e que iria parar de vender órgãos, sendo interrompido pelo traficante que insiste em continuar, ele pede desculpas e desliga subtamente.
+
+[[Proximo|desesperoDoTraficante]]
+
+
+:: finalComico {"position":"300,2800","size":"100,100"}
+O traficante é preso, Francisco se arrepende de tudo o que fez, passa a frequentar a igreja, onde conhece e se apaixona por uma linda mulher divorciada chamada Adriana, se casa com ela, passando a ser padastro de seu filho Bernardo, e se torna um bom pai, marido, e um médico bem sucedido respeitado por todos.
+
+
+:: finalPrincipal {"position":"12100,1400","size":"100,100"}
+Então Adriana liga para a polícia, que leva os dois para casa, e Adriana fica solta por autodefesa, podendo voltar a viver em paz com a sua família.
+
+
+
+:: fraseEstranha [Atualizado-0.1] {"position":"4100,1400","size":"100,100"}
+Porém, o que ela ainda não conseguia entender era o motivo de o sequestrador escrever “eu não tive escolha”, não parecia fazer sentido uma pessoa rica ser ameaçada para sequestrar uma criança.
+
+[[Proximo|aCamera]]
+
+
+:: investicagao [Atualizado-0.1] {"position":"3100,1400","size":"100,100"}
+Então a polícia investiga a janela, o líquido e o cachorro. Ao fazerem um breve teste, descobrem que se trata de clorofórmio, mostrando que foi um sequestro, já na janela, não acham digitais ou sinais de arrombamento, mas acham uma mancha de sangue, então pegam uma amostra para análise e pedem para que os pais de Bernardo não entrem no quarto para não contaminarem a cena do crime, e que voltariam para mais investigações.
+
+[[Proximo|investigacaoMae]]
+
+
+:: investigacaoMae [Atualizado-0.1] {"position":"3300,1400","size":"100,100"}
+Adriana espera a polícia sair, então entra no quarto e pega uma amostra do sangue também. Alexandre pergunta para ela o porquê dela estar interferindo na investigação e escondendo provas, e ela diz que não confia na polícia para achar o Bernardo, que se você quer um trabalho bem feito deve fazer você mesmo, ja que é uma ex perita criminal, que saiu da polícia após um caso de assassinato onde ela tinha certeza de quem era o assassino, porém a polícia não prendeu o homem por falta de provas.
+
+[[Proximo|laboratorio]]
+
+
+:: laboratorio [Atualizado-0.1] {"position":"3500,1400","size":"100,100"}
+Então Adriana sai de casa e vai até um laboratório criminal, onde encontra uma velha amiga da época de quando trabalhava para a polícia. Ela chega dizendo que veio cobrar um favor, e pede para a amiga analisar uma amostra de sangue. Ela fica com medo de perder o emprego, mas aceita pela amizade e para pagar sua dívida, mas avisa que vai demorar alguns dias para o teste ficar pronto.
+
+[[Proximo|quadro]]
+
+
+:: manhaSegunite [Atualizado-0.1] {"position":"2100,1400","size":"100,100"}
+Ao acordar, os pais de Bernardo vão até o quarto dele, e se deparam com um quarto vazio, uma janela aberta. Ao olhar ao redor eles veem um liquido estranho derramado em frente a porta do armario e em baixo da cama uma parte do taco de baseball. Ao notar o desaparecimento de seu filho, Alexandre corre ligar para a policia enquanto Adriana decide:
+
+[[olharTacoDeBaseball]]
+[[olharNoArmario]]
+
+
+:: mudancaDeVida {"position":"300,2000","size":"100,100"}
+Francisco decide mudar de vida, abandonando a ganância, parando de aceitar chantagem e vender órgãos para o traficante.
+
+[[Proximo|aLigacao]]
+
+
+:: oAssassinato {"position":"8100,1400","size":"100,100"}
+Ela joga o traficante dentro do próprio cofre, dá um tiro na cabeça dele e fecha a porta.
+Depois pega a chave do carro e vai embora.
+
+[[Proximo|oHospital]]
+
+
+:: oBairro [Atualizado-0.1] {"position":"5700,1400","size":"100,100"}
+Ela vai até um lugar suspeito e compra uma arma ilegal de um homem, um 38. Então ela pega Dexter e vai até o tal bairro, pede para ver as câmeras de algumas casas, até que acha uma que pega o Corolla passando, ela segue o caminho que o carro estava fazendo, até que Dexter começa a correr.
+
+[[Proximo|aInvasao]]
+
+
+:: oBurro {"position":"7700,1400","size":"100,100"}
+O traficante olha para o envelope e diz algo como: “aquele burro”, então Adriana pergunta mais uma vez com quem está o filho dela, já ameaçando voltar a torturar ele.
+
+[[Proximo|oMedico]]
+
+
+:: oCheiro [Atualizado-0.1] {"position":"6100,1400","size":"100,100"}
+A casa parece estar totalmente vazia, mas o carro estava na garagem, então Adriana vai andando pela casa com Dexter seguindo o cheiro, até que Dexter chama a atenção de Adriana para um guarda roupa. 
+
+[[Proximo|aPorta]]
+
+
+:: oCofre [Atualizado-0.1] {"position":"7500,1400","size":"100,100"}
+Após abrir a porta e ver que lá só tinha um freezer cheio de órgãos e pacotes de drogas e dinheiro, ela compara a letra do que o traficante acabou de escrever com a letra do envelope, mostra para o traficante e pergunta, se ele estava lá sozinho e estava fazendo aquilo por dinheiro como havia contado, quem escreveu aquilo e deixou o dinheiro.
+
+
+[[Proximo|oBurro]]
+
+
+:: oConselho {"position":"10900,1400","size":"100,100"}
+O padre disse que apenas Jesus poderia perdoar seus pecados, que Jesus é capaz de curar qualquer doença e acabar com qualquer maldição. Disse também para continuar se cuidando, para orar, ter fé, ler a bíblia, começando do novo testamento, e buscar ser o mais puro possível.
+
+[[Proximo|aBiblia]]
+
+
+:: oEndereco [Atualizado-0.1] {"position":"4900,1400","size":"100,100"}
+Então, ela volta para o laboratório, chegando lá, pergunta para a amiga se a amostra do sangue já estava pronta, sua amiga diz que ainda não, pois é um processo demorado. Então Adriana pede para fazer uma pesquisa no computador, e pesquisa a placa do carro pelo sistema da polícia, descobrindo o endereço do dono do carro.
+
+[[Proximo|oProprietario]]
+
+
+:: oEsconderijo [Atualizado-0.1] {"position":"6500,1400","size":"100,100"}
+Quando Adriana passa pela porta, se depara com o traficante, então aponta a arma para ele, mandando ele ficar parado com as mãos para cima, ele pensa que ela é da polícia e não pode atirar nele por estar desarmado, então tenta fugir, mas assim que ele se mexe ela dá um tiro na coxa dele.
+
+[[Proximo|aMentalista]]
+
+
+:: oFlashback [Atualizado-0.1] {"position":"7100,1400","size":"100,100"}
+O traficante usa uma escada e um cartão para ter acesso e abrir a janela pelo lado de fora, entrando com o clorofórmio, o cachorro morde seu braço, ele derruba o líquido, bate no cachorro e o prende dentro do armário, mas Bernardo acorda com o barulho. O traficante se esconde embaixo da cama, pois não quer que Bernardo grite, ele espera o menino se distrair com o cachorro e desmaia os dois usando clorofórmio, coloca o garoto em seu carro, vai até um beco e troca por dinheiro com um homem desconhecido.
+
+[[Proximo|aSenha]]
+
+
+:: oHospital {"position":"8300,1400","size":"100,100"}
+Adriana vai até o hospital usando o carro do traficante, e começa a conversar com as pessoas do hospital, perguntando sobre Francisco, ela descobre que ele era cirurgião chefe, respeitado por todos, mas foi aposentado por invalidez após uma terrível doença, e também descobre que ele mora em uma casa grande e luxuosa no centro da cidade.
+
+[[Proximo|aCasa]]
+
+
+:: oMapa [Atualizado-0.1] {"position":"5500,1400","size":"100,100"}
+Usando esses dados, ela marca em um mapa todas as localizações onde o homem levou multa, vendo que a maioria das multas foi em volta de um bairro específico, provavelmente o bairro onde o sequestrador de seu filho mora.
+
+[[Proximo|oBairro]]
+
+
+:: oMedico {"position":"7900,1400","size":"100,100"}
+Então ele conta que não estava sozinho, que estava ajudando por dinheiro um médico chamado Francisco que trabalhava no hospital São Diego.
+
+[[Proximo|oAssassinato]]
+
+
+:: oPadre {"position":"10700,1400","size":"100,100"}
+Assim, ele reuniu forças para caminhar, e foi até uma igreja, onde se confessou para o padre. Ele contou ao padre o que fazia no hospital, da morte do garoto, de todos os outros pecados que havia cometido, e disse que por isso estava amaldiçoado com essa terrível doença.
+
+[[Proximo|oConselho]]
+
+
+:: oPapaFigo {"position":"8900,1400","size":"100,100"}
+Ela grita para ele ficar parado, então ele solta a faca e levanta as mãos. Ela pergunta se ele é o Francisco, ele diz que sim, ela pergunta porque ele sequestrou Bernardo, com lágrimas nos olhos, ele diz que sente muito, que era a única opção, que só o Bernardo podia ajudar ele a se curar.
+
+[[Flashback|aHistoria]]
+
+
+:: oPorao {"position":"8700,1400","size":"100,100"}
+Familiarizado com o cheiro de Bernardo, Dexter leva Adriana diretamente até a porta do portão, nada escondida, uma porta comum de madeira. Então Adriana chuta a porta com toda a sua força, arrombando ela, e se depara com um homem estranho e desfigurado, com uma faca na mão, prestes a matar seu filho, que está inconsciente.
+
+[[Proximo|oPapaFigo]]
+
+
+:: oProprietario [Atualizado-0.1] {"position":"5100,1400","size":"100,100"}
+Ela vai até o endereço, onde encontra o dono, que diz que seu carro foi roubado, Adriana promete a ele recuperá-lo, porém, em troca ela pede alguns documentos, que o homem fornece.
+
+[[Proximo|asMultas]]
+
+
+:: oSequestro [Atualizado-0.1] {"position":"1900,1400","size":"100,100"}
+Porém quando Bernardo se dá conta já é tarde demais, antes que ele possa se virar em direção a cama, ele é agarrado por trás, quando um lenço é colocado em seu rosto, fazendo-o pegar no sono rapidamente.
+
+[[Proximo|manhaSegunite]]
+
+
+:: oSusto [Atualizado-0.1] {"position":"1500,1400","size":"100,100"}
+Ao tentar abrir o armário ele percebe que está fechado com uma pequena tranca, e as portas estão balançando como se algo lá dentro quisesse sair, estão Bernardo levanta seu taco com uma mão, e rapidamente abre a tranca com a outra, porém, quando as portas do armário se abrem, Dexter estava lá dentro, empurrando a porta com a pata esse tempo todo para sair.
+
+[[Proximo|aLambida]]
+
+
+:: oTrabalho {"position":"11700,1400","size":"100,100"}
+Por causa da doença, Francisco já não estava tão apto para fazer isso sozinho, porém sabia de alguém que faria qualquer coisa por dinheiro, o seu amigo traficante. Após pagar uma certa quantia ao traficante, os dois vão até a casa de Bernardo durante a noite.
+
+[[Fim do Flashback|aAutodefesa]]
+
+
+:: oTratamento {"position":"10300,1400","size":"100,100"}
+Era realmente uma doença terrível, estava afetando demais o seu corpo, então, para poder pelo menos levantar da cama, ele começou a comer fígado de boi, maçã, feijão e outros alimentos ricos em ferro todos os dias, o que com o tempo foi repondo o ferro em seu corpo, dando mais forças para se levantar.
+
+[[Proximo|aParanoia]]
+
+
+:: oVideo [Atualizado-0.1] {"position":"4500,1400","size":"100,100"}
+Ao falar com a vizinha, ela deixa ver as câmeras de segurança, mas só o que Adriana consegue ver é um corolla preto, de vidros escuros, saindo daquela rua de madrugada. Então Adriana pede a fita, compra uma máquina de vídeo e usa para dar um zoom mais nítido, conseguindo ler a placa do carro.
+
+[[Proximo|perguntas]]
+
+
+:: olharNoArmario [Atualizado-0.1] {"position":"2300,1500","size":"100,100"}
+Após olhar o armário, Adriana (mãe de Bernardo), encontra Dexter dormindo como uma pedra. Enquanto seu marido chama a policia, ela decide olhar o taco de baseball
+(set: $armarioOpen to true)
+
+[[Olhar taco de baseball|camaVazia]]
+
+
+:: olharTacoDeBaseball [Atualizado-0.1] {"position":"2300,1300","size":"100,100"}
+Após olhar o taco de baseball, Adriana (mãe de Bernardo) repara sangue em sua ponta, assustada ela olha em baixo da cama e vê o corpo de Dexter ensanguentado. Enquanto seu marido chama a policia, ela decide olhar dentro do armario.
+
+[[Olhar no armario|armarioVazio]]
+
+
+:: osExames {"position":"9900,1400","size":"100,100"}
+Mesmo após fazer muitos testes, não conseguiu descobrir qual era aquela doença. Era algo que ele nunca havia visto na vida, e que não estava escrito em nenhum livro ou site de medicina. Uma doença nova e desconhecida.
+
+[[Proximo|osSintomas]]
+
+
+:: osSintomas {"position":"10100,1400","size":"100,100"}
+Com o tempo, a doença afetou sua pele, deixando-a com um tom pálido e com aparência envelhecida, afetou sua coluna, o deixando corcunda, o cabelo de sua cabeça, que começou a cair, deixando-o apenas com sua barba, e suas orelhas e nariz ficaram maiores, além de deixar seu corpo mais magro e desnutrido, e também afetar a quantidade de ferro em seu corpo, oq deixava ele fraco.
+
+[[Proximo|oTratamento]]
+
+
+:: passagemDoTempo [Atualizado-0.1] {"position":"900,1400","size":"100,100"}
+Um mes depois.... 
+na casa de uma familia aleatoria
+
+[[Proximo|apresentacaoDaCrianca]]
+
+
+:: perguntas [Atualizado-0.1] {"position":"4700,1400","size":"100,100"}
+Enquanto Adriana organizava as suas provas, a polícia bate em sua porta, então ela esconde o quadro. O policial faz mais algumas perguntas, pergunta lugares onde Bernardo frequentava (escola e igreja), pergunta se tinha alguém que pudesse querer algum tipo de vingança contra a família (sendo ex perita criminal, a mãe dá alguns nomes), e depois de algumas perguntas o policial vai embora.
+
+[[Proxmo|oEndereco]]
+
+
+:: prisaoPrecoce {"position":"300,2600","size":"100,100"}
+Mosca tenta ir para seu cômodo secreto e se esconde dentro de seu cofre. Com a ajuda dos cãe, a poícia acha seu comodo secreto e arromba a porta do cofre com explosivos, encontrando ele, o dinheiro, as drogas e os órgãos.
+
+[[Proximo|finalComico]]
+
+
+:: quadro [Atualizado-0.1] {"position":"3700,1400","size":"100,100"}
+Ela volta para casa e começa a montar um quadro tentando achar suspeitos. Ela suspeita de que a pessoa que sequestrou seu filho tinha muito dinheiro, então provavelmente não se tratava de tráfico humano, e se fosse apenas um assassino não teria sequestrado, pois seria fácil matar Bernardo enquanto ele dormia, oq significava que havia grandes chances de seu filho ainda estar vivo, preso em algum lugar por algum motivo desconhecido.
+
+[[Proximo|aCarta]]
