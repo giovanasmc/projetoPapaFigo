@@ -1,0 +1,6520 @@
+:: StoryTitle
+Papa-Figo
+
+
+:: StoryData
+{
+  "ifid": "2F5C82C8-FE46-4228-ADEC-A4C74521B6E5",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "oInicio",
+  "tag-colors": {
+    "DEVPoint": "purple",
+    "Dialogo1": "red",
+    "Onomatopeias": "blue",
+    "Francisco.Fala": "red",
+    "Mosca.Fala": "orange",
+    "TimeSkip": "green",
+    "NaoDialogo": "blue",
+    "Narrador": "blue",
+    "Bernardo": "green",
+    "Bernardo.Fala": "purple",
+    "Narrador.Fala": "blue",
+    "Alexandre.Fala": "yellow",
+    "Figurantes.Fala": "yellow",
+    "driana.Fala": "purple",
+    "adriana.Fala": "yellow",
+    "gurantes.Fala": "blue",
+    "Adriana.Fala": "blue",
+    "Inicio": "purple",
+    "Principal": "blue",
+    "Comico": "orange",
+    "finalM": "red",
+    "finalV": "green",
+    "finalE": "orange",
+    "finalO": "yellow",
+    "finalC": "purple",
+    "finalQ": "blue",
+    "o": "green",
+    "e": "green"
+  },
+  "zoom": 0.6
+}
+
+
+:: A quanto tempo ele trabalhava aqui? {"position":"18500,1700","size":"100,100"}
+Recepcionista: 
+Ah, mais ou menos uns 25 anos. Começou de baixo, subiu durante os anos até que chegou na parte de coordenação das cirurgias.
+
+[[Proximo|D13.10.V.E.C]]
+
+(if: $receptionQuest is true) [[Que doença?]]
+(set:$receptionQuest to false)
+
+
+:: Ameaçá-lo com Dexter/arma [finalO] {"position":"15600,1300","size":"100,100"}
+(if: $finalV is true) [Adriana faz carinho em Dexter, que começa a rosnar para o homem.]
+
+(if: $finalM is true) [Adriana aponta novamente a arma.]
+
+[[Proximo|D15.37.V.O]]
+
+
+:: Ameaçá-lo com canivete [finalO] {"position":"15400,900","size":"100,100"}
+Pegando um canivete e o encostando na jugular do homem.
+
+[[Proximo|D15.39.V.O]]
+
+
+:: Apontar a arma [finalO] {"position":"15000,300","size":"100,100"}
+Adriana levanta seu revólver novamente e aponta para o traficante.
+
+[[Proximo|D15.23.V.O]]
+
+
+:: Arrombar o portãozinho da garagem [finalO] {"position":"13400,2300","size":"100,100"}
+(if: $finalV is true) [Adriana: 
+Dexter, vá pra trás.]
+
+(if: $finalM is true) [Adriana: 
+Eu vou arrombar!]
+
+[[Próximo|P10.14.O]]
+
+
+:: Chutar a porta [finalV finalO] {"position":"19600,400","size":"100,100"}
+A porta range e treme.
+
+[[Chutar novamente]]
+
+
+:: Chutar novamente [finalV finalO] {"position":"19600,200","size":"100,100"}
+Adriana escuta um barulho agudo e a porta escancara, finalmente.
+
+[[Proximo|D17.8.V.O]]
+
+
+:: D1.1 {"position":"1400,2500","size":"100,100"}
+Francisco:
+Alô?
+
+[[Proximo|D1.2]]
+
+
+:: D1.10.P {"position":"1200,1500","size":"100,100"}
+Mosca: 
+Não tem justificativa, você não pode parar agora, você sabe que eu dependo disso! Como você vai pular fora depois de tudo?
+
+[[Proximo|D1.11.P]]
+
+
+:: D1.11.P {"position":"1200,1300","size":"100,100"}
+Francisco: 
+Eu sei… me desculpe.
+
+piiiii (telefone desliga)
+
+[[Proximo|D1.12.P]]
+
+
+:: D1.12.P {"position":"1200,1100","size":"100,100"}
+Mosca: 
+Eu não acredito que ele fez isso! Canalha! Filho da %$#@! Ele não pode fazer isso comigo!
+
+[[Próximo|P1.1.P]]
+
+
+:: D1.13.P {"position":"1400,1300","size":"100,100"}
+Mosca: 
+Eu preciso desses órgãos!... Ele não entende minha situação… ele nunca vai entender.
+
+[[Próximo|P1.2.P]]
+
+
+:: D1.14.P {"position":"1400,1700","size":"100,100"}
+Policial 1: 
+É a polícia, você está cercado, não tente nada e não será ferido.
+
+[[Próximo|D1.15.P]]
+
+
+:: D1.15.P {"position":"1400,1900","size":"100,100"}
+Mosca sai correndo e se tranca no cofre
+
+[[Próximo|D1.16.P]]
+
+
+:: D1.16.P {"position":"1400,2100","size":"100,100"}
+Policial 1:
+Não ouço nada, vamos entrar, pode arrombar!
+
+[[Próximo|D1.17.P]]
+
+
+:: D1.17.P {"position":"1600,2100","size":"100,100"}
+Policial 2:
+Se afasta!
+
+[[Próximo|P1.3.P]]
+
+
+:: D1.18.P {"position":"1600,1700","size":"100,100"}
+Policial 1:
+Procurem por toda a casa, tragam os cães.
+
+[[Próximo|D1.19.P]]
+
+
+:: D1.19.P {"position":"1600,1500","size":"100,100"}
+Policial 3: 
+Cães prontos, eu vou por aqui, me deem cobertura.
+
+[[Próximo|D1.20.P]]
+
+
+:: D1.2 {"position":"1400,2700","size":"100,100"}
+???: 
+Francisco?
+
+[[Proximo|D1.3]]
+
+
+:: D1.20.P {"position":"1600,1300","size":"100,100"}
+Policial 2: 
+Parece ter algo aqui.
+
+[[Próximo|P1.4.P]]
+
+
+:: D1.21.P {"position":"1800,1100","size":"100,100"}
+Policial 2: 
+Tem uma porta.
+
+[[Próximo|D1.22.P]]
+
+
+:: D1.22.P {"position":"1800,1300","size":"100,100"}
+Policial 1: 
+Entrando em 3… 2… 1…
+
+[[Próximo|P1.5.P]]
+
+
+:: D1.23.P {"position":"1800,1700","size":"100,100"}
+Policial 3: 
+Não tem para onde fugir, se estiver aí, saia agora, ou iremos arrombar.
+
+[[Próximo|D1.24.P]]
+
+
+:: D1.24.P {"position":"1800,1900","size":"100,100"}
+Policial 1: 
+Sem resposta, preparem os explosivos.
+
+[[Próximo|D1.25.P]]
+
+
+:: D1.25.P {"position":"1800,2100","size":"100,100"}
+Policial 2: 
+Explosivos prontos. Todos se afastem, explodindo em 3… 2… 1…
+
+[[Próximo|P1.6.P]]
+
+
+:: D1.3 {"position":"1400,2900","size":"100,100"}
+Francisco: 
+Sou eu, já tô em um lugar seguro, pode falar.
+
+[[Proximo|D1.4]]
+
+
+:: D1.31.P {"position":"2000,1900","size":"100,100"}
+Policial 1: 
+Paulo Camargo de Oliveira, você está preso em nome da lei, você tem o direito de permanecer calado, tudo o que disser pode e será usado contra você no tribunal.
+
+[[Próximo|P1.7.P]]
+
+
+:: D1.4 {"position":"1600,2900","size":"100,100"}
+???: 
+Você já tá com aquele rim que eu encomendei?
+
+[[Proximo|D1.5]]
+
+
+:: D1.5 {"position":"1600,2700","size":"100,100"}
+Francisco: 
+Então cara, teve algumas complicações, tá faltando órgão aqui no hospital, tem crianças precisando de órgãos e não tem pra todo mundo, se eu continuar com isso eu posso acabar perdendo meu emprego ou matando alguém.
+
+[[Proximo|D1.6]]
+
+
+:: D1.6 {"position":"1600,2500","size":"100,100"}
+???: 
+Qual é? Vc é cirurgião chefe e o diabo a quatro pra que Francisco? Você dá um jeito, você sabe que eu dependo de você.
+
+[[Aceitar|D1.7.R]]
+
+[[Recusar|D1.7.P]]
+
+
+:: D1.7.P {"position":"1200,2100","size":"100,100"}
+Francisco: 
+Não Mosca, não tem como dar um jeito, como as coisas estão não dá mais.
+
+[[Proximo|D1.8.P]]
+
+
+:: D1.7.R {"position":"2000,2500","size":"100,100"}
+Francisco: 
+Ok Mosca, mas só mais dessa vez, eu não sei se dá pra continuar com isso por mais tempo.
+
+[[Proximo|D1.8.R]]
+
+
+:: D1.8.P {"position":"1200,1900","size":"100,100"}
+Mosca:
+Como assim você vai parar? Vai largar o barco? É isso mesmo? Depois de tanto tempo?
+
+[[Proximo|D1.9.P]]
+
+
+:: D1.8.R {"position":"2000,2700","size":"100,100"}
+Mosca: 
+Claro, Claro, você sempre diz esse tipo de coisa, você vai dar um jeito, manda o rim pra cá assim que puder por favor, é urgente.
+
+[[Proximo|D1.9.R]]
+
+
+:: D1.9.P {"position":"1200,1700","size":"100,100"}
+Francisco: 
+Eu sinto muito Mosca, mas eu me arrependi dessa vida, e você também deveria.
+
+[[Proximo|D1.10.P]]
+
+
+:: D1.9.R {"position":"2000,2900","size":"100,100"}
+Francisco: 
+Certo…
+
+[[Proximo|Onomatopeia2]]
+
+
+:: D10.1.O [finalO] {"position":"8600,2100","size":"100,100"}
+Vizinha: 
+Ô de casa!? Não tem ninguém? Eu trouxe bolo!
+
+[[Proximo|D10.3.O]]
+
+
+:: D10.1.V.E [finalE] {"position":"15400,2300","size":"100,100"}
+Policial Tiago:
+Vou abrir.
+
+[[Próximo|P7.2.V.E]]
+
+
+:: D10.10.O [finalO] {"position":"8600,2500","size":"100,100"}
+Vitória: 
+Nossa, que escuridão
+
+[[Proximo|D10.11.O]]
+
+
+:: D10.10.V.E [finalV finalE] {"position":"15800,2300","size":"100,100"}
+Adriana: 
+Bernardo, vai pro fundo, filho!
+
+[[Próximo|P7.6.V.E]]
+
+
+:: D10.11.M.E [finalM finalE] {"position":"14800,2900","size":"100,100"}
+Policial Tiago:
+Você terá direito a um advogado. Você será levado em custódia.
+
+[[Proximo|P7.7.E]]
+
+
+:: D10.11.O [finalO] {"position":"8800,2500","size":"100,100"}
+Adriana: 
+É reflexo da luz. Consigo ver até.
+
+[[Proximo|P6.8.O]]
+
+
+:: D10.12.O [finalO] {"position":"9000,2100","size":"100,100"}
+Vitória: 
+Isso vai te ajudar em algo? Você vai levar pra polícia?
+
+[[Proximo|D10.13.1.O]]
+
+
+:: D10.13.1.O [finalO] {"position":"9000,2300","size":"100,100"}
+Adriana:
+
+[[Vou sim|D10.13.O]]
+
+[[Vai ser de grande ajuda|D10.13.O]]
+
+
+:: D10.13.E [finalE] {"position":"15200,3100","size":"100,100"}
+Policial Tiago:
+Não encoste em nada.
+
+[[Olhar freezer|D10.14.E]]
+[[Olhar envelopes|P7.18.E]]
+
+(set: $freezer to false)
+(set: $envelope to false)
+
+
+:: D10.13.O [finalO] {"position":"9000,2500","size":"100,100"}
+Adriana: 
+Posso levar a fita? Prometo devolver.
+
+[[Proximo|D10.14.O]]
+
+
+:: D10.14.E [finalE] {"position":"15400,3100","size":"100,100"}
+Adriana: 
+Que lugar esquisito… Santo Deus.
+
+[[Proximo|P7.15.E]]
+
+(set: $freezer to true)
+
+
+:: D10.14.O [finalO] {"position":"9200,2500","size":"100,100"}
+Vitória: 
+Ah filha, fique em paz. Pode levar sim.
+
+[[Proximo|D10.15.O]]
+
+
+:: D10.15.O [finalO] {"position":"9200,2300","size":"100,100"}
+Adriana: 
+Muito obrigada, Vitória. De verdade.
+
+[[Proximo|P6.9.O]]
+
+
+:: D10.16.E [finalE] {"position":"15400,2900","size":"100,100"}
+Adriana: 
+Que por-
+
+[[Proximo|D10.17.E]]
+
+
+:: D10.16.O [finalO] {"position":"9200,1900","size":"100,100"}
+Adriana: 
+Consegui a placa!
+
+[[Proximo|D6.10.O]]
+
+
+:: D10.17.E [finalE] {"position":"15600,3100","size":"100,100"}
+Dentro do freezer, Adriana só encontra muitos órgãos. Rins, Fígados e outros órgãos. Todos separados e dentro de sacos transparentes. Há muito sangue.
+
+
+(if: $envelope is true) [[[[Proximo|D10.25.E]]]]
+(if: $envelope is false) [[[[Olhar envelopes|P7.18.E]]]]
+
+
+:: D10.19.E [finalE] {"position":"15200,3300","size":"100,100"}
+Adriana: 
+Que cara bagunçado. Fico imaginando quantas pessoas passaram pelo o que o Bê está passando agora…
+
+[[Proximo|D10.20.E]]
+
+
+:: D10.2.O [finalO] {"position":"8600,1900","size":"100,100"}
+Adriana: 
+Ai, Adriana, deixa disso. Quantos anos você tem? 4?
+
+[[Proximo|Ir atender]]
+
+
+:: D10.2.V.E [finalE] {"position":"15000,2300","size":"100,100"}
+Policial Tiago:
+Quem é você?!
+
+[[Próximo|D10.3.V.E]]
+
+
+:: D10.20.E [finalE] {"position":"15200,3500","size":"100,100"}
+Adriana: 
+Aguenta firme, filho, eu tô chegando.
+
+[[Proximo|P7.21.E]]
+
+
+:: D10.22.E [finalE] {"position":"15600,3500","size":"100,100"}
+Adriana: 
+Quanto dinheiro...
+
+[[Proximo|D10.23.E]]
+
+
+:: D10.23.E [finalE] {"position":"15800,3500","size":"100,100"}
+Adriana: 
+Que tipo de droga é essa aqui? 
+
+[[Proximo|D10.24.E]]
+
+
+:: D10.24.E [finalE] {"position":"15600,3300","size":"100,100"}
+Policial Tiago: 
+É melhor nem saber.
+
+(if: $freezer is true) [[[[Proximo|D10.25.E]]]]
+(if: $freezer is false) [[[[Olhar freezer|D10.14.E]]]]
+
+
+:: D10.25.E [finalE] {"position":"15800,3300","size":"100,100"}
+Policial Tiago:
+Tudo isso será apreendido. 
+
+[[Proximo|D10.26.E]]
+
+
+:: D10.26.E [finalE] {"position":"15800,3100","size":"100,100"}
+Adriana: 
+Meu Deus do céu. Que horror.
+
+[[Proximo|P8.1.E]]
+
+
+:: D10.3.O [finalO] {"position":"8800,1900","size":"100,100"}
+Adriana: 
+Ai que susto, é só a Vitória.
+
+[[Ir atender|Ir atender]]
+
+
+:: D10.3.V.E [finalE] {"position":"15000,2500","size":"100,100"}
+Mosca: 
+Quem são VOCÊS?! O que vocês tão fazendo aqui?
+
+[[Próximo|D10.4.V.E]]
+
+
+:: D10.4.O [finalO] {"position":"8600,1500","size":"100,100"}
+Adriana: 
+Oi, Vitória... Quanto tempo.
+
+[[Proximo|D10.5.O]]
+
+
+:: D10.4.V.E [finalE] {"position":"15200,2500","size":"100,100"}
+Policial Tiago:
+Mãos pra cima! Fique parado e você não será ferido!
+
+[[Próximo|P7.3.V.E]]
+
+
+:: D10.5.O [finalO] {"position":"8800,1500","size":"100,100"}
+Vitória: 
+Oi! Aconteceu algo? Eu vi o carro da polícia hoje mais cedo. 
+
+[[Proximo|P6.6.O]]
+
+
+:: D10.5.V.E [finalV finalE] {"position":"16025,2100","size":"100,100"}
+Mosca: 
+Tá louco inferno? Cachorro do diabo, me deixa!
+
+[[Próximo|D10.6.V.E]]
+
+
+:: D10.6.M.E [finalM finalE] {"position":"14400,2900","size":"100,100"}
+Policial Tiago:
+Vá para trás, Adriana.
+
+[[Proximo|D10.7.M.E]]
+
+
+:: D10.6.O [finalO] {"position":"9000,1500","size":"100,100"}
+Adriana: 
+Ah, Bernardo sumiu essa manhã e não apareceu ainda.
+
+[[Proximo|D10.7.O]]
+
+
+:: D10.6.V.E [finalV finalE] {"position":"16200,2100","size":"100,100"}
+Adriana: 
+Não fale assim com o meu cachorro. 
+
+[[Próximo|P7.5.V.E]]
+
+
+:: D10.7.M.E [finalM finalE] {"position":"14400,3100","size":"100,100"}
+Policial Tiago:
+Você não vai conseguir fugir! Eu vou atirar na tranca!
+
+[[Proximo|P7.8.M.E]]
+
+
+:: D10.7.O [finalO] {"position":"9000,1700","size":"100,100"}
+Vitória:
+Meu Deus! Ai, eu sinto muito. Ai, eu sinto muito. Seu filho não é de mexer com a natureza né? Ouvi um pessoal falando na igreja essa semana que a Comadre Fulozinha tava a solta na cidade. Ela pega e mata quem faz mal pra natureza.
+
+[[Proximo|D10.8.1.O]]
+
+
+:: D10.7.V.E [finalV finalE] {"position":"16000,2300","size":"100,100"}
+Policial Tiago:
+Você terá direito a um advogado. Você será levado em custódia.
+
+[[Próximo|D10.8.V.E]]
+
+
+:: D10.8.1.O [finalO] {"position":"9000,1900","size":"100,100"}
+Adriana:
+Que?! Credo! Não, claro que não. Bernardo é um menino muito educado. E outra, isso aí de lenda nem existe. Deixe disso, Vitória.
+
+[[Proximo|D10.8.2.O]]
+
+
+:: D10.8.2.O [finalO] {"position":"8800,2100","size":"100,100"}
+Vitória: 
+Desculpa, não quis te assustar. Trouxe bolo de fubá, aceita?
+
+[[Proximo|D10.8.O]]
+
+
+:: D10.8.O [finalO] {"position":"8600,2300","size":"100,100"}
+Adriana: 
+Aceito sim. Inclusive, sua casa tem sistema de câmeras, por algum acaso?
+
+[[Proximo|D10.9.O]]
+
+
+:: D10.8.V.E [finalV finalE] {"position":"16200,2500","size":"100,100"}
+Adriana: 
+Tem um cofre ali. Bernardo! Bernardo! É a mamãe, filho!
+
+[[Próximo|D10.9.V.E]]
+
+
+:: D10.9.M.E [finalM finalE] {"position":"14600,3100","size":"100,100"}
+Policial Tiago:
+Você está preso!
+
+[[Proximo|P7.10.M.E]]
+
+
+:: D10.9.O [finalO] {"position":"8400,2300","size":"100,100"}
+Vitória: 
+Tem sim, meu neto instalou lá esses dias pra trás, mas eu não sei usar. Você pode ficar à vontade, se quiser.
+
+[[Proximo|P6.7.O]]
+
+
+:: D10.9.V.E [finalV finalE] {"position":"16000,2500","size":"100,100"}
+Policial Tiago:
+Vou arrombar essa porta também. Tome cuidado.
+
+[[Próximo|D10.10.V.E]]
+
+
+:: D11.10.Q [finalQ] {"position":"16600,4100","size":"100,100"}
+Mosca: 
+Tenho pessoas nas minhas costas, não posso arriscar minha vida.
+
+[[Proximo|D11.11.Q]]
+
+
+:: D11.10.V.E.C {"position":"16800,2400","size":"100,100"}
+Policial Tiago:
+Como assim você não sabe? 
+
+[[Proximo|D11.11.V.E.C]]
+
+
+:: D11.11.Q [finalQ] {"position":"16400,4300","size":"100,100"}
+Policial Tiago: 
+Que pessoas?
+
+[[Proximo|D11.12.Q]]
+
+
+:: D11.11.V.E.C {"position":"16800,2600","size":"100,100"}
+Mosca: 
+Eu fiz esse sequestro porque eu vivo devendo gente perigosa e fugindo do perigo. 
+
+[[Proximo|D11.12.V.E.C]]
+
+
+:: D11.12.Q [finalQ] {"position":"16600,4300","size":"100,100"}
+Mosca: 
+…
+
+[[Proximo|D11.13.Q]]
+
+
+:: D11.12.V.E.C {"position":"16800,2800","size":"100,100"}
+Mosca:
+Me pagariam bem pra fazer isso, então eu aceitei, ué. Simples.
+
+[[Proximo|D11.13.V.E.C]]
+
+
+:: D11.13.Q [finalQ] {"position":"16400,4500","size":"100,100"}
+Policial Tiago: 
+Tudo bem, então.
+
+[[Proximo|P8.14.Q]]
+
+
+:: D11.13.V.E.C {"position":"16800,3000","size":"100,100"}
+Policial Tiago:
+Simples? Você tira uma criança da sua família e isso é “simples”?
+
+[[Proximo|D11.14.V.E.C]]
+
+
+:: D11.14.Q [finalQ] {"position":"16800,4300","size":"100,100"}
+Adriana: 
+E ai?
+
+[[Proximo|D11.15.Q]]
+
+
+:: D11.14.V.E.C {"position":"16800,3200","size":"100,100"}
+Mosca: 
+Sim, foi o que eu disse.
+
+[[Proximo|D11.15.V.E.C]]
+
+
+:: D11.15.M.E.C {"position":"19500,2300","size":"100,100"}
+Policial Tiago:
+Fique parado! Mãos pra cima!
+
+(if: $finalQ is true) [[[Próximo|P9.13.M.E.Q]]]
+(if: $finalC is true) [[[Próximo|P8.16.M.E.C]]]
+
+
+
+:: D11.15.Q [finalQ] {"position":"16800,4100","size":"100,100"}
+Policial Tiago: 
+Ele não quis contar nada, disse que não quer arriscar a vida.
+
+[[Proximo|D11.16.Q]]
+
+
+:: D11.15.V.E.C {"position":"17000,3200","size":"100,100"}
+Mosca:
+Eu subi em uma escada e abri a janela do quarto com um cartão. Foi bem fácil, por sinal. Essa cidade não tem senso nenhum de perigo.
+
+[[Proximo|P8.1.V.E.C]]
+
+
+:: D11.16.Q [finalQ] {"position":"16800,3900","size":"100,100"}
+Adriana: 
+Não acredito. Voltamos à estaca zero.
+(Os olhos de Adriana começam a lacrimejar)
+
+[[Proximo|D11.17.Q]]
+
+
+:: D11.16.V.E.C {"position":"17000,2800","size":"100,100"}
+Mosca: 
+Se eu contar tudo, eu ganho liberdade?
+
+[[Proximo|D11.17.V.E.C]]
+
+
+:: D11.17.M.E.C {"position":"20100,2400","size":"100,100"}
+Adriana: 
+Bernardo! Bernardo, meu Deus!
+
+[[Próximo|D11.18.M.E.C]]
+
+
+:: D11.17.Q [finalQ] {"position":"16800,3700","size":"100,100"}
+Policial Tiago: 
+Vá para casa agora, descanse. Encontre seu marido e explique pra ele o que aconteceu. Vou continuar trabalhando. Qualquer coisa eu te ligo.
+
+[[Proximo|D11.18.Q]]
+
+
+:: D11.17.V.E.C {"position":"17000,2600","size":"100,100"}
+Policial Tiago:
+Não, mas sua pena pode diminuir se as informações baterem no final do caso.
+
+[[Proximo|D11.18.V.E.C]]
+
+
+:: D11.18.M.E.C {"position":"20100,2200","size":"100,100"}
+Policial Tiago:
+Largue essa faca! Coloque-a no chão e chute em minha direção. 
+
+[[Próximo|P8.19.M.E.C]]
+
+
+:: D11.18.Q [finalQ] {"position":"17000,3700","size":"100,100"}
+Adriana: 
+Mas e o meu Bernardo?
+
+[[Proximo|D11.20.Q]]
+
+
+:: D11.18.V.E.C {"position":"17000,2400","size":"100,100"}
+Mosca:
+…
+
+[[Proximo|D11.19.V.E.C]]
+
+
+:: D11.19.V.E.C {"position":"17000,2200","size":"100,100"}
+(if: $finalV is true) [Mosca: 
+Assim que eu entrei, seu cachorro maldito mordeu meu braço e me fez derrubar o líquido de clorofórmio que eu ia usar pra desacordar a criança. Bati nesse infeliz, usei um pouco do clorofórmio e o tranquei ele no armário, mas o menino acordou com a barulheira.]
+
+(if: $finalM is true) [Mosca: 
+Assim que eu entrei, seu cachorro maldito mordeu meu braço e me fez derrubar o líquido de clorofórmio que eu ia usar pra desacordar a criança. Puxei esse infeliz pra baixo da cama e dei um mata leão para ele ficar quieto, mas o menino acordou com a barulheira.]
+
+[[Proximo|D11.20.V.E.C]]
+
+
+:: D11.20.M.E.C {"position":"20100,1800","size":"100,100"}
+Policial Tiago:
+Vire de costas.
+
+[[Próximo|D11.21.M.E.C]]
+
+
+:: D11.20.Q [finalQ] {"position":"17000,3900","size":"100,100"}
+Policial Tiago:
+Vamos achar seu filho. Agora vá descansar.
+
+[[Proximo|P8.3.Q]]
+
+
+:: D11.20.V.E.C {"position":"17200,2200","size":"100,100"}
+Mosca: 
+Tive que me esconder embaixo da cama, não queria que o menino gritasse. Assim que ele se distraiu, usei o resto do clorofórmio que me sobrou pra desmaiar os dois.
+
+[[Proximo|D11.21.V.E.C]]
+
+
+:: D11.21.M.E.C {"position":"20300,1800","size":"100,100"}
+O homem obedece novamente, ele parece bem compreensível para alguém que está em uma cena do crime.
+
+[[Próximo|D11.22.M.E.C]]
+
+
+:: D11.21.V.E.C {"position":"17200,2400","size":"100,100"}
+Mosca:
+Mas depois disso, eu levei a criança num beco e troquei ele por uma boa quantia de dinheiro por um homem desconhecido.
+
+[[Proximo|D11.22.V.E.C]]
+
+
+:: D11.22.M.E.C {"position":"20300,2000","size":"100,100"}
+Policial Tiago:
+Quem é você? Francisco?
+
+[[Próximo|D11.23.M.E.C]]
+
+
+:: D11.22.V.E.C {"position":"17200,2600","size":"100,100"}
+Policial Tiago:
+Em que beco você o levou?
+
+[[Proximo|D11.23.V.E.C]]
+
+
+:: D11.23.M.E.C {"position":"20300,2200","size":"100,100"}
+Francisco (com a voz rouca):
+Sim, sou eu.
+
+[[Próximo|D11.25.M.E.C]]
+
+
+:: D11.23.V.E.C {"position":"17200,2800","size":"100,100"}
+Mosca: 
+Era perto do Campo do Galícia. Mas nunca é no mesmo lugar.
+
+[[Proximo|D11.24.V.E.C]]
+
+
+:: D11.24.V.E.C {"position":"17200,3000","size":"100,100"}
+Policial Tiago:
+Você já levou mais de uma criança lá então?
+
+[[Proximo|D11.25.V.E.C]]
+
+
+:: D11.25.M.E.C {"position":"20300,2400","size":"100,100"}
+Adriana: O que você fez com meu filho? 
+
+[[Próximo|P8.26.M.E.C]]
+
+
+:: D11.25.V.E.C {"position":"17200,3200","size":"100,100"}
+Mosca: 
+Não.
+
+[[Proximo|D11.26.V.E.C]]
+
+
+:: D11.26.V.E.C {"position":"17400,3200","size":"100,100"}
+Policial Tiago:
+E como que você abriu a janela mesmo?
+
+[[Proximo|D11.27.V.E.C]]
+
+
+:: D11.27.M.E.C {"position":"20500,2600","size":"100,100"}
+Francisco: 
+…
+
+[[Próximo|D11.28.M.E.C]]
+
+
+:: D11.27.V.E.C {"position":"17400,3000","size":"100,100"}
+Mosca gesticulando: 
+Eu usei uma escada retrátil pra chegar na janela, passei um cartão pela fresta de baixo e destranquei assim, é uma fechadura bem simples, só protege se for do vento.
+
+[[Proximo|D11.28.V.E.C]]
+
+
+:: D11.28.M.E.C {"position":"20500,2400","size":"100,100"}
+Adriana: 
+Por que você fez isso? 
+
+[[Próximo|D11.29.M.E.C]]
+
+
+:: D11.28.V.E.C {"position":"17400,2800","size":"100,100"}
+Policial Tiago:
+Então você é destro?
+
+[[Proximo|D11.29.V.E.C]]
+
+
+:: D11.29.M.E.C {"position":"20500,2200","size":"100,100"}
+Francisco: 
+(Lágrimas começam a escorrer do rosto do homem também.) Eu sinto muito, era minha única opção 
+
+[[Próximo|D11.30.M.E.C]]
+
+
+:: D11.29.V.E.C {"position":"17400,2600","size":"100,100"}
+Mosca: 
+Oxe, sou. Se eu fosse canhoto eu não seria o culpado?
+
+[[Proximo|D11.30.V.E.C]]
+
+
+:: D11.3 [finalE] {"position":"16000,3100","size":"100,100"}
+Policial Tiago:
+Paulo Camargo de Oliveira. Certo, Mosca?
+
+[[Proximo|D11.4]]
+
+
+:: D11.3.V.E.C {"position":"16600,3200","size":"100,100"}
+Policial Tiago:
+Foi encontrado no quarto da vítima, Bernardo Pereira, uma mancha de sangue próxima a cama.
+
+[[Proximo|D11.4.V.E.C]]
+
+
+:: D11.30.M.E.C {"position":"20500,2000","size":"100,100"}
+Adriana: 
+Para de falar isso! Você matou uma criança! A minha criança! 
+
+[[Próximo|D11.31.M.E.C]]
+
+
+:: D11.30.V.E.C {"position":"17400,2400","size":"100,100"}
+Policial Tiago:
+Quem escreveu isso aqui?
+
+[[Proximo|P8.1]]
+
+
+:: D11.31.M.E.C {"position":"20500,1800","size":"100,100"}
+Francisco: 
+Desculpa, só seu filho era o único que podia me ajudar com minha cura.
+
+[[Próximo|P8.32.M.E.C]]
+
+
+:: D11.31.V.E.C {"position":"17600,2200","size":"100,100"}
+Policial Tiago:
+A pessoa que escreveu isso é canhoto. E você não é.
+
+[[Proximo|D11.32.V.E.C]]
+
+
+:: D11.32.V.E.C {"position":"17600,2400","size":"100,100"}
+Policial Tiago:
+E se você foi contratado por dinheiro, com certeza não foi você que deixou 30 mil reais lá, né? Quem estava com você?
+
+[[Proximo|D11.33.V.E.C]]
+
+
+:: D11.33.M.E.C {"position":"20700,2000","size":"100,100"}
+Adriana: 
+Você é louco? 
+
+[[Próximo|D11.34.M.E.C]]
+
+
+:: D11.33.V.E.C {"position":"17600,2600","size":"100,100"}
+Mosca: 
+Aquele burro do C#$@%, 30 mil??.
+
+[[Proximo|D11.34.V.E.C]]
+
+
+:: D11.34.M.E.C {"position":"20700,2200","size":"100,100"}
+Francisco: 
+Olha só a minha aparência! Eu estou quase morrendo! Eu fui amaldiçoado pela minha ganância! Eu me arrependo de tudo, mas agora já não tem mais volta!
+
+[[Próximo|D11.35.M.E.C]]
+
+
+:: D11.34.V.E.C {"position":"17600,2800","size":"100,100"}
+Policial Tiago:
+Me responde! Quem escreveu isso?
+
+[[Proximo|D11.35.V.E.C]]
+
+
+:: D11.35.M.E.C {"position":"20700,2400","size":"100,100"}
+FLASHBACK
+
+[[Próximo|D11.36.M.E.C]]
+
+
+:: D11.35.V.E.C {"position":"17600,3000","size":"100,100"}
+Mosca: 
+Tá, eu não tava sozinho. Eu ajudei um médico aí.
+
+[[Proximo|D11.36.V.E.C]]
+
+
+:: D11.36.M.E.C {"position":"20700,2600","size":"100,100"}
+Policial Tiago:
+Você está preso.
+
+[[Próximo|P8.37.M.E.C]]
+
+
+:: D11.36.V.E.C {"position":"17600,3200","size":"100,100"}
+Policial Tiago:
+Que médico?
+
+[[Proximo|D11.37.V.E.C]]
+
+
+:: D11.37.V.E.C {"position":"17800,3200","size":"100,100"}
+Mosca: 
+Ele trabalhava no Hospital São Diego, lá perto da costa. Se aposentou a um tempo atrás, o nome dele é Francisco. 
+
+[[Proximo|P8.2.V.E.C]]
+
+
+:: D11.38.M.E.C {"position":"20900,2400","size":"100,100"}
+Policial Tiago (ao longe):
+Você tem direito a um advogado.
+
+[[Próximo|D11.39.M.E.C]]
+
+
+:: D11.38.V.E.C {"position":"17800,2800","size":"100,100"}
+Mosca: 
+Ei?! Eu quero sair daqui!
+
+[[Proximo|P9.1.V.E.C]]
+
+
+:: D11.39.M.E.C {"position":"20900,2200","size":"100,100"}
+Adriana:
+Bernardo! Bernardo! (soluçando)
+
+[[Próximo|P8.40.M.E.C]]
+
+
+:: D11.4 [finalE] {"position":"16000,3300","size":"100,100"}
+Mosca: 
+…
+
+[[Ameaçar|D11.5.Q]]
+[[Negociar|D11.3.V.E.C]]
+
+
+:: D11.4.V.E.C {"position":"16600,3000","size":"100,100"}
+Policial Tiago:
+Foi feita uma análise com essa amostra de sangue. E o sangue é seu.
+
+[[Proximo|D11.5.V.E.C]]
+
+
+:: D11.41.M.E.C {"position":"20900,1800","size":"100,100"}
+Policial Tiago:
+Precisamos levá-lo para autópsia. Mas vou deixá-la em casa. Você não teria acesso ao ambiente de qualquer forma. Assim que estiver ok, eu te ligo.
+
+[[Próximo|P8.42.M.E.C]]
+
+
+:: D11.43.M.E.C {"position":"21100,2000","size":"100,100"}
+Tiago a deixa em casa então. Adriana conta a Alexandre o que aconteceu e ambos vivem o luto, tanto de seu filho quanto de seu cachorro.
+
+[[Próximo|P8.44.M.E.C]]
+
+
+:: D11.5.Q [finalQ] {"position":"16400,3700","size":"100,100"}
+Policial Tiago: 
+Confesse o que você sabe sobre o caso. Isso pode fazer sua pena pode diminuir se as informações baterem no final.
+
+[[Proximo|D11.6.Q]]
+
+
+:: D11.5.V.E.C {"position":"16600,2800","size":"100,100"}
+Policial Tiago:
+Nós já sabemos que você é o culpado pelo sequestro de Bernardo.
+
+[[Proximo|D11.6.V.E.C]]
+
+
+:: D11.6.Q [finalQ] {"position":"16600,3700","size":"100,100"}
+Mosca: 
+E se eu não quiser?
+
+[[Proximo|D11.7.Q]]
+
+
+:: D11.6.V.E.C {"position":"16600,2600","size":"100,100"}
+Mosca:
+…
+
+[[Proximo|D11.7.V.E.C]]
+
+
+:: D11.7.Q [finalQ] {"position":"16400,3900","size":"100,100"}
+Policial Tiago: 
+Aí nesse caso, sua pena não diminui. Vamos descobrir o final do caso de qualquer forma.
+
+[[Proximo|D11.8.Q]]
+
+
+:: D11.7.V.E.C {"position":"16600,2400","size":"100,100"}
+Mosca: 
+Sim, eu fiz o sequestro.
+
+[[Proximo|D11.8.V.E.C]]
+
+
+:: D11.8.Q [finalQ] {"position":"16600,3900","size":"100,100"}
+Mosca:
+…
+
+[[Proximo|D11.9.Q]]
+
+
+:: D11.8.V.E.C {"position":"16600,2200","size":"100,100"}
+Policial Tiago:
+E onde ele está?
+
+[[Proximo|D11.9.V.E.C]]
+
+
+:: D11.9.Q [finalQ] {"position":"16400,4100","size":"100,100"}
+Policial Tiago: 
+Você vai realmente fazer isso do jeito difícil?
+
+[[Proximo|D11.10.Q]]
+
+
+:: D11.9.V.E.C {"position":"16800,2200","size":"100,100"}
+Mosca:
+Eu não sei onde a criança foi parar.
+
+[[Proximo|D11.10.V.E.C]]
+
+
+:: D12.1.O [finalO] {"position":"9825,1500","size":"100,100"}
+Dra. Carol: 
+Dri, eu entendo o seu desespero, mas a amostra ainda não tá pronta, te disse que ia demorar.
+
+[[Proximo|D12.2.O]]
+
+
+:: D12.1.Q [finalQ] {"position":"17000,4300","size":"100,100"}
+Alexandre: 
+Amor? Chegou?
+
+[[Proximo|D12.2.Q]]
+
+
+:: D12.1.V.E.C {"position":"18400,3300","size":"100,100"}
+Adriana: 
+E ai?
+
+[[Proximo|P9.2.V.E.C]]
+
+
+:: D12.10.O [finalO] {"position":"10000,2100","size":"100,100"}
+Dra. Carol: 
+Tenho que resolver umas coisas aqui, inclusive sua amostra. Vou ficar.
+
+[[Proximo|D12.11.O]]
+
+
+:: D12.11.O [finalO] {"position":"9800,2100","size":"100,100"}
+Adriana: 
+Tudo bem. Obrigada de novo, Carol. Sério.
+
+[[Proximo|P8.4.O]]
+
+
+:: D12.14.M.E.Q {"position":"18900,1700","size":"100,100"}
+Adriana: Bernardo! Bernardo, meu Deus!
+
+[[Proximo|D12.15.M.E.Q]]
+
+
+:: D12.15.M.E.Q {"position":"18900,1500","size":"100,100"}
+Policial Tiago:
+Adriana, preciso que você saia, por favor.
+
+[[Proximo|P9.16.M.E.Q]]
+
+
+:: D12.19.M.E.Q {"position":"19100,1300","size":"100,100"}
+Adriana: 
+U… uma faca.
+
+[[Proximo|P9.20.M.E.Q]]
+
+
+:: D12.2.O [finalO] {"position":"10000,1500","size":"100,100"}
+Adriana: 
+Ah, não é isso não!
+
+[[Proximo|P8.1.O]]
+
+
+:: D12.2.Q [finalQ] {"position":"17000,4500","size":"100,100"}
+Adriana: 
+Sim.
+
+[[Proximo|D12.3.Q]]
+
+
+:: D12.2.V.E.C {"position":"18600,3100","size":"100,100"}
+Adriana: 
+Filho da mãe! São dois babacas, então.
+
+[[Proximo|D12.3.V.E.C]]
+
+
+:: D12.22.M.E.Q {"position":"19100,1900","size":"100,100"}
+Policial Tiago: 
+Adri-
+
+[[Proximo|D12.24.M.E.Q]]
+
+
+:: D12.24.M.E.Q {"position":"19300,1900","size":"100,100"}
+Policial Tiago:
+Adriana! Adriana!
+
+[[Proximo|P9.25.M.E.Q]]
+
+
+:: D12.28.M.E.Q {"position":"19300,1100","size":"100,100"}
+Adriana:
+Me desculpe… eu.. fiz o que pude.
+
+[[Proximo|D12.29.M.E.Q]]
+
+
+:: D12.29.M.E.Q {"position":"19500,1100","size":"100,100"}
+Alexandre: 
+Ei, tá tudo bem. Tudo vai ficar bem. Vamos passar por isso juntos.
+
+[[Proximo|P9.30.M.E.Q]]
+
+
+:: D12.3.O [finalO] {"position":"10200,1700","size":"100,100"}
+Dra. Carol: 
+O que é isso?
+
+[[Proximo|D12.4.O]]
+
+
+:: D12.3.Q [finalQ] {"position":"17200,4500","size":"100,100"}
+Alexandre: 
+E ai? Como foi?
+
+[[Proximo|D12.4.Q]]
+
+
+:: D12.3.V.E.C {"position":"18400,3100","size":"100,100"}
+Policial Tiago:
+Tenho um mandado de prisão pra esse tal de Francisco. Vou até o hospital. Você vem comigo?
+
+[[Proximo|D12.4.V.E.C]]
+
+
+:: D12.35.M.E.Q {"position":"19700,1700","size":"100,100"}
+Alexandre: Eu amarei todos vocês até o meu último dia. Vou superar todas as dificuldades, só por vocês.
+
+[[Próximo|Final MEQ]]
+
+
+:: D12.4.1.Q [finalQ] {"position":"17200,4100","size":"100,100"}
+Alexandre:
+Foi mais de um? E nosso filho?
+
+[[Proximo|D12.5.Q]]
+
+
+:: D12.4.O [finalO] {"position":"10000,1700","size":"100,100"}
+Adriana: 
+Peguei com minha vizinha a gravação da câmera nessa madrugada. Posso usar o sistema da polícia?
+
+[[Proximo|D12.5.O]]
+
+
+:: D12.4.Q [finalQ] {"position":"17200,4300","size":"100,100"}
+Adriana: 
+Achamos um dos sequestradores.
+
+[[Proximo|D12.4.1.Q]]
+
+
+:: D12.4.V.E.C {"position":"18200,3100","size":"100,100"}
+Adriana: 
+Claro.
+
+[[Proximo|P10.3.V.E.C]]
+
+
+:: D12.5.O [finalO] {"position":"9800,1700","size":"100,100"}
+Dra. Carol: 
+Adriana, você tá abusando.
+
+[[Proximo|P8.2.O]]
+
+
+:: D12.5.Q [finalQ] {"position":"17200,3900","size":"100,100"}
+Adriana: 
+Não sei. O homem não confessou nada no interrogatório, então vão continuar pelas buscas. O Tiago me disse pra voltar pra casa e descansar.
+
+[[Proximo|D12.6.Q]]
+
+
+:: D12.5.V.E.C {"position":"18100,2300","size":"100,100"}
+Tiago: 
+Olá, tudo bem? Sou policial e estou a cargo de um caso. Por algum acaso, algum dos médicos daqui se aposentou recentemente?
+
+
+[[Proximo|D13.6.V.E.C]]
+
+
+:: D12.6.O [finalO] {"position":"9600,1900","size":"100,100"}
+Dra. Carol: 
+Tá bom, entra logo.
+
+[[Proximo|P8.3.O]]
+
+
+:: D12.6.Q [finalQ] {"position":"17200,3700","size":"100,100"}
+Alexandre: 
+Fez certo. Vá tomar um banho.
+
+[[Proximo|P9.1.Q]]
+
+
+:: D12.7.M.E.Q {"position":"18900,2300","size":"100,100"}
+Adriana: 
+Tá trancada.
+
+[[Proximo|D12.8.M.E.Q]]
+
+
+:: D12.7.O [finalO] {"position":"10000,1900","size":"100,100"}
+Adriana: 
+O carro está cadastrado com o endereço na Rua Dolores Salgado, no nome de Nelson.
+
+[[Proximo|D12.8.O]]
+
+
+:: D12.7.Q [finalQ] {"position":"17400,3900","size":"100,100"}
+Adriana: 
+Alexandre, não consigo. Não consigo descansar e me sentir bem sabendo que nosso filho não tá aqui com a gente. 
+(Adriana começa a chorar)
+
+[[Proximo|D12.8.Q]]
+
+
+:: D12.8.M.E.Q {"position":"19100,2500","size":"100,100"}
+Adriana: 
+Será que eu consigo chutar a tranca da porta?
+
+[[Proximo|P9.9.M.E.Q]]
+
+
+:: D12.8.O [finalO] {"position":"10200,1900","size":"100,100"}
+Dra. Carol: 
+Ah, não é tão longe não. Você vai lá? 
+
+[[Proximo|D12.9.O]]
+
+
+:: D12.8.Q [finalQ] {"position":"17400,4100","size":"100,100"}
+Alexandre: 
+Por que a gente não vai na igreja? Podemos pedir pro padre fazer uma oração pro nosso filho.
+
+[[Proximo|P9.2.Q]]
+
+
+:: D12.9.O [finalO] {"position":"10200,2100","size":"100,100"}
+Adriana: 
+Vou. Quer ir junto?
+
+[[Proximo|D12.10.O]]
+
+
+:: D13.0.Q [finalQ] {"position":"18200,3700","size":"100,100"}
+Adriana: 
+Eu não sei onde nosso filho está.
+
+[[Proximo|D13.13.Q]]
+
+
+:: D13.1.Q [finalQ] {"position":"17800,4300","size":"100,100"}
+Adriana: 
+Bença, padre.
+
+[[Proximo|D13.2.Q]]
+
+
+:: D13.10.Q [finalQ] {"position":"18200,4500","size":"100,100"}
+Adriana: 
+Bernardo Pereira.
+
+[[Proximo|D13.11.Q]]
+
+
+:: D13.10.V.E.C {"position":"18500,1900","size":"100,100"}
+Policial Tiago:
+Posso olhar as outras informações?
+
+[[Proximo|D13.11.V.E.C]]
+
+
+:: D13.11.Q [finalQ] {"position":"18200,4300","size":"100,100"}
+Padre: 
+Vamos rezar um terço então. Em nome do Pai, do Filho e do Espírito Santo.
+
+[[Proximo|P10.3.Q]]
+
+
+:: D13.11.V.E.C {"position":"18500,2100","size":"100,100"}
+NPC: 
+Pode sim.
+
+[[Proximo|P10.4.V.E.C]]
+
+
+:: D13.12.Q [finalQ] {"position":"18400,3900","size":"100,100"}
+Adriana (chorando): 
+Padre, na verdade… Eu não sei onde nosso filho está.
+
+[[Proximo|D13.13.Q]]
+
+
+:: D13.12.V.E.C {"position":"18300,2275","size":"100,100"}
+Adriana: 
+Obrigada, querida. 
+
+[[Proximo|D13.13.V.E.C]]
+
+
+:: D13.13.Q [finalQ] {"position":"18200,3900","size":"100,100"}
+Padre: 
+Como assim?
+
+[[Proximo|D13.14.Q]]
+
+
+:: D13.13.V.E.C {"position":"18300,2500","size":"100,100"}
+Recepcionista: 
+Imagina.
+
+[[Proximo|P11.1.V.E.C]]
+
+
+
+
+:: D13.14.Q [finalQ] {"position":"18400,3700","size":"100,100"}
+Adriana: 
+Nosso filho foi sequestrado. Ele está desaparecido, e não fazemos ideia de onde ele pode estar.
+
+[[Proximo|D13.15.Q]]
+
+
+:: D13.15.Q [finalQ] {"position":"18600,3700","size":"100,100"}
+Padre: 
+Jesus Cristo imaculado! Eu sinto muito por vocês.
+
+[[Proximo|D13.16.Q]]
+
+
+:: D13.16.Q [finalQ] {"position":"18600,3900","size":"100,100"}
+Alexandre: 
+Obrigado, Padre.
+
+[[Proximo|D13.17.Q]]
+
+
+:: D13.17.Q [finalQ] {"position":"18600,4100","size":"100,100"}
+Adriana: 
+Levaram ele de madrugada. Quando acordamos ele não estava mais lá. Já sabemos quem é um dos sequestradores, mas aparentemente, tem mais um que até agora não foi identificado.
+
+[[Proximo|D13.18.Q]]
+
+
+:: D13.18.Q [finalQ] {"position":"18400,4100","size":"100,100"}
+O padre fica em silêncio por um tempo, parece que está pensando em algo.
+
+[[Proximo|D13.19.Q]]
+
+
+:: D13.19.Q [finalQ] {"position":"18400,4300","size":"100,100"}
+Alexandre: 
+O que foi, Padre?
+
+[[Proximo|D13.20.Q]]
+
+
+:: D13.2.Q [finalQ] {"position":"17800,4100","size":"100,100"}
+Alexandre: 
+Olá, padre.
+
+[[Proximo|D13.3.Q]]
+
+
+:: D13.20.Q [finalQ] {"position":"18400,4500","size":"100,100"}
+Adriana: 
+Você tem alguma ideia de onde nosso filho pode estar?
+
+[[Proximo|D13.21.Q]]
+
+
+:: D13.21.Q [finalQ] {"position":"18600,4500","size":"100,100"}
+Padre: 
+Eu acho que tenho uma ideia…
+
+[[Proximo|D13.22.Q]]
+
+
+:: D13.22.Q [finalQ] {"position":"18600,4300","size":"100,100"}
+Padre: 
+Mas eu não posso falar.. foi me confessado algo que bate com a história de vocês. Mas eu não posso revelar as confissões…
+
+[[Proximo|D13.23.Q]]
+
+
+:: D13.23.Q [finalQ] {"position":"18800,4500","size":"100,100"}
+Adriana: 
+Padre! Por favor! Uma criança pode estar na beira da morte! Você pode ser quem vai mudar o rumo dela!
+
+[[Proximo|D13.24.Q]]
+
+
+:: D13.24.Q [finalQ] {"position":"18800,4300","size":"100,100"}
+Alexandre: 
+Senhor, você nos conhece. Você sabe como Bernardo é um menino exemplar em tudo o que faz. É um menino de luz. Toda semana ele está aqui conosco.
+
+[[Proximo|D13.25.Q]]
+
+
+:: D13.25.Q [finalQ] {"position":"18800,4100","size":"100,100"}
+Padre: 
+…
+
+[[Proximo|D13.26.Q]]
+
+
+:: D13.26.Q [finalQ] {"position":"18800,3900","size":"100,100"}
+Padre: 
+Eu só peço para que vocês não contem para ninguém que ouviram de mim.
+
+[[Proximo|D13.27.Q]]
+
+
+:: D13.27.Q [finalQ] {"position":"18800,3700","size":"100,100"}
+Padre sussurra: 
+Deus, me perdoe.
+
+[[Proximo|D13.28.Q]]
+
+
+:: D13.28.Q [finalQ] {"position":"19000,3700","size":"100,100"}
+Adriana: 
+Você não tem que se preocupar com isso.
+
+[[Proximo|D13.29.Q]]
+
+
+:: D13.29.Q [finalQ] {"position":"19000,3900","size":"100,100"}
+Alexandre: 
+Padre, muito obrigado, de verdade.
+
+[[Proximo|D13.30.Q]]
+
+
+:: D13.3.Q [finalQ] {"position":"17800,3900","size":"100,100"}
+Padre: 
+Deus abençoe vocês.
+
+[[Proximo|D13.4.Q]]
+
+
+:: D13.30.Q [finalQ] {"position":"19000,4100","size":"100,100"}
+Padre: 
+Semana passada, durante as confissões, recebi um homem chamado Francisco. Ele estava desesperado. Me disse que tinha uma doença sem cura e que não sabia mais o que fazer.
+
+[[Proximo|D13.31.Q]]
+
+
+:: D13.31.Q [finalQ] {"position":"19000,4300","size":"100,100"}
+Padre: 
+Disse algo também sobre estar anêmico e que precisava de ferro. Que já comia fígados de animais mas que não o estava ajudando muito.
+
+[[Proximo|D13.32.Q]]
+
+
+:: D13.32.Q [finalQ] {"position":"19000,4500","size":"100,100"}
+Padre: 
+O aconselhei a ler a bíblia e orar, que Jesus seria capaz de curar qualquer doença.
+
+[[Proximo|D13.33.Q]]
+
+
+:: D13.33.Q [finalQ] {"position":"19200,4500","size":"100,100"}
+Adriana: 
+Mas o que isso tem a ver com o nosso Bernardo?
+
+[[Proximo|D13.34.Q]]
+
+
+:: D13.34.Q [finalQ] {"position":"19200,4300","size":"100,100"}
+Padre: 
+Ele foi minha última confissão do dia. Assim que saí do confessionário, percebi que ele andava estranho. Era pós missa, então a igreja estava cheia de crianças. 
+
+[[Proximo|D13.35.Q]]
+
+
+:: D13.35.Q [finalQ] {"position":"19200,4100","size":"100,100"}
+Padre: 
+Ele não parava de olhar pra elas, mas de um jeito esquisito. Percebi que tentou inclusive levar uma dessas crianças pra um canto, mas os pais chegaram antes que ele fizesse isso.
+
+[[Proximo|D13.36.Q]]
+
+
+:: D13.36.Q [finalQ] {"position":"19200,3900","size":"100,100"}
+Alexandre: 
+Você acha que pode ter sido ele?
+
+[[Proximo|D13.37.Q]]
+
+
+:: D13.37.Q [finalQ] {"position":"19200,3700","size":"100,100"}
+Padre: 
+Eu não sei. Mas ele estava estranho naquele dia.
+
+[[Proximo|D13.38.Q]]
+
+
+:: D13.38.Q [finalQ] {"position":"19400,3700","size":"100,100"}
+Adriana: 
+Padre, muito muito muito obrigada. De coração. Deus sabe a intenção que você teve ao nos contar isso.
+
+[[Proximo|D13.39.Q]]
+
+
+:: D13.39.Q [finalQ] {"position":"19400,3900","size":"100,100"}
+Adriana: 
+Te prometo que ninguém saberá que foi você que nos passou a informação.
+
+[[Proximo|D13.40.Q]]
+
+
+:: D13.4.Q [finalQ] {"position":"17800,3700","size":"100,100"}
+Adriana: 
+Podemos conversar?
+
+[[Proximo|D13.5.Q]]
+
+
+:: D13.40.Q [finalQ] {"position":"19400,4100","size":"100,100"}
+Adriana: 
+Você sabe onde ele mora?
+
+[[Proximo|D13.41.Q]]
+
+
+:: D13.41.Q [finalQ] {"position":"19400,4300","size":"100,100"}
+Padre: 
+Sei. Ele pediu a pouco tempo tempo atrás que eu fosse benzer a casa dele. É na Rua Casa Amarela. É um grande casarão antigo.
+
+[[Proximo|D13.42.Q]]
+
+
+:: D13.42.Q [finalQ] {"position":"19400,4500","size":"100,100"}
+Alexandre:
+Obrigado, novamente.
+
+[[Proximo|P10.4.Q]]
+
+
+:: D13.5.Q [finalQ] {"position":"18000,3700","size":"100,100"}
+Padre: 
+Claro, o que aconteceu?
+
+[[Pedir apenas uma oração por seu filho|D13.6.Q]]
+
+[[Contar o que aconteceu|D13.0.Q]]
+
+
+:: D13.6.Q [finalQ] {"position":"18000,3900","size":"100,100"}
+Alexandre: 
+Gostaríamos de pedir se o senhor pode fazer uma oração, ou até mesmo uma oração, em nome do nosso filho.
+
+[[Proximo|D13.7.Q]]
+
+
+:: D13.6.V.E.C {"position":"18100,2100","size":"100,100"}
+Recepcionista: 
+Olá senhores, tudo bem? Sim sim, dois médicos se aposentaram nos últimos 3 meses.
+
+[[Proximo|D13.7.V.E.C]]
+
+
+:: D13.7.Q [finalQ] {"position":"18000,4100","size":"100,100"}
+Padre: 
+Claro que sim, aconteceu algo?
+
+[[Proximo|D13.8.Q]]
+
+
+:: D13.7.V.E.C {"position":"18100,1900","size":"100,100"}
+Policial Tiago:
+Pode me passar as informações deles?
+
+[[Proximo|D13.8.V.E.C]]
+
+
+:: D13.8.Q [finalQ] {"position":"18000,4300","size":"100,100"}
+Adriana: 
+Ele não tem estado bem ultimamente.
+
+[[Proximo|D13.9.Q]]
+
+
+:: D13.8.V.E.C {"position":"18100,1700","size":"100,100"}
+Recepcionista: 
+A primeira delas se chamava Joana. Era ginecologista aqui há mais de 40 anos.
+
+[[Proximo|D13.9.V.E.C]]
+
+
+:: D13.9.Q [finalQ] {"position":"18000,4500","size":"100,100"}
+Padre: 
+Pode me relembrar qual o nome dele?
+
+[[Proximo|D13.10.Q]]
+
+
+:: D13.9.V.E.C {"position":"18300,1700","size":"100,100"}
+Recepcionista: 
+O outro, Francisco, era cirurgião chefe e foi aposentado por invalidez por causa de uma doença.
+
+(set:$receptionQuest to true)
+
+[[Que doença?]] 
+[[A quanto tempo ele trabalhava aqui?]]
+
+
+:: D14.1.O [finalO] {"position":"10600,2300","size":"100,100"}
+Adriana: 
+Provavelmente esse carro tem muitas multas durante essa semana que ele foi roubado. Na própria gravação ele quase atropelou o poste de luz, meu Deus.
+
+[[Proximo|P10.1.O]]
+
+
+:: D14.1.V.Q [finalQ] {"position":"20000,4400","size":"100,100"}
+Policial Tiago: 
+Adri? Eu te falei para descanç-
+
+[[Proximo|D14.2.Q]]
+
+
+:: D14.10.O [finalO] {"position":"10800,2500","size":"100,100"}
+NPC: 
+Tenho sim, uma que dá pra rua e uma outra que pega a visão da garagem.
+
+[[Proximo|D14.11.O]]
+
+
+:: D14.10.Q [finalQ] {"position":"20200,4000","size":"100,100"}
+Policial Tiago: 
+Me encontra aqui na delegacia?
+
+[[Proximo|D14.11.Q]]
+
+
+:: D14.10.V.E.C {"position":"21000,3600","size":"100,100"}
+Policial Tiago: 
+Quem é você? Francisco?
+
+[[Proximo|D14.11.V.E.C]]
+
+
+:: D14.11.O [finalO] {"position":"11000,2500","size":"100,100"}
+Adriana: 
+Posso ver as fitas?
+
+[[Proximo|D14.12.O]]
+
+
+:: D14.11.Q [finalQ] {"position":"20400,4000","size":"100,100"}
+Adriana: 
+Claro.
+
+[[Proximo|P10.5.Q]]
+
+
+:: D14.11.V.E.C {"position":"21000,3400","size":"100,100"}
+Francisco (com a voz rouca): 
+Sim, sou eu.
+
+[[Proximo|D14.12.V.E.C]]
+
+
+:: D14.12.O [finalO] {"position":"11200,2500","size":"100,100"}
+NPC: 
+Claro, pode entrar.
+
+[[Proximo|P10.7.O]]
+
+
+:: D14.12.Q [finalQ] {"position":"20600,3800","size":"100,100"}
+Alexandre: 
+Cuidado, por favor.
+
+[[Proximo|D14.13.Q]]
+
+
+:: D14.12.V.E.C {"position":"21000,3200","size":"100,100"}
+Adriana: 
+O que você fez com meu filho?
+
+[[Proximo|D14.13.V.E.C]]
+
+
+:: D14.13.O [finalO] {"position":"11400,2100","size":"100,100"}
+Adriana: 
+Melhor ir pra lá andando, o caminho é curto.
+
+[[Proximo|P10.9.O]]
+
+
+:: D14.13.Q [finalQ] {"position":"20400,3800","size":"100,100"}
+Adriana: 
+Tem certeza que não quer vir?
+
+[[Proximo|D14.14.Q]]
+
+
+:: D14.13.V.E.C {"position":"21000,3000","size":"100,100"}
+Francisco: 
+Ele só está desacordado. Está vivo.
+
+[[Proximo|D14.14.V.E.C]]
+
+
+:: D14.14.M [finalM] {"position":"11800,2900","size":"100,100"}
+(if: $finalO is true) [Adriana: 
+Será que eu vou conseguir achar esse carro? Acho melhor eu perguntar se alguém viu.]
+
+(if: $finalE is true)[Policial Tiago:
+Sem o endereço exato não vamos encontrar tão facilmente, vamos ter que perguntar se alguém viu.]
+[[Proximo|P10.11.M]]
+
+
+:: D14.14.Q [finalQ] {"position":"20200,3800","size":"100,100"}
+Alexandre: 
+Sim, não sou bom com essas coisas. Te vejo em casa.
+
+[[Proximo|P11.1.Q]]
+
+
+:: D14.14.V.E.C {"position":"21200,3000","size":"100,100"}
+Adriana: 
+Por que você fez isso? 
+(Lágrimas começam a escorrer de seu rosto)
+
+[[Proximo|D14.15.V.E.C]]
+
+
+:: D14.14.V.O [finalV finalO] {"position":"11800,1700","size":"100,100"}
+Adriana: 
+Dexter!? Dexter, volta aqui!
+
+[[Proximo|D14.15.V]]
+
+
+:: D14.15.M [finalM] {"position":"11800,3300","size":"100,100"}
+Adriana: 
+Ô de casa! 
+
+[[Proximo|P10.12.M]]
+
+
+:: D14.15.V [finalV] {"position":"11800,2100","size":"100,100"}
+Adriana: 
+Ei!
+
+[[Proximo|P10.11.V]]
+
+
+:: D14.15.V.E.C {"position":"21200,3200","size":"100,100"}
+Francisco: 
+Eu sinto muito, era minha única opção.
+
+[[Proximo|aHistoria2]]
+
+
+:: D14.16.M [finalM] {"position":"11800,3700","size":"100,100"}
+Adriana:
+Eii!!!
+
+[[Proximo|D14.17.M]]
+
+
+
+:: D14.16.V [finalV] {"position":"11800,2500","size":"100,100"}
+Estranho: 
+Vai tomar no seu @#!
+
+[[Próximo|P5.9.V]]
+
+
+:: D14.16.V.E.C {"position":"21200,3600","size":"100,100"}
+Adriana: 
+Para de falar isso!
+
+[[Proximo|D14.17.V.E.C]]
+
+
+:: D14.17.M [finalM] {"position":"12000,3700","size":"100,100"}
+Adriana: 
+Acho que não tem ninguém...
+
+[[Proximo|P10.13.M]]
+
+
+:: D14.17.V.E.C {"position":"21200,3800","size":"100,100"}
+Francisco: 
+Desculpa, só seu filho era o único que podia me ajudar com minha cura.
+
+[[Proximo|P11.10.V.E.C]]
+
+
+:: D14.17.V.O [finalV] {"position":"12000,2300","size":"100,100"}
+Estranho: 
+Tudo bem moça, boa sorte na correria!
+
+[[Próximo|P5.9.V]]
+
+
+:: D14.18.M [finalM] {"position":"12000,3300","size":"100,100"}
+(if: $finalO is true) [Adriana: 
+Alô?]
+
+(if: $finalE is true)[Policial Tiago:
+Alô?]
+
+[[Proximo|D14.19.M]]
+
+
+:: D14.18.V [finalV] {"position":"12200,2300","size":"100,100"}
+Adriana: 
+Dexter?
+
+[[Proximo|D14.19.V]]
+
+
+:: D14.18.V.E.C {"position":"21400,3600","size":"100,100"}
+Adriana: 
+Você é louco?
+
+[[Proximo|D14.19.V.E.C]]
+
+
+:: D14.19.M [finalM] {"position":"12000,3100","size":"100,100"}
+(if: $finalO is true) [Dra. Carol: 
+Dri? Seus testes estão prontos.]
+
+(if: $finalE is true)[Cientista: 
+Seus testes estão prontos.]
+
+[[Proximo|D14.20.M]]
+
+
+:: D14.19.V [finalV] {"position":"12000,2100","size":"100,100"}
+Adriana: 
+O Corolla! Não acredito! Dexter, você achou!
+
+[[Próximo|P10.13.V]]
+
+
+:: D14.19.V.E.C {"position":"21400,3400","size":"100,100"}
+Francisco: 
+Olha só a minha aparência! Eu estou quase morrendo! Isso é culpa de uma ganância enorme! Eu me arrependo de tudo que já fiz um dia!
+
+[[Proximo|flashbackvec]]
+
+
+:: D14.2.O [finalO] {"position":"10600,1900","size":"100,100"}
+Adriana: 
+De fato. Todas as multas foram perto do Bairro Beberibe. Deve ser provavelmente lá que o sequestrador mora.
+
+[[Proximo|P10.2.O]]
+
+
+:: D14.2.Q [finalQ] {"position":"20200,4400","size":"100,100"}
+Adriana: 
+Descobri onde meu filho está.
+
+[[Proximo|D14.3.Q]]
+
+
+:: D14.20.M [finalM] {"position":"12000,2900","size":"100,100"}
+(if: $finalO is true) [Adriana: 
+Nossa, saiu rápido.]
+
+(if: $finalE is true)[Policial Tiago: 
+Nossa, saiu rápido.]
+
+
+
+(if: $finalO is true) [[[Proximo|D14.21.M.O]]]
+
+(if: $finalE is true)[[[Proximo|D8.25.M.E]]]
+
+
+:: D14.20.O [finalO] {"position":"13400,2500","size":"100,100"}
+Adriana: 
+Precisamos entrar. A garagem não tem telhado, dá pra pular. Ou posso tentar arrombar esse cadeado aqui.
+
+[[Tentar pular o muro subindo na lixeira]]
+[[Arrombar o portãozinho da garagem]]
+
+
+:: D14.20.V.E.C {"position":"21400,3000","size":"100,100"}
+Policial Tiago:
+Você está preso.
+
+[[Proximo|P11.11.V.E.C]]
+
+
+:: D14.21.M.O [finalM finalO] {"position":"12400,2900","size":"100,100"}
+Dra. Carol: 
+Pra você ver como eu sou uma boa amiga.
+
+[[Proximo|D14.22.M.O]]
+
+
+:: D14.21.O [finalO] {"position":"13800,2500","size":"100,100"}
+Adriana: 
+Vai fazer barulho, tomara que não seja tão alto assim.
+
+[[Próximo|P10.15.O]]
+
+
+:: D14.21.V.E.C {"position":"21600,3200","size":"100,100"}
+Policial Tiago (ao longe): 
+Você tem direito a um advogado.
+
+[[Proximo|D14.22.V.E.C]]
+
+
+:: D14.22.M.O [finalM finalO] {"position":"12400,3100","size":"100,100"}
+Adriana: 
+A melhor, Carol.
+
+[[Proximo|D14.23.M.O]]
+
+
+:: D14.22.V.E.C {"position":"21600,3400","size":"100,100"}
+Adriana (soluçando): 
+Bernardo! Bernardo!
+
+[[Proximo|P11.12.V.E.C]]
+
+
+:: D14.23.M.O [finalM finalO] {"position":"12400,3300","size":"100,100"}
+Dra. Carol: 
+A amostra de sangue que você disponibilizou é de um homem chamado Paulo Camargo de Oliveira. De acordo com a ficha criminal dele, ele já foi preso mais de uma vez por tráfico.
+
+[[Proximo|D14.24.M.O]]
+
+
+:: D14.23.V.E.C {"position":"21600,3800","size":"100,100"}
+Bernardo: 
+Ma...mãe? Onde.. a gente tá…?
+
+[[Proximo|D14.24.V.E.C]]
+
+
+:: D14.24.M.O [finalM finalO] {"position":"12600,3300","size":"100,100"}
+Adriana: 
+Minha Nossa Senhora do Carmo. Meu filho, Bernardo... o que será que fizeram com meu filho?
+
+[[Proximo|D14.25.M.O]]
+
+
+:: D14.24.V.E.C {"position":"21800,3800","size":"100,100"}
+Adriana: 
+Filho! Filho, tá tudo bem (Adriana começa a chorar).
+
+[[Proximo|P11.13.V.E.C]]
+
+
+:: D14.25.M.O [finalM finalO] {"position":"12800,3300","size":"100,100"}
+Dra. Carol: 
+Aqui diz que ele mora na Rua Xexéu, na casa 37.
+
+[[Proximo|D14.26.M.O]]
+
+
+:: D14.25.V.E.C {"position":"21800,3400","size":"100,100"}
+Policial Tiago: 
+Vamos para casa. Vou levar vocês.
+
+[[Proximo|P11.14.V.E.C]]
+
+
+:: D14.26.M.O [finalM finalO] {"position":"12800,3125","size":"100,100"}
+Adriana: 
+Ah, que bom, pelo menos já estou no bairro. 
+
+[[Proximo|D14.27.M.O]]
+
+
+:: D14.27.M.O [finalM finalO] {"position":"12600,3100","size":"100,100"}
+Dra. Carol: 
+Tome cuidado.
+
+[[Proximo|D14.28.M.O]]
+
+
+:: D14.28.M.O [finalM finalO] {"position":"12600,2900","size":"100,100"}
+Adriana: 
+Pode deixar, você me conhece!
+
+[[Proximo|D14.29.M.O]]
+
+
+:: D14.29.M.O [finalM finalO] {"position":"12800,2900","size":"100,100"}
+Dra. Carol: 
+Por isso mesmo tô pedindo cuidado.
+
+[[Proximo|P10.14.M]]
+
+
+:: D14.3.O [finalO] {"position":"10800,2100","size":"100,100"}
+Adriana: 
+É o seguinte. Se eu vou atrás disso, é melhor eu estar preparada. Eu não sei quem foi que pegou meu filho, mas eu vou descobrir.
+
+[[Proximo|P10.3.O]]
+
+
+:: D14.3.Q [finalQ] {"position":"20400,4400","size":"100,100"}
+Policial Tiago: 
+O que? Como?
+
+[[Proximo|D14.4.Q]]
+
+
+:: D14.4.O [finalO] {"position":"11000,1900","size":"100,100"}
+Adriana: 
+As vezes me arrependo de ter comprado isso de um lugar tão esquisito como aquele. Aquele homem não me passaria uma sensação boa nem se ele nascesse de novo, credo.
+
+(if: $finalV is true) [[[Proximo|D14.5.V.O]]]
+
+(if: $finalM is true) [[[Proximo|P10.5.O]]]
+
+
+:: D14.4.Q [finalQ] {"position":"20600,4400","size":"100,100"}
+Adriana: 
+Eu não posso contar, mas eu preciso que confie em mim.
+
+[[Proximo|D14.5.Q]]
+
+
+:: D14.5.Q [finalQ] {"position":"20600,4200","size":"100,100"}
+Adriana: 
+Você consegue um mandado de busca para um casarão antigo na Rua Casa Amarela? Eu não tenho o número da casa.
+
+[[Proximo|D14.6.Q]]
+
+
+:: D14.5.V.O [finalV finalO] {"position":"10600,1500","size":"100,100"}
+Adriana: 
+Dexter! Amigão! 
+
+[[Proximo|P10.4.V.O]]
+
+
+:: D14.6.Q [finalQ] {"position":"20400,4200","size":"100,100"}
+Policial Tiago: 
+…
+
+[[Proximo|D14.7.Q]]
+
+
+:: D14.6.V.O [finalV finalO] {"position":"11000,1500","size":"100,100"}
+Adriana: 
+Vamos sair.
+
+[[Proximo|P10.5.O]]
+
+
+:: D14.7.O [finalO] {"position":"11200,2300","size":"100,100"}
+Adriana: 
+Ô de casa!
+
+[[Proximo|D14.8.O]]
+
+
+:: D14.7.Q [finalQ] {"position":"20200,4200","size":"100,100"}
+Adriana: 
+Você confia em mim?
+
+[[Proximo|D14.8.Q]]
+
+
+:: D14.8.O [finalO] {"position":"11000,2300","size":"100,100"}
+NPC: 
+Pois não?
+
+[[Proximo|D14.9.O]]
+
+
+:: D14.8.Q [finalQ] {"position":"20000,4200","size":"100,100"}
+Policial Tiago:
+…
+
+[[Proximo|D14.9.Q]]
+
+
+:: D14.9.O [finalO] {"position":"10800,2300","size":"100,100"}
+Adriana: 
+Sou Adriana. Perita criminal e estou trabalhando em um caso. Vocês têm câmeras de segurança?
+
+[[Proximo|D14.10.O]]
+
+
+:: D14.9.Q [finalQ] {"position":"20000,4000","size":"100,100"}
+Policial Tiago: 
+Confio.
+
+[[Proximo|D14.10.Q]]
+
+
+:: D15.1.V.E.Q {"position":"19000,3100","size":"100,100"}
+Policial Tiago: 
+Chegamos. Vou arrombar, para trás
+
+[[Proximo|P11.2.V.E.Q]]
+
+
+:: D15.1.V.O [finalO] {"position":"14600,1300","size":"100,100"}
+Adriana: 
+Quem é você?!
+
+[[Proximo|D15.2.V.O]]
+
+
+:: D15.10.V.E.Q {"position":"21000,4600","size":"100,100"}
+Policial Tiago: 
+Largue essa faca! Coloque-a no chão e chute em minha direção. 
+
+[[Próximo|P11.10.V.E.Q]]
+
+
+:: D15.10.V.O [finalO] {"position":"14800,900","size":"100,100"}
+Traficante: 
+Eu não faço ideia de quem você está falando.
+
+[[Proximo|D15.11.V.O]]
+
+
+:: D15.11.V.E.Q {"position":"21000,5000","size":"100,100"}
+Policial Tiago: 
+Quem é você? Francisco?
+
+[[Proximo|D15.12.V.E.Q]]
+
+
+:: D15.11.V.O [finalO] {"position":"14800,1100","size":"100,100"}
+Adriana: 
+Eu sei que você sequestrou meu filho. Essa mordida feia sua deixou uma mancha de sangue no quarto dele. Eu sei que o sangue é seu.
+
+[[Proximo|D15.12.V.O]]
+
+
+:: D15.12.V.E.Q {"position":"21200,5000","size":"100,100"}
+Francisco (com a voz rouca):
+Sim, sou eu.
+
+[[Proximo|D15.13.V.E.Q]]
+
+
+:: D15.12.V.O [finalO] {"position":"14800,1300","size":"100,100"}
+Traficante: 
+Ah, sim.
+
+[[Proximo|D15.13.V.O]]
+
+
+:: D15.13.V.E.Q {"position":"21200,4800","size":"100,100"}
+Adriana: 
+O que você fez com meu filho? 
+(Adriana perde a posição e se ajoelha ao lado do corpo do filho, chorando muito).
+
+[[Proximo|D15.14.V.E.Q]]
+
+
+:: D15.13.V.O [finalO] {"position":"14800,1500","size":"100,100"}
+Traficante: 
+Eu fiz o sequestro do seu filho.
+
+[[Proximo|D15.14.V.O]]
+
+
+:: D15.14.V.E.Q {"position":"21200,4600","size":"100,100"}
+Francisco: 
+…
+
+[[Proximo|D15.15.V.E.Q]]
+
+
+:: D15.14.V.O [finalO] {"position":"14800,1700","size":"100,100"}
+Adriana: 
+E onde ele tá? Cadê meu Bernardo, seu filho da %*&$
+
+[[Proximo|D15.15.V.O]]
+
+
+:: D15.15.V.E.Q {"position":"21200,4400","size":"100,100"}
+Adriana: 
+Por que você fez isso? 
+
+[[Proximo|D15.16.V.E.Q]]
+
+
+:: D15.15.V.O [finalO] {"position":"15000,1700","size":"100,100"}
+Traficante: 
+Eu já falei que eu não sei onde seu filho foi parar.
+
+
+[[Proximo|D15.16.V.O]]
+
+
+:: D15.16.V.E.Q {"position":"21200,4200","size":"100,100"}
+Francisco: 
+(Lágrimas começam a escorrer do rosto do homem também.) Eu sinto muito, era minha única opção.
+
+[[Proximo|D15.17.V.E.Q]]
+
+
+:: D15.16.V.O [finalO] {"position":"15000,1500","size":"100,100"}
+Adriana: 
+Como assim você não sabe? Isso não existe!
+
+[[Proximo|D15.17.V.O]]
+
+
+:: D15.17.V.E.Q {"position":"21400,4200","size":"100,100"}
+Adriana: 
+Para de falar isso! Você matou uma criança! A minha criança! 
+
+[[Proximo|D15.18.V.E.Q]]
+
+
+:: D15.17.V.O [finalO] {"position":"15000,1300","size":"100,100"}
+Traficante: 
+Eu fiz esse sequestro porque eu vivo devendo gente perigosa e fugindo do perigo. Me pagariam bem pra fazer isso, então eu aceitei, ué. Simples.
+
+[[Proximo|D15.18.V.O]]
+
+
+:: D15.18.V.E.Q {"position":"21400,4400","size":"100,100"}
+Francisco: 
+Desculpa, seu filho era o único que podia me ajudar com minha cura.
+(Francisco dá um passo para trás.)
+
+[[Proximo|D15.19.V.E.Q]]
+
+
+:: D15.18.V.O [finalO] {"position":"15000,1100","size":"100,100"}
+Adriana: 
+Simples? Você tira uma criança da sua família e isso é “simples”?
+
+[[Proximo|D15.19.V.O]]
+
+
+:: D15.19.V.E.Q {"position":"21400,4600","size":"100,100"}
+Adriana: 
+Você é louco? 
+
+[[Proximo|D15.20.V.E.Q]]
+
+
+:: D15.19.V.O [finalO] {"position":"15000,900","size":"100,100"}
+Traficante: 
+Sim, foi o que eu disse.
+
+[[Proximo|D15.20.V.O]]
+
+
+:: D15.2.V.E.Q {"position":"20000,3200","size":"100,100"}
+Adriana: 
+Dex? Cuidado!
+
+[[Proximo|P11.5.V.E.Q]]
+
+
+:: D15.2.V.O [finalO] {"position":"14600,1100","size":"100,100"}
+Traficante: 
+Quem é VOCÊ?! O que você tá fazendo aqui?
+
+[[Proximo|D15.3.V.O]]
+
+
+:: D15.20.V.E.Q {"position":"21400,4800","size":"100,100"}
+Francisco: 
+Olha só a minha aparência! Eu estou quase morrendo! Isso é culpa da minha ganância! Eu me arrependo de tudo que já fiz um dia, mas agora já não tem mais volta.
+
+[[Flashback|aHistoria1]]
+
+
+:: D15.20.V.O [finalO] {"position":"15000,700","size":"100,100"}
+Adriana: 
+Conte agora como que você levou meu menino embora e o que fez com ele depois. 
+
+[[Proximo|D15.21.V.O]]
+
+
+:: D15.21.V.E.Q {"position":"21600,5000","size":"100,100"}
+Policial Tiago:
+Você está preso.
+
+[[Próximo|P11.11.V.E.Q]]
+
+
+:: D15.21.V.O [finalO] {"position":"15000,500","size":"100,100"}
+Traficante: 
+Se não o que?
+
+[[Pegar corda]]
+[[Apontar a arma]]
+
+
+:: D15.22.V.E.Q {"position":"21600,4600","size":"100,100"}
+Policial Tiago (já longe, na viatura):
+Você tem direito a um advogado.
+
+[[Proximo|D15.23.V.E.Q]]
+
+
+:: D15.22.V.O [finalO] {"position":"15200,300","size":"100,100"}
+Traficante: 
+Arrgh! Ai! Inferno! Como você é insuportável!
+
+[[Proximo|D15.25.V.O]]
+
+
+:: D15.23.V.E.Q {"position":"21600,4400","size":"100,100"}
+Adriana: 
+Bernardo! Bernardo! (soluçando)
+
+[[Próximo|P11.12.V.E.Q]]
+
+
+:: D15.23.V.O [finalO] {"position":"15000,100","size":"100,100"}
+Traficante: 
+Vai me matar?
+
+[[Proximo|D15.24.V.O]]
+
+
+:: D15.24.V.E.Q {"position":"21800,4200","size":"100,100"}
+Policial Tiago:
+Precisamos levá-lo para autópsia. Mas vou deixá-la em casa. Você não teria acesso ao ambiente de qualquer forma. Assim que estiver ok, eu te ligo.
+
+[[Próximo|P11.13.V.E.Q]]
+
+
+:: D15.24.V.O [finalO] {"position":"15200,100","size":"100,100"}
+(if: $finalV is true) [Adriana:
+Se você cooperar, quem sabe o Dexter não queira dar outra mordida.]
+
+(if: $finalM is true) [Adriana:
+Se você cooperar, quem sabe eu tê de outro tiro, mas dessa vez na cabeça.]
+
+[[Proximo|D15.25.V.O]]
+
+
+:: D15.25.V.O [finalO] {"position":"15400,100","size":"100,100"}
+Adriana: 
+Você vai falar ou não?
+
+[[Proximo|D15.26.V.O]]
+
+
+:: D15.26.V.O [finalO] {"position":"15400,300","size":"100,100"}
+Traficante: 
+Eu subi em uma escada e abri a janela do quarto com um cartão. Foi bem fácil, por sinal. Acho que vocês deveriam trocar as trancas de vocês.
+
+[[Proximo|P11.6.V.O]]
+
+
+:: D15.27.V.O [finalO] {"position":"15200,700","size":"100,100"}
+Traficante: 
+Credo. Já concordei em contar, calma.
+
+[[Proximo|D15.28.V.O]]
+
+
+:: D15.28.V.O [finalO] {"position":"15200,900","size":"100,100"}
+(if: $finalV is true) [Traficante: 
+Assim que eu entrei, seu cachorro maldito mordeu meu braço e me fez derrubar o líquido de clorofórmio que eu ia usar pra desacordar a criança. Bati nesse infeliz, usei um pouco do clorofórmio e o tranquei ele no armário, mas o menino acordou com a barulheira.]
+
+(if: $finalM is true) [Traficante: 
+Assim que eu entrei, seu cachorro maldito mordeu meu braço e me fez derrubar o líquido de clorofórmio que eu ia usar pra desacordar a criança. Puxei esse infeliz pra baixo da cama e dei um mata leão para ele ficar quieto, mas o menino acordou com a barulheira.]
+
+[[Proximo|D15.29.V.O]]
+
+
+:: D15.29.V.O [finalO] {"position":"15200,1100","size":"100,100"}
+Traficante: 
+Tive que me esconder embaixo da cama, não queria que o menino gritasse. Assim que ele se distraiu, usei o resto do clorofórmio que me sobrou pra desmaiar ele.
+
+[[Proximo|D15.30.V.O]]
+
+
+:: D15.3.V.E.Q {"position":"20200,3400","size":"100,100"}
+Adriana: 
+O que foi? Que porta é essa?
+
+[[Proximo|D15.4.V.E.Q]]
+
+
+:: D15.3.V.O [finalO] {"position":"14600,900","size":"100,100"}
+Adriana: 
+Mãos pra cima! Fique parado e você não será ferido!
+
+[[Proximo|P11.3.V.O]]
+
+
+:: D15.30.V.O [finalO] {"position":"15200,1300","size":"100,100"}
+Traficante: 
+Mas depois disso, eu levei seu filho num beco e troquei ele por uma boa quantia de dinheiro por um homem desconhecido.
+
+[[Proximo|D15.31.V.O]]
+
+
+:: D15.31.V.O [finalO] {"position":"15200,1500","size":"100,100"}
+Adriana: 
+Essa história não faz sentido nenhum. Trocar uma criança num beco escuro por dinheiro?
+
+[[Proximo|D15.32.V.O]]
+
+
+:: D15.32.V.O [finalO] {"position":"15200,1700","size":"100,100"}
+Traficante: 
+Senhora, você me fez contar. Agora se você acredita ou não, não é problema meu.
+
+[[Proximo|D15.33.V.O]]
+
+
+:: D15.33.V.O [finalO] {"position":"15400,1700","size":"100,100"}
+Adriana, inconformada, olha ao seu redor e percebe uma porta de metal, que abre com um padrão numérico.
+
+[[Proximo|D15.34.V.O]]
+
+
+:: D15.34.V.O [finalO] {"position":"15400,1500","size":"100,100"}
+Adriana: 
+Qual a senha daquela porta?
+
+[[Proximo|D15.35.V.O]]
+
+
+:: D15.35.V.O [finalO] {"position":"15600,1500","size":"100,100"}
+Traficante: 
+Oxe, por que eu te falaria?
+
+[[Proximo|D15.36.V.O]]
+
+
+:: D15.36.V.O [finalO] {"position":"15400,1300","size":"100,100"}
+Adriana: 
+Qual é a senha daquela porta?!
+
+
+[[Proximo|D15.Ajuste.O]]
+
+
+
+:: D15.37.V.O [finalO] {"position":"15600,1100","size":"100,100"}
+(if: $finalV is true) [Traficante: 
+Pare com isso, cachorro maldito! Duas mordidas não são o suficiente?]
+
+(if: $finalM is true) [Traficante: 
+Pare com isso, sua maluca! Só sabe apontar essa arma?]
+
+[[Proximo|D15.38.V.O]]
+
+
+:: D15.38.V.O [finalO] {"position":"15600,900","size":"100,100"}
+Adriana: 
+Você é engraçadinho, né?
+
+[[Proximo|D15.39.V.O]]
+
+
+:: D15.39.V.O [finalO] {"position":"15400,700","size":"100,100"}
+Adriana: 
+Vai me falar qual é a senha e vai tirar meu filho dali.
+
+[[Proximo|D15.40.V.O]]
+
+
+:: D15.4.V.E.Q {"position":"20200,3200","size":"100,100"}
+Policial Tiago: 
+Tá trancada.
+
+
+[[Proximo|D15.5.V.E.Q]]
+
+
+:: D15.4.V.O [finalO] {"position":"14600,300","size":"100,100"}
+(if: $finalV is true) [Traficante: 
+Ai! Tá louco inferno? Cachorro do diabo, me deixa!]
+
+(else-if: $finalV is true) [Traficante: 
+TÁ LOUCA, INFERNO? Quem você é, mulher? Me deixe!]
+
+[[Proximo|P11.5.V.O]]
+
+
+:: D15.40.V.O [finalO] {"position":"15600,700","size":"100,100"}
+Traficante: 
+Você acha que seu filho tá ali? Eu já falei que não sei onde ele tá.
+
+[[Proximo|P11.7.V.O]]
+
+
+:: D15.41.V.O [finalO] {"position":"15600,300","size":"100,100"}
+Adriana: 
+Escreva a senha aí.
+
+[[Proximo|P11.8.V.O]]
+
+
+:: D15.42.V.O [finalO] {"position":"15800,100","size":"100,100"}
+Adriana: 
+Ué, você é destro..
+
+[[Proximo|D15.43.V.O]]
+
+
+:: D15.43.V.O [finalO] {"position":"15800,300","size":"100,100"}
+Traficante: 
+Oxe, mulher, o que que tem?
+
+[[Proximo|D15.44.V.O]]
+
+
+:: D15.44.V.O [finalO] {"position":"15800,500","size":"100,100"}
+Adriana: 
+Nada…
+
+[[Proximo|P11.9.V.O]]
+
+
+:: D15.45.V.O [finalO] {"position":"15800,1100","size":"100,100"}
+Adriana: 
+Bernardo? Filho?
+
+[[Proximo|D15.46.V.O]]
+
+
+:: D15.46.V.O [finalO] {"position":"15800,1300","size":"100,100"}
+Traficante: 
+Eu te falei que ele não tava aí.
+
+[[Olhar freezer|olhar freezer]]
+[[Olhar pacotes|olhar pacotes]]
+
+
+:: D15.47.V.O [finalO] {"position":"16200,1100","size":"100,100"}
+Adriana:
+Mas que $*&%@!
+
+[[Proximo|P11.12.V.O]]
+
+
+:: D15.48.V.O [finalO] {"position":"15600,1700","size":"100,100"}
+Adriana:
+Que cara bagunçado. Fico imaginando quantas pessoas passaram pelo o que o Bê está passando agora…
+
+[[Proximo|D15.49.V.O]]
+
+
+:: D15.49.V.O [finalO] {"position":"15800,1700","size":"100,100"}
+Adriana: 
+Aguenta firme, filho, eu tô chegando.
+
+[[Proximo|P11.13.V.O]]
+
+
+:: D15.5.V.E.Q {"position":"20200,3000","size":"100,100"}
+Adriana: 
+Dexter, vá pra trás. Vou chutar a tranca da porta.
+
+[[Proximo|P11.6.V.E.Q]]
+
+
+:: D15.5.V.O [finalO] {"position":"14800,100","size":"100,100"}
+Adriana: 
+Eu só vou te perguntar uma vez. Onde está meu filho?
+
+[[Proximo|D15.6.V.O]]
+
+
+:: D15.50.V.O [finalO] {"position":"16000,1700","size":"100,100"}
+Adriana: 
+Quanto dinheiro...
+
+[[Proximo|D15.51.V.O]]
+
+
+:: D15.51.V.O [finalO] {"position":"16200,1700","size":"100,100"}
+Adriana: 
+Quantos tipos diferentes de drogas...
+
+(if: $pacotesOpen is true and $freezerOpen is true) [[[Proximo|RT2]]]
+
+(else:) [[[Olhar freezer|RT2]]]
+
+
+:: D15.52.V.O {"position":"16400,1500","size":"100,100"}
+Adriana: 
+Quem escreveu isso aqui?
+
+[[Proximo|D15.53.V.O]]
+
+
+:: D15.53.V.O [finalO] {"position":"16400,1500","size":"100,100"}
+Adriana: 
+O envelope que deixaram em casa foi escrito por um canhoto, se você foi contratado por dinheiro, com certeza não foi você que deixou 30 mil reais pra mim...
+
+[[Proximo|D15.54.V.O]]
+
+
+:: D15.54.V.O [finalO] {"position":"16400,1300","size":"100,100"}
+Adriana: 
+Então você não estava sozinho, certo? Quem estava com você?
+
+[[Proximo|D15.55.V.O]]
+
+
+:: D15.55.V.O [finalO] {"position":"16400,1100","size":"100,100"}
+Traficante:  
+Aquele idiota.
+
+[[Proximo|D15.56.V.O]]
+
+
+:: D15.56.V.O [finalO] {"position":"16400,900","size":"100,100"}
+Adriana: 
+Me responde! Quem escreveu isso?
+
+[[Proximo|D15.57.V.O]]
+
+
+:: D15.57.V.O [finalO] {"position":"16200,900","size":"100,100"}
+Traficante: 
+Tá, eu não tava sozinho. Eu ajudei um médico aí.
+
+[[Proximo|D15.58.V.O]]
+
+
+:: D15.58.V.O [finalO] {"position":"16000,900","size":"100,100"}
+Adriana: 
+Que médico?
+
+[[Proximo|D15.59.V.O]]
+
+
+:: D15.59.V.O [finalO] {"position":"16000,700","size":"100,100"}
+Traficante: 
+Ele trabalhava no Hospital São Diego, lá perto da costa. Se aposentou a um tempo atrás. 
+
+[[Proximo|D15.60.V.O]]
+
+
+:: D15.6.V.O [finalO] {"position":"14800,300","size":"100,100"}
+Traficante: 
+Eu sei lá sei quem é seu filho. Você é da polícia, é?
+
+[[Proximo|D15.8.V.O]]
+
+
+:: D15.60.V.O [finalO] {"position":"16000,500","size":"100,100"}
+Adriana: 
+Vocês são dois babacas.
+
+[[Deixá-lo em paz]]
+[[Matá-lo]]
+
+
+:: D15.61.V.O [finalO] {"position":"16000,100","size":"100,100"}
+Traficante: 
+Tá fazendo o quê? Se eu sou babaca você é dissimulada!
+
+[[Proximo|D15.62.V.O]]
+
+
+:: D15.62.V.O [finalO] {"position":"16200,100","size":"100,100"}
+Adriana: 
+Cala sua boca.
+
+[[Proximo|P11.15.V.O]]
+
+
+:: D15.63.V.O [finalO] {"position":"16600,100","size":"100,100"}
+Traficante com voz abafada: 
+Me tira daqui! Me deixa sair!
+
+[[Proximo|D15.69.V.O]]
+
+
+:: D15.64.V.O [finalO] {"position":"16400,500","size":"100,100"}
+Traficante:
+Tá fazendo o que? Se eu sou babaca você é dissimulada!
+
+[[Proximo|D15.65.V.O]]
+
+
+:: D15.65.V.O [finalO] {"position":"16200,700","size":"100,100"}
+Adriana: 
+Cala sua boca.
+
+[[Proximo|D15.66.V.O]]
+
+
+:: D15.66.V.O [finalO] {"position":"16400,700","size":"100,100"}
+Traficante: 
+Me tira daqui!
+
+[[Proximo|D15.67.V.O]]
+
+
+:: D15.67.V.O [finalO] {"position":"16200,500","size":"100,100"}
+Adriana:
+Você já tirou muito da minha paciência, torça para que alguem te encontre antes que o seu ar acabe ou que você morra de fome.
+
+[[Proximo|P11.16.V.O]]
+
+
+:: D15.69.V.O [finalO] {"position":"16600,300","size":"100,100"}
+Adriana: 
+Deus, me perdoe.
+
+[[Proximo|P11.17.V.O]]
+
+
+:: D15.8.V.E.Q {"position":"20600,3400","size":"100,100"}
+Policial Tiago: 
+Fique parado! Mãos pra cima.
+
+(if: $finalQ is true) [[[Próximo|P11.9.V.E.Q]]]
+(if: $finalC is true) [[[Próximo|P11.9.V.E.C]]]
+
+
+:: D15.8.V.O [finalO] {"position":"14800,500","size":"100,100"}
+Adriana: 
+Não te interessa. Onde está Bernardo?
+
+[[Proximo|D15.9.V.O]]
+
+
+:: D15.9.V.E.Q {"position":"21000,4400","size":"100,100"}
+Adriana: 
+Bernardo! Bernardo meu Deus! Filho!
+
+[[Proximo|D15.10.V.E.Q]]
+
+
+:: D15.9.V.O [finalO] {"position":"14800,700","size":"100,100"}
+Traficante: 
+Você disse que ia perguntar só uma vez.
+
+[[Proximo|D15.10.V.O]]
+
+
+:: D15.Ajuste.O [finalO] {"position":"15400,1100","size":"100,100"}
+Adriana percebe uma mesa com alguns utensílios cortantes
+
+[[Ameaçá-lo com canivete]]
+
+(if: $finalV is true) [[[Ameaçá-lo com Dexter|Ameaçá-lo com Dexter/arma]]]
+
+(if: $finalM is true) [[[Ameaçá-lo com a Arma|Ameaçá-lo com Dexter/arma]]]
+
+
+:: D16.1.V.O [finalO] {"position":"17000,1200","size":"100,100"}
+Adriana: 
+Olá, tudo bem? Sou Adriana, perita criminal e estou a cargo de um caso. Por algum acaso, algum dos médicos daqui se aposentou recentemente?
+
+[[Proximo|D16.2.V.O]]
+
+
+:: D16.10.V.O [finalO] {"position":"17400,1600","size":"100,100"}
+Recepcionista: 
+Imagina.
+
+[[Proximo|P12.4.V.O]]
+
+
+:: D16.11.V.O [finalO] {"position":"17600,1800","size":"100,100"}
+Adriana: 
+Que casarão. Bem velha inclusive, mas é bonita.
+
+[[Proximo|D17.2.V.O]]
+[[Proximo|D17.2.M.O]]
+
+
+:: D16.2.V.O [finalO] {"position":"17200,1200","size":"100,100"}
+Recepcionista: 
+Olá senhora, tudo bem? Sim sim, dois médicos se aposentaram nos últimos 3 meses.
+
+[[Proximo|D16.3.V.O]]
+
+
+:: D16.3.V.O [finalO] {"position":"17400,1200","size":"100,100"}
+Adriana: 
+Pode me passar as informações deles?
+
+[[Proximo|D16.4.V.O]]
+
+
+:: D16.4.V.O [finalO] {"position":"17400,1400","size":"100,100"}
+Recepcionista: 
+A primeira delas se chamava Joana. Era ginecologista aqui há mais de 40 anos.
+
+[[Proximo|D16.5.V.O]]
+
+
+:: D16.5.V.O [finalO] {"position":"17200,1400","size":"100,100"}
+Recepcionista: 
+O outro, Francisco, era cirurgião chefe e foi aposentado por invalidez por causa de uma doença.
+
+(set:$receptionQuest to true)
+[[Que doença?|Doença?]]
+[[A quanto tempo ele trabalhava aqui?|Tempo?]]
+
+
+:: D16.6.V.O [finalO] {"position":"16800,1400","size":"100,100"}
+Adriana: 
+Posso olhar as outras informações?
+
+[[Proximo|D16.8.V.O]]
+
+
+:: D16.8.V.O [finalO] {"position":"16800,1600","size":"100,100"}
+Recepcionista: 
+Pode sim.
+
+[[Proximo|P12.2.V.O]]
+
+
+:: D16.9.V.O [finalO] {"position":"17200,1600","size":"100,100"}
+Adriana:
+Obrigada, querida. 
+
+[[Proximo|D16.10.V.O]]
+
+
+:: D17.10.M.O [finalM finalO] {"position":"18200,800","size":"100,100"}
+Adriana: 
+Quem é você? Francisco?
+
+[[Proximo|D17.11.M.O]]
+
+
+:: D17.10.V.O [finalV finalO] {"position":"19800,800","size":"100,100"}
+Adriana: 
+Largue essa faca!
+
+[[Proximo|P13.7.V.O]]
+
+
+:: D17.11.M.O [finalM finalO] {"position":"18000,800","size":"100,100"}
+Francisco com a voz rouca:
+Sim, sou eu.
+
+[[Proximo|D17.12.M.O]]
+
+
+
+:: D17.11.V.O [finalV finalO] {"position":"20000,600","size":"100,100"}
+Adriana: 
+Quem é você? Francisco?
+
+[[Proximo|D17.12.V.O]]
+
+
+:: D17.12.M.O [finalM finalO] {"position":"18000,600","size":"100,100"}
+Adriana: 
+O que você fez com meu filho?
+
+[[Proximo|P13.8.M.O]]
+
+
+:: D17.12.V.O [finalV finalO] {"position":"20000,400","size":"100,100"}
+Francisco (com a voz rouca):
+Sim, sou eu.
+
+[[Proximo|D17.13.V.O]]
+
+
+:: D17.13.M.O [finalM finalO] {"position":"18000,200","size":"100,100"}
+Francisco: 
+…
+
+[[Proximo|D17.14.M.O]]
+
+
+:: D17.13.V.O [finalV finalO] {"position":"20000,200","size":"100,100"}
+Adriana: 
+O que você fez com meu filho?
+
+[[Proximo|D17.14.V.O]]
+
+
+:: D17.14.M.O [finalM finalO] {"position":"17800,200","size":"100,100"}
+Adriana: 
+Por que você fez isso?! Seu maniaco!
+
+[[Proximo|D17.15.M.O]]
+
+
+:: D17.14.V.O [finalV finalO] {"position":"20200,200","size":"100,100"}
+Francisco: 
+Ele só está desacordado. Está vivo.
+
+[[Proximo|D17.15.V.O]]
+
+
+:: D17.15.M.O [finalM finalO] {"position":"17800,400","size":"100,100"}
+Francisco: 
+Eu sinto muito, era minha única opção 
+
+[[Proximo|D17.16.M.O]]
+
+
+:: D17.15.V.O [finalV finalO] {"position":"20200,400","size":"100,100"}
+Adriana (Chorando): 
+Por que você fez isso? 
+
+[[Proximo|D17.16.V.O]]
+
+
+:: D17.16.M.O [finalM finalO] {"position":"17800,600","size":"100,100"}
+Adriana: 
+Para de falar isso!
+
+[[Proximo|D17.17.M.O]]
+
+
+:: D17.16.V.O [finalV finalO] {"position":"20200,600","size":"100,100"}
+Francisco: 
+Eu sinto muito, era minha única opção 
+
+[[Proximo|D17.17.V.O]]
+
+
+:: D17.17.M.O [finalM finalO] {"position":"17800,800","size":"100,100"}
+Francisco: 
+Desculpa, só seu filho era o único que podia me ajudar com minha cura.
+
+[[Proximo|D17.18.M.O]]
+
+
+:: D17.17.V.O [finalV finalO] {"position":"20200,800","size":"100,100"}
+Adriana: 
+Para de falar isso!
+
+[[Proximo|D17.18.V.O]]
+
+
+:: D17.18.M.O [finalM finalO] {"position":"17600,800","size":"100,100"}
+Adriana: 
+Você é louco? 
+
+[[Proximo|D17.19.M.O]]
+
+
+:: D17.18.V.O [finalV finalO] {"position":"20400,800","size":"100,100"}
+Francisco: 
+Desculpa, só seu filho era o único que podia me ajudar com minha cura.
+
+[[Proximo|P13.8.V.O]]
+
+
+:: D17.19.M.O [finalM finalO] {"position":"17600,600","size":"100,100"}
+Francisco: 
+Olha só a minha aparência! Eu estou quase morrendo! Isso é culpa de uma ganância enorme! Eu me arrependo de tudo que já fiz um dia!
+
+[[Proximo|Flashback.]] 
+
+
+:: D17.19.V.O [finalV finalO] {"position":"20400,400","size":"100,100"}
+Adriana: 
+Você é louco?
+
+[[Proximo|D17.20.V.O]]
+
+
+:: D17.2.M.O [finalM finalO] {"position":"18800,800","size":"100,100"}
+Adriana pula a janela da casa e entra em uma sala com móveis bem antigos, porém é bem organizada, apenas com um pouco de poeira.
+
+[[Proximo|D17.3.M.O]]
+
+
+:: D17.2.V.O [finalV finalO] {"position":"19200,800","size":"100,100"}
+Adriana: 
+Dexter, vamos!
+
+[[Proximo|D17.3.V.O]]
+
+
+:: D17.20.M.O [finalM finalO] {"position":"17400,200","size":"100,100"}
+Adriana aponta sua arma novamente para Francisco.
+
+[[Proximo|P13.10.M.O]]
+
+
+:: D17.20.V.O [finalV finalO] {"position":"20400,200","size":"100,100"}
+Francisco: 
+Olha só a minha aparência! Eu estou quase morrendo! Isso é culpa de uma ganância enorme! Eu me arrependo de tudo que já fiz um dia!
+
+[[Proximo|P13.9.V.O]]
+
+
+:: D17.21.M.O [finalM finalO] {"position":"17400,600","size":"100,100"}
+Francisco: 
+Eu sinto muito! Ei, ei! O que você está fazend-
+
+[[Proximo|P13.11.M.O]]
+
+
+:: D17.21.V.O [finalV finalO] {"position":"20600,400","size":"100,100"}
+Adriana: 
+Seu lunático. Você tirou o meu filho de mim!
+
+[[Proximo|P13.10.V.O]]
+
+
+:: D17.22.M.O [finalM finalO] {"position":"17200,400","size":"100,100"}
+Policial:
+Mãos pra cima! Você está presa!
+
+[[Proximo|D17.23.M.O]]
+
+
+:: D17.22.V.O [finalV finalO] {"position":"20600,800","size":"100,100"}
+Francisco: 
+Eu sinto muito! Ei, ei! O que você está fazend-
+
+[[Proximo|P13.11.V.O]]
+
+
+:: D17.23.M.O [finalM finalO] {"position":"17200,200","size":"100,100"}
+Adriana: 
+…
+
+[[Proximo|D17.24.M.O]]
+
+
+:: D17.23.V.O [finalV finalO] {"position":"20800,400","size":"100,100"}
+Adriana: 
+Se eu vou fazer isso mesmo, é melhor fazer de um jeito que ninguém saiba de nada.
+
+[[Proximo|P13.14.V.O]]
+
+
+:: D17.24.M.O [finalM finalO] {"position":"17000,200","size":"100,100"}
+Policial: 
+Solte a arma e você não será ferida.
+
+[[Proximo|P13.14.M.O]]
+
+
+:: D17.24.V.O [finalV finalO] {"position":"21000,600","size":"100,100"}
+Policial:
+190 Qual sua emergência?
+
+[[Proximo|D17.25.V.O]]
+
+
+:: D17.25.V.O [finalV finalO] {"position":"21000,800","size":"100,100"}
+Adriana (começando a chorar): 
+Tentaram matar meu filho e a mim! 
+
+[[Proximo|D17.26.V.O]]
+
+
+:: D17.26.V.O [finalV finalO] {"position":"21200,800","size":"100,100"}
+Policial: 
+Calma senhora, qual seu nome?
+
+[[Proximo|D17.27.V.O]]
+
+
+:: D17.27.V.O [finalV finalO] {"position":"21200,600","size":"100,100"}
+Adriana (chorando): 
+Adriana Pereira.
+
+[[Proximo|D17.28.V.O]]
+
+
+:: D17.28.V.O [finalV finalO] {"position":"21200,400","size":"100,100"}
+Policial: 
+Você sabe o endereço de onde você está?
+
+[[Proximo|D17.29.V.O]]
+
+
+:: D17.29.V.O [finalV finalO] {"position":"21200,200","size":"100,100"}
+Adriana (soluçando): 
+Sim, na Rua Casa Amarela. Um casarão bem grande.
+
+[[Proximo|D17.30.V.O]]
+
+
+:: D17.3.M.O [finalM finalO] {"position":"18800,600","size":"100,100"}
+Adriana procura algo fora do lugar por toda a casa, até achar uma porta de madeira que a leva para um porão. Com um cheiro forte vindo de dentro.
+
+[[Proximo|D17.4.M.O]]
+
+
+:: D17.3.V.O [finalV finalO] {"position":"19200,600","size":"100,100"}
+Adriana: 
+Uma das janelas tá aberta, vou entrar primeiro e você vem depois.
+
+[[Proximo|P13.2.V.O]]
+
+
+:: D17.30.V.O [finalV finalO] {"position":"21400,200","size":"100,100"}
+Policial: 
+Mantenha-se na linha, uma viatura já está a caminho.
+
+[[Proximo|P13.17.V.O]]
+
+
+:: D17.4.M.O [finalM finalO] {"position":"18800,400","size":"100,100"}
+Adriana: 
+Tá trancada.
+
+[[Proximo|D17.5.M.O]]
+
+
+:: D17.4.V.O [finalV finalO] {"position":"19400,400","size":"100,100"}
+Adriana: 
+Dex? Cuidado!
+
+[[Proximo|D17.5.V.O]]
+
+
+:: D17.5.M.O [finalM finalO] {"position":"18800,200","size":"100,100"}
+Adriana: 
+Será que eu consigo chutar a tranca da porta?
+
+[[Proximo|P13.1.M.O]]
+
+
+:: D17.5.V.O [finalV finalO] {"position":"19400,600","size":"100,100"}
+Adriana: 
+O que foi? Que porta é essa?
+
+[[Proximo|D17.6.V.O]]
+
+
+:: D17.6.M.O [finalM finalO] {"position":"18600,800","size":"100,100"}
+Adriana: 
+Fique parado! Mãos pra ci-
+
+[[Proximo|P13.4.M.O]]
+
+
+:: D17.6.V.O [finalV finalO] {"position":"19400,800","size":"100,100"}
+Adriana: 
+Tá trancada.
+
+[[Proximo|D17.7.V.O]]
+
+
+:: D17.7.M.O [finalM finalO] {"position":"18400,400","size":"100,100"}
+Adriana: 
+Bernardo! Bernardo, meu Deus!
+
+[[Proximo|D17.8.M.O]]
+
+
+:: D17.7.V.O [finalV finalO] {"position":"19600,800","size":"100,100"}
+Adriana: 
+Dexter, vá pra trás. Vou chutar a tranca da porta.
+
+[[Proximo|P13.5.V.O]]
+
+
+:: D17.8.M.O [finalM finalO] {"position":"18400,200","size":"100,100"}
+Adriana: 
+Largue essa faca! Coloque-a no chão e chute em minha direção. 
+
+[[Proximo|P13.6.M.O]]
+
+
+:: D17.8.V.O [finalV finalO] {"position":"19800,200","size":"100,100"}
+Adriana: 
+Fique parado! Mãos pra cima!
+
+[[Proximo|P13.6.V.O]]
+
+
+:: D17.9.M.O [finalM finalO] {"position":"18200,400","size":"100,100"}
+Adriana: 
+Vire de costas.
+
+[[Proximo|P13.7.M.O]]
+
+
+:: D17.9.V.O [finalV finalO] {"position":"19800,600","size":"100,100"}
+Adriana: 
+Bernardo! Bernardo meu Deus! Filho!
+
+[[Proximo|D17.10.V.O]]
+
+
+:: D2.1 {"position":"2600,2600","size":"100,100"}
+Mosca: 
+Alô?
+
+[[Proximo|D2.2]]
+
+
+:: D2.10 {"position":"3000,3000","size":"100,100"}
+(mosca, desesperado, começa a quebrar objetos ao seu redor)
+
+[[Proximo|D2.11]]
+
+
+:: D2.11 {"position":"3200,3000","size":"100,100"}
+Mosca: 
+Eu preciso desses órgãos!... Ele não entende minha situação… ele nunca vai entender.
+
+[[Proximo|timeSkip2]]
+
+
+:: D2.2 {"position":"2600,2800","size":"100,100"}
+Francisco: 
+Mosca? Tenho algo sério para dizer e preciso que você escute primeiro.
+
+[[Proximo|D2.3]]
+
+
+:: D2.3 {"position":"2600,3000","size":"100,100"}
+Mosca:
+
+[[O que aconteceu?|D2.4]]
+
+[[....|D2.4]]
+
+
+:: D2.4 {"position":"2800,3000","size":"100,100"}
+Francisco:
+Vou me aposentar. Estive pensando por um tempo já, e eu sei, eu sei que não tem mais volta, mas eu não deveria ter feito nada disso. Eu não posso ma-
+
+[[Proximo|D2.5]]
+
+
+:: D2.5 {"position":"2800,2800","size":"100,100"}
+Mosca: 
+Como assim parar? Você vai largar o barco? É isso mesmo? Depois de tudo?
+
+[[Proximo|D2.6]]
+
+
+:: D2.6 {"position":"2800,2600","size":"100,100"}
+Francisco: 
+Ei, me escuta primeiro, me deixa falar.
+
+[[Proximo|D2.7]]
+
+
+:: D2.7 {"position":"2800,2400","size":"100,100"}
+Mosca: 
+Não tem justificativa, você não pode parar agora, você tem que ficar cara! Como que você vai pular fora depois de tudo?
+
+[[Proximo|D2.8]]
+
+
+:: D2.8 {"position":"3000,2400","size":"100,100"}
+Francisco: 
+Eu sei, me desculpe...
+
+[[Proximo|Onomatopeia4]]
+
+
+:: D2.9 {"position":"3000,2800","size":"100,100"}
+Mosca: 
+Eu não acredito que ele fez isso! Canalha! Filho da %$#@, ele não pode fazer isso comigo!
+
+[[Proximo|D2.10]]
+
+
+:: D3.1 {"position":"3600,3100","size":"100,100"}
+Bernardo: 
+Mãe, tem alguma coisa dentro do guarda-roupa.. eu to com medo
+
+[[Proximo|D3.2]]
+
+
+:: D3.10 {"position":"4400,2700","size":"100,100"}
+Bernardo: 
+Eu sou um menino grande! Eu vou lá. Se acontecer qualquer coisa, você me ajuda, ok?
+
+[[Proximo|N1.6]]
+
+
+:: D3.11 {"position":"4200,2500","size":"100,100"}
+Bernardo:
+Oxe? O armário tá trancado?
+
+[[Proximo|P1.7]]
+
+
+:: D3.12 {"position":"3800,2500","size":"100,100"}
+Bernardo: 
+Bernardo, você consegue. Você já é um menino crescido. Você já tem 7 anos. Você consegue.
+
+[[Proximo|P1.8]]
+
+
+:: D3.13 {"position":"3600,2300","size":"100,100"}
+Bernardo: 
+Dexter! Que susto! Você me fez achar que tinha um monstro no meu guarda-roupa, cara.
+
+[[Proximo|D3.14]]
+
+
+:: D3.14 {"position":"3800,2300","size":"100,100"}
+Bernardo: 
+Como você se trancou aqui?
+
+[[Proximo|D3.15]]
+
+
+:: D3.15 {"position":"4000,2300","size":"100,100"}
+Bernardo: 
+Ué… Dexter?
+
+[[Proximo|D3.16]]
+
+
+:: D3.16 {"position":"4200,2300","size":"100,100"}
+Bernardo: 
+Se você tava aqui dentro o tempo todo… Dexter, você não estava embaixo da minha cama?
+
+[[Proximo|P1.9]]
+
+
+:: D3.2 {"position":"3800,3100","size":"100,100"}
+Adriana: 
+Filho, você já é um menino grande! Você não precisa ter medo de nada. Inclusive, o Dexter vai ficar com você a noite toda!
+
+[[Proximo|P1.1]]
+
+
+:: D3.3 {"position":"4200,3100","size":"100,100"}
+Adriana: 
+E outra, estarei logo no quarto do lado, você sabe que se qualquer coisa acontecer você não está sozinho.
+
+[[Proximo|D3.4]]
+
+
+:: D3.4 {"position":"4400,3100","size":"100,100"}
+Bernardo: 
+Ahh.. obrigado mamãe. Amo você.
+
+[[Proximo|D3.5]]
+
+
+:: D3.5 {"position":"4400,2900","size":"100,100"}
+Adriana: 
+Tambem te amo Bê, Durma bem.
+
+[[Proximo|P1.2]]
+
+
+:: D3.6 {"position":"3800,2900","size":"100,100"}
+tum, tum, tum*
+
+Bernardo acorda com o barulho e vê um vulto no escuro.
+
+[[Proximo|D3.7]]
+
+
+:: D3.7 {"position":"3600,2900","size":"100,100"}
+Bernardo: 
+Oi? tem alguém aí?
+
+[[Proximo|P1.4]]
+
+
+:: D3.8 {"position":"3800,2700","size":"100,100"}
+Bernardo: 
+Dexter? É você?
+
+[[Proximo|P1.5]]
+
+
+:: D3.9 {"position":"4200,2700","size":"100,100"}
+Bernardo: 
+Você tá aqui ainda.
+
+[[Proximo|D3.10]]
+
+
+:: D4.1 {"position":"4800,2600","size":"100,100"}
+Adriana: 
+Bom dia, filh-
+
+[[Proximo|D4.2]]
+
+
+:: D4.2 {"position":"4800,2800","size":"100,100"}
+Adriana: 
+Filho? Bernardo?
+
+[[Proximo|D4.3]]
+
+
+:: D4.3 {"position":"4800,3000","size":"100,100"}
+Adriana: 
+Alexandre, Bernardo tá aí na sala?
+
+[[Proximo|D4.4]]
+
+
+:: D4.4 {"position":"5000,3000","size":"100,100"}
+Alexandre (com a voz um pouco distante):  
+Não tá não, por que?
+
+[[Proximo|D4.5]]
+
+
+:: D4.5 {"position":"5000,2800","size":"100,100"}
+Adriana: 
+A janela está aberta. Bernardo não está em casa!
+
+[[Proximo|D4.6]]
+
+
+:: D4.6 {"position":"5000,2600","size":"100,100"}
+Alexandre: 
+&%$@#, Vou ligar para a polícia agora!
+
+
+[[Proximo|D4.7]]
+
+
+:: D4.7 {"position":"5000,2400","size":"100,100"}
+Adriana: 
+O que é isso?
+
+[[Olhar o taco de baseball]]
+[[Olhar no armário]]
+
+
+:: D5.1.M [finalM] {"position":"4900,1800","size":"100,100"}
+Alexandre (ao longe, diz ao telefone): 
+Meu filho se chama Bernardo Pereira. Ele sumiu esta manhã.
+
+[[Proximo|olharEmbaixoCamaArrumarDepois]]
+
+
+:: D5.1.V [finalV] {"position":"5400,2800","size":"100,100"}
+Adriana: 
+O que você tá fazendo aqui dentro?
+
+[[Olhar o taco de baseball|D5.2.V]]
+
+
+:: D5.2.M [finalM] {"position":"5300,2000","size":"100,100"}
+Adriana: 
+Dexter!! Dexter!! Ei, ei, Dexter! (começa enrtão a chorar)
+
+[[Gritar por Alexandre|D5.3.M]]
+
+[[Olhar no armário|semNomeArrumarDepois]]
+
+
+:: D5.2.V [finalV] {"position":"5400,3000","size":"100,100"}
+Adriana: 
+O que é isso?  “Sinto muito pelo seu filho. Eu não tive escolha”. O que?! parece ter dinheiro dentro.
+
+[[Proximo|D5.3.V]]
+
+
+:: D5.3.M [finalM] {"position":"5400,1800","size":"100,100"}
+Adriana: 
+Alex! Vem aqui! Por favor! Alex! É o Dexter! Hic! Por favor carinha, fica comigo… fica comigo. Hic! por favor.
+
+[[Proximo|D5.4.M]]
+
+
+:: D5.3.V [finalV] {"position":"5400,3200","size":"100,100"}
+Adriana: 
+Meu Deus, isso são 1… 2… 3.. 30 mil reais em notas de 100. De onde veio todo esse dinheiro? Nossa família nunca teve o suficiente para sacar uma quantidade dessa de uma vez só. Isso não é nosso.
+
+[[Proximo|D5.4.V]]
+
+
+:: D5.4.M [finalM] {"position":"5500,1600","size":"100,100"}
+Alexandre: 
+Meu Deus. Calma, vai ficar tudo bem. Calma, eu to aqui com você.
+
+[[Proximo|P2.2.M]]
+
+
+:: D5.4.V [finalV] {"position":"5600,3200","size":"100,100"}
+Alexandre: 
+Já chamei a polícia. Eles estão a caminho
+
+[[Proximo|D5.5.V]]
+
+
+:: D5.5.M [finalM] {"position":"5700,1600","size":"100,100"}
+Alexandre: 
+Espera. Porque o armário está trancado? 
+
+[[Proximo|P2.3.M]]
+
+
+:: D5.5.V [finalV] {"position":"5600,3000","size":"100,100"}
+Adriana: 
+O Dexter tá dormindo no armário, acho que tem algo de errado com ele.
+
+[[Proximo|D5.6.V]]
+
+
+:: D5.6.M [finalM] {"position":"5900,1600","size":"100,100"}
+Alexandre: 
+“Sinto muito pelo seu filho. Eu não tive escolha”. Tem dinheiro aqui. Tem 1.. 2… 3… Meu Deus! Tem 30 mil em notas de 100 aqui.
+
+(ele entrega para Adriana)
+
+[[Proximo|D5.7.M]]
+
+
+:: D5.6.V [finalV] {"position":"5600,2800","size":"100,100"}
+Adriana: 
+E eu achei isso aqui embaixo da cama. Tem 30 mil em notas de 100 junto deste bilhete.
+
+[[Proximo|D6.7.V]]
+
+
+:: D5.7.M {"position":"6300,1600","size":"100,100"}
+AL: Já acionei a polícia. Eles estão a caminho. Vai ficar tudo bem.
+
+[[Proximo|P3.1]]
+
+
+:: D6.1 {"position":"6000,2700","size":"100,100"}
+Policial Tiago: 
+Bom dia. Sou o Policial Tiago. Vocês ligaram por um caso de desaparecimento, correto?
+
+[[Proximo|D6.2]]
+
+
+:: D6.10.O [finalO] {"position":"9200,1700","size":"100,100"}
+Adriana escreve em outro post-it “KGS-0170” e coloca no quadro.
+
+[[Proximo|P7.1.O]]
+
+
+:: D6.2 {"position":"6000,2900","size":"100,100"}
+Adriana: 
+Sim, nosso filho desapareceu durante a madrugada. a última vez que o vimos foi ontem à noite. Entrem, por favor.
+
+[[Proximo|D6.3]]
+
+
+:: D6.3 {"position":"6200,2900","size":"100,100"}
+Policial Tiago: 
+Ontem a noite, aconteceu algo de inusitado? 
+
+[[Proximo|D6.4]]
+
+
+:: D6.4 {"position":"6200,2700","size":"100,100"}
+Adriana: 
+Não, nada de diferente da nossa rotina.
+
+[[Proximo|D6.5]]
+
+
+:: D6.5 {"position":"6200,2500","size":"100,100"}
+Adriana: 
+Como de costume, coloquei Bernardo pra dormir, por volta das 21h. Dexter estava com ele, embaixo da cama.
+[[Proximo|D6.6]]
+
+
+:: D6.6 {"position":"6400,2500","size":"100,100"}
+(if: $finalV is true) [Adriana: 
+De manhã, quando acordamos, o quarto já estava vazio, a janela estava aberta e o Dexter tava dormindo, dentro do armário.
+[[Proximo|D6.8.V]]]
+
+(else-if: $finalM is true) [Adriana com voz de choro: 
+Quando acordamos, de manhã, o quarto já estava vazio, a janela estava aberta, e.. e o Dexter… o Dexter tava embaixo da cama…
+[[Proximo|D6.7.M]]]
+
+
+:: D6.7.M [finalM] {"position":"6800,2700","size":"100,100"}
+Policial Tiago: 
+Senhora, eu sinto muito, vamos resolver isso, fique calma.
+
+[[D7.3]]
+
+
+:: D6.7.V [finalV] {"position":"5600,2600","size":"100,100"}
+“Sinto muito pelo seu filho. Eu não tive escolha”
+
+[[Proximo|P2.2.V]]
+
+
+:: D6.8.V [finalV] {"position":"6800,3100","size":"100,100"}
+Alexandre: 
+Esse cachorro, que se aposentou de vocês e agora não serve nem pra cuidar do nosso filho. É mais despesa pra cuidar.
+
+[[Proximo|D6.9.V]]
+
+
+:: D6.9.V [finalV] {"position":"6800,2900","size":"100,100"}
+Policial Tiago: 
+Senhor, paciência, por favor.
+
+[[Proximo|D7.3]]
+
+
+:: D7.10.V [finalV] {"position":"7000,3100","size":"100,100"}
+Adriana: 
+Sim, ele estava bem sonolento.
+
+[[Proximo|D7.11]]
+
+
+:: D7.11 {"position":"7200,3100","size":"100,100"}
+(if: $finalO is true) [Policial Tiago:
+Não há nenhuma digital ou sinal de arrombamento na janela. Vou pegar amostras para as análises. Por favor, não entrem no quarto até voltarmos, para não afetar possíveis provas na cena do crime.]
+
+(if: $finalE is true) [Policial Tiago:
+Não há nenhuma digital ou sinal de arrombamento na janela. Vou pegar amostras para as análises, incluindo o envelope. Por favor, não entrem no quarto até voltarmos, para não afetar possíveis provas na cena do crime.]
+
+[[Proximo|D7.12]]
+
+
+:: D7.11.V.O [finalO] {"position":"7600,2900","size":"100,100"}
+Alexandre: 
+O que você tá fazendo?! Você é louca? O policial deixou bem claro que não é pra gente mexer em nada até eles voltarem!
+
+[[Proximo|D7.12.V.O]]
+
+
+:: D7.12 {"position":"7400,3100","size":"100,100"}
+Adriana: 
+Tudo bem, muito obrigada!
+
+(if: $finalE is true) [[[Proximo|D7.13.E]]]
+(else-if: $finalO is true) [[[Proximo|P4.2.O]]]
+
+
+:: D7.12.V.O [finalO] {"position":"7400,2700","size":"100,100"}
+Adriana: 
+Vou cuidar disso eu mesma.
+
+[[Proximo|D7.13.V.O]]
+
+
+:: D7.13.E [finalE] {"position":"7600,3100","size":"100,100"}
+Adriana: 
+Senhor, sou ex-perita criminal. Posso fazer parte da investigação?
+
+[[Próximo|D7.14.E]]
+
+
+:: D7.13.V.O [finalO] {"position":"7600,2700","size":"100,100"}
+Alexandre:
+Como assim? Você vai esconder provas?
+
+[[Proximo|D7.14.V.O]]
+
+
+:: D7.14.E [finalE] {"position":"8000,2900","size":"100,100"}
+Policial Tiago: 
+Senhora, não podemos aceitar. É protocolo policial.
+
+[[Próximo|D7.15.E]]
+
+
+:: D7.14.V.O [finalO] {"position":"7600,2500","size":"100,100"}
+Adriana: 
+Você sabe que eu não confio totalmente na polícia. O Bernardo é meu filho e eu, como uma ex perita criminal, vou atrás dele também.
+
+[[Proximo|D7.15.V.O]]
+
+
+:: D7.15.E [finalE] {"position":"8200,2900","size":"100,100"}
+Adriana: 
+Eu sei o que estou fazendo, por favor. 
+
+[[Próximo|D7.16.E]]
+
+
+:: D7.15.V.O [finalO] {"position":"7400,2500","size":"100,100"}
+Alexandre: 
+Não é porque a polícia pecou com você uma vez que ela vai pecar sempre. Você tem noção disso né?
+
+[[Proximo|D7.16.V.O]]
+
+
+:: D7.16.E [finalE] {"position":"8400,2900","size":"100,100"}
+Policial Tiago: 
+Tudo bem. Mas não vai ser oficialmente. Meus superiores não podem saber disso.
+
+[[Próximo|D7.17.E]]
+
+
+:: D7.16.V.O [finalO] {"position":"7200,2300","size":"100,100"}
+Adriana: 
+Eu desisti do meu maior sonho por causa deles. Eu tinha certeza absoluta sobre o assassino, e eles escolheram arquivar o caso.
+
+[[Proximo|D7.17.V.O]]
+
+
+:: D7.17.E [finalE] {"position":"8600,2900","size":"100,100"}
+Adriana: 
+Tudo certo.
+
+[[Próximo|P4.2.E]]
+
+
+:: D7.17.V.O [finalO] {"position":"7400,2300","size":"100,100"}
+Adriana: 
+Eu sei que não deveria guardar rancor. Mas eu ainda sou perita. Eu ainda tenho meu diploma. Eu sei me virar, ok?
+
+[[Proximo|P4.3.V.O]]
+
+
+:: D7.18.E [finalE] {"position":"9000,2900","size":"100,100"}
+Policial Tiago: 
+O líquido esparramado é clorofórmio. Isso confirma que foi um sequestro, e não como se fosse apenas o Bernardo fugindo de casa. Acredito que a mancha de sangue seja do sequestrador, mas o teste costuma levar alguns dias pra ficar pronto.
+
+[[Próximo|D7.19.E]]
+
+
+:: D7.19.E [finalE] {"position":"9000,3100","size":"100,100"}
+Alexandre e Adriana: 
+Certo.
+
+[[Próximo|D7.20.E]]
+
+
+:: D7.20.E [finalE] {"position":"8800,3100","size":"100,100"}
+Adriana: 
+E sobre o envelope?
+
+[[Próximo|D7.21.E]]
+
+
+:: D7.21.E [finalE] {"position":"8600,3100","size":"100,100"}
+O policial então abre o envelope e começa a analisar.
+
+[[Próximo|D7.22.E]]
+
+
+:: D7.22.E [finalE] {"position":"8400,3100","size":"100,100"}
+Policial Tiago: 
+Acredito também que não se trate de um caso de tráfico humano. Casos assim não costumam acontecer por aqui, e aparentemente o sequestrador tinha muito dinheiro.
+
+[[Próximo|D7.23.E]]
+
+
+:: D7.23.E [finalE] {"position":"8200,3100","size":"100,100"}
+Policial Tiago: 
+Se fosse apenas um assassinato, não teriam levado o menino embora. Seria mais fácil matá-lo em casa enquanto ele dormia. 
+
+[[Próximo|D7.24.E]]
+
+
+:: D7.24.E [finalE] {"position":"8000,3100","size":"100,100"}
+Adriana: 
+Isso significa que existem grandes chances dele estar vivo, né?
+
+[[Próximo|D7.25.E]]
+
+
+:: D7.25.E [finalE] {"position":"8000,3300","size":"100,100"}
+Policial Tiago: 
+Sim, provavelmente preso em algum lugar desconhecido.
+
+[[Próximo|D7.26.E]]
+
+
+:: D7.26.E [finalE] {"position":"8200,3300","size":"100,100"}
+Alexandre: 
+Tem algumas manchas de tinta no envelope.
+
+[[Próximo|D7.27.E]]
+
+
+:: D7.27.E [finalE] {"position":"8400,3300","size":"100,100"}
+Policial Tiago: 
+Sim. Provavelmente a pessoa que escreveu é canhota, porque passou a mão por cima enquanto escrevia.
+
+[[Próximo|D7.28.E]]
+
+
+:: D7.28.E [finalE] {"position":"8600,3300","size":"100,100"}
+Policial Tiago: 
+Sua casa tem algum sistema de câmera?
+
+[[Próximo|D7.29.E]]
+
+
+:: D7.29.E [finalE] {"position":"8800,3300","size":"100,100"}
+Adriana: 
+Não. Faz meses que eu to falando pro Alexandre colocar câmera em casa, mas ele nunca me escuta. Devia ter colocado eu mesma. 
+
+[[Próximo|D7.30.E]]
+
+
+:: D7.3 {"position":"7000,2700","size":"100,100"}
+Policial Tiago: 
+Havia algo a mais, ou fora de lugar no quarto hoje de manhã?
+
+(if: $finalV is true) 
+[[[Mostrar envelope|D7.4.O]]
+
+[[Esconder envelope|D7.4.E]]]
+
+(if: $finalM is true) 
+
+[[[Mostrar envelope|D7.4.O]]
+
+[[Esconder envelope|D7.4.E]]]
+
+
+:: D7.30.E [finalE] {"position":"9000,3300","size":"100,100"}
+Alexandre: 
+Eu já falei pra você que estive ocupado e não tive tempo pra isso.
+
+[[Próximo|D7.31.E]]
+
+
+:: D7.31.E [finalE] {"position":"9000,3500","size":"100,100"}
+Adriana: 
+E agora nosso filho foi sequestrado e tá sabe se lá onde! Feliz agora?
+
+[[Próximo|D7.32.E]]
+
+
+:: D7.32.E [finalE] {"position":"8800,3500","size":"100,100"}
+Policial: 
+Se acalmem, por favor.
+
+[[Próximo|P4.3.E]]
+
+
+:: D7.33.E [finalE] {"position":"8425,3500","size":"100,100"}
+Policial Tiago: 
+Aqui eu tenho acesso às câmeras da rua. Podemos ver por aqui se temos algo.
+
+[[Próximo|P4.4.E]]
+
+
+:: D7.34.E [finalE] {"position":"8000,3500","size":"100,100"}
+Alexandre: 
+Nossa, que escuridão
+
+[[Próximo|D7.35.E]]
+
+
+:: D7.35.E [finalE] {"position":"8000,3700","size":"100,100"}
+Adriana: 
+É reflexo da luz. Consigo ver até.
+
+[[Próximo|P4.5.E]]
+
+
+:: D7.36.E [finalE] {"position":"8400,3700","size":"100,100"}
+Policial Tiago: 
+Normalmente, em casos de sequestro, o culpado sempre começa roubando. Provavelmente esse carro não é dele.
+
+[[Próximo|D7.37.E]]
+
+
+:: D7.37.E [finalE] {"position":"8600,3700","size":"100,100"}
+Policial Tiago:
+Vou procurar se existe algum boletim de ocorrência sobre um Corolla preto roubado.  A placa é “KGS-0170”.
+
+[[Próximo|D7.38.E]]
+
+
+:: D7.38.E [finalE] {"position":"8800,3700","size":"100,100"}
+O policial digita alguma coisa no computador dele.
+
+[[Próximo|D7.39.E]]
+
+
+:: D7.39.E [finalE] {"position":"9000,3700","size":"100,100"}
+Policial Tiago:
+Achei. Foi roubado algumas semanas atrás.
+
+[[Próximo|D7.40.E]]
+
+
+:: D7.4 {"position":"9600,2700","size":"100,100"}
+Nelson:
+Oi?
+
+[[Proximo|D8.2]]
+
+
+:: D7.4.E [finalE] {"position":"6800,2500","size":"100,100"}
+(if: $finalV is true) [Adriana: 
+Na verdade sim, tinha um envelope embaixo da cama.
+
+[[Próximo|D7.5]]]
+
+(else-if: $finalM is true) [Adriana: 
+Na verdade sim, tinha um envelope dentro do armario.
+
+[[Próximo|D7.5]]]
+
+(set: $finalE to true)
+
+
+:: D7.4.O [finalO] {"position":"7000,2500","size":"100,100"}
+Adriana: 
+Não, apenas isso.
+
+(set: $finalO to true)
+
+[[Próximo|D7.5]]
+
+
+:: D7.40.E [finalE] {"position":"9200,3700","size":"100,100"}
+Policial Tiago:
+O carro está cadastrado com o endereço na Rua Dolores Salgado, no nome de Nelson. Melhor irmos até lá.
+
+[[Próximo|D7.41.E]]
+
+
+:: D7.41.E [finalE] {"position":"9200,3500","size":"100,100"}
+Alexandre: 
+Ok, Adriana pode ir com você. Vou ficar por aqui caso alguém venha com alguma novidade.
+
+[[Próximo|D7.42.E]]
+
+
+:: D7.42.E [finalE] {"position":"9200,3300","size":"100,100"}
+Adriana: 
+Tudo bem por mim.
+
+[[Próximo|D7.43.E]]
+
+
+:: D7.43.E [finalE] {"position":"9200,3100","size":"100,100"}
+Policial Tiago:
+Vamos então.
+
+[[Próximo|P4.6.E]]
+
+
+:: D7.5 {"position":"6800,2300","size":"100,100"}
+Policial Tiago: 
+E por volta de que horas que vocês acordaram?
+
+[[Proximo|D7.6]]
+
+
+:: D7.6 {"position":"7000,2300","size":"100,100"}
+Alexandre: 
+Eram 7h40.
+
+[[Proximo|D7.7]]
+
+
+:: D7.7 {"position":"7200,2500","size":"100,100"}
+Policial Tiago: 
+Com licença, vou coletar algumas provas e investigar o quarto de Bernardo.
+
+[[Proximo|P4.1]]
+
+
+:: D7.8 {"position":"7200,2900","size":"100,100"}
+(if: $finalV is true ) [Policial Tiago: 
+Imagino que tenha sido um sequestro mesmo. Há resquícios de clorofórmio e de sangue no chão. Provavelmente o responsável desacordou o Bernardo e seu cachorro com isso, se machucando de alguma forma. 
+
+[[Proximo|D7.9.V]]]
+
+(else-if: $finalM is true) [Policial Tiago: 
+Imagino que tenha sido um sequestro mesmo. Há resquícios de clorofórmio e de sangue no chão. Provavelmente o responsável desacordou o Bernardo com isso, se machucando de alguma forma. 
+
+[[Proximo|D7.11]]]
+
+
+:: D7.9.V [finalV] {"position":"7000,2900","size":"100,100"}
+Policial Tiago: 
+Quando você entrou no quarto de manhã, disse que o cachorro estava dormindo, certo?
+
+[[[Proximo|D7.10.V]]
+
+
+:: D78.3 {"position":"9800,2900","size":"100,100"}
+(if: $finalE is true)[Policial Tiago:
+Olá sou da polícia. Há um B.O. aberto em seu nome, correto?]
+
+(else-if: $finalO is true) [Adriana: 
+Sou perita criminal. Meu nome é Adriana. Estou em cargo de um caso, e seu carro foi visto na cena do crime hoje de madrugada.]
+
+[[Próximo|D8.4]]
+
+
+:: D8.1.O [finalO] {"position":"7400,1900","size":"100,100"}
+Cientista: 
+Adriana? Você por aqui? Quanto tempo!
+
+[[Proximo|D8.2.O]]
+
+
+:: D8.10.E [finalE] {"position":"10600,3100","size":"100,100"}
+Policial Tiago:
+Esse sequestrador não dirige de forma cuidadosa. O carro não está no nome dele, então nem se preocupa com as multas.
+
+[[Próximo|D8.11.E]]
+
+
+:: D8.10.O [finalO] {"position":"7200,1300","size":"100,100"}
+Dra. Carol:
+Talvez você já tivesse enlouquecido.
+
+[[Proximo|D8.11.O]]
+
+
+:: D8.11.E [finalE] {"position":"10800,2900","size":"100,100"}
+Policial Tiago:
+Acho melhor marcarmos no mapa todos os lugares onde foram marcadas multas no carro. Todos eles estão em volta do bairro Beberibe.
+
+[[Próximo|D8.12.E]]
+
+
+:: D8.11.O [finalO] {"position":"7400,1300","size":"100,100"}
+Adriana: 
+Não se ache tanto assim.
+
+[[Proximo|P6.1.O]]
+
+
+:: D8.12.E [finalE] {"position":"10800,3100","size":"100,100"}
+Adriana: 
+Certo, com isso então podemos dizer a região onde o sequestrador mora.
+
+[[Próximo|D8.13.E]]
+
+
+:: D8.13.E [finalE] {"position":"10800,3300","size":"100,100"}
+Policial Tiago:
+Provavelmente. Você é boa mesmo.
+
+[[Proximo|P6.1.E]]
+
+
+:: D8.2 {"position":"9600,2900","size":"100,100"}
+Adriana: 
+Oi, tudo bem?
+
+[[Próximo|D78.3]]
+
+
+:: D8.2.O [finalO] {"position":"7200,1900","size":"100,100"}
+Adriana: 
+Oi, Carol. Como você tá?
+
+[[Proximo|D8.3.O]]
+
+
+:: D8.25.M.E [finalM finalE] {"position":"12600,2500","size":"100,100"}
+Cientista: 
+A amostra de sangue que você disponibilizou é de um homem chamado Paulo Camargo de Oliveira. De acordo com a ficha criminal dele, ele já foi preso mais de uma vez por tráfico.
+
+[[Proximo|D8.26.M.E]]
+
+
+:: D8.26.M.E [finalM finalE] {"position":"12600,2300","size":"100,100"}
+Adriana: 
+Meu filho, Bernardo... o que será que fizeram com meu filho?
+
+[[Proximo|D8.27.M.E]]
+
+
+:: D8.27.M.E [finalM finalE] {"position":"12800,2300","size":"100,100"}
+Cientista: 
+Aqui diz que ele mora na Rua Xexéu, na casa 37.
+
+[[Proximo|D8.28.M.E]]
+
+
+:: D8.28.M.E [finalM finalE] {"position":"12800,2500","size":"100,100"}
+Policial Tiago:
+Ah, que bom, pelo menos já estamos no bairro. 
+
+
+[[Proximo|D8.29.M.E]]
+
+
+:: D8.29.M.E [finalM finalE] {"position":"13000,2500","size":"100,100"}
+Policial Tiago:
+Obrigado.
+
+[[Proximo|P10.14.M]]
+
+
+:: D8.3.O [finalO] {"position":"7000,1900","size":"100,100"}
+Dra. Carol: 
+Ah, por aqui o mesmo de sempre. Mas o que aconteceu?
+
+[[Contar para Carol|P5.1.O]]
+
+
+:: D8.4 {"position":"9800,2700","size":"100,100"}
+Nelson: 
+Sim. Meu carro foi roubado há quase uma semana. Logo no dia abri um B.O. na polícia, mas nada até agora. 
+
+[[Próximo|D8.5]]
+
+
+:: D8.4.O [finalO] {"position":"7200,1700","size":"100,100"}
+Adriana: 
+Enfim, eu queria pedir se você pode analisar essa amostra pra mim.
+
+[[Proximo|D8.5.O]]
+
+
+:: D8.5 {"position":"9800,2500","size":"100,100"}
+Adriana: 
+O carro estava na sua garagem?
+
+[[Próximo|D8.6]]
+
+
+:: D8.5.O [finalO] {"position":"7400,1700","size":"100,100"}
+Dra. Carol:
+Vish, Dri. Posso perder meu emprego se aceitar.
+
+[[Proximo|D8.6.O]]
+
+
+:: D8.6 {"position":"10000,2500","size":"100,100"}
+Nelson: 
+Não, fui na cidade fazer compra e quando voltei não estava mais lá. Eu estranhei, porque era de manhã cedo. Mas foi roubado mesmo. Ninguém em volta viu nada.
+
+[[Próximo|D8.7]]
+
+
+:: D8.6.O [finalO] {"position":"7400,1500","size":"100,100"}
+Adriana: 
+Por favor, eu preciso muito da sua ajuda. Você não faria o mesmo se fosse com um de seus filhos?
+
+[[Proximo|D8.7.O]]
+
+
+:: D8.7 {"position":"10000,2700","size":"100,100"}
+(if: $finalE is true)[Policial Tiago:
+Vou atrás do seu B.O. e trarei seu carro. Você pode me passar os documentos do veiculo?]
+
+(else-if: $finalO is true) [Adriana:
+Vou atrás do seu B.O. e trarei seu carro. Você pode me passar os documentos do veiculo?]
+
+[[Próximo|D8.8]]
+
+
+:: D8.7.O [finalO] {"position":"7200,1500","size":"100,100"}
+Dra. Carol: 
+…
+
+[[Proximo|D8.8.O]]
+
+
+:: D8.8 {"position":"10000,2900","size":"100,100"}
+Nelson: 
+Claro, só um segundo.
+
+[[Próximo|P5.2]]
+
+
+:: D8.8.O [finalO] {"position":"7000,1500","size":"100,100"}
+Dra. Carol:
+Tudo bem. Eu te ajudo. Mas vai demorar uns dias até o teste ficar pronto, tudo bem? Vou fazer o mais rápido que eu puder, prometo.
+
+[[Proximo|D8.9.O]]
+
+
+:: D8.9 {"position":"10200,2700","size":"100,100"}
+Adriana: 
+Obrigada, tenha uma boa tarde.
+
+(if: $finalE is true) [[[Próximo|P5.3.E]]]
+
+(else-if: $finalO is true) [[[Proximo|P10.0.O]]]
+
+
+:: D8.9.O [finalO] {"position":"7000,1300","size":"100,100"}
+Adriana: 
+Obrigada! Eu não sei o que seria de mim sem você!
+
+[[Proximo|D8.10.O]]
+
+
+:: D9.1.E [finalE] {"position":"11200,3500","size":"100,100"}
+NPC: Pois não?
+
+[[Proximo|D9.2.E]]
+
+
+:: D9.1.O [finalO] {"position":"8000,1700","size":"100,100"}
+Adriana: 
+Ok. Vamos colocar o pensamento em ordem agora.
+
+[[Proximo|D9.2.O]]
+
+
+:: D9.10.O [finalO] {"position":"8400,1500","size":"100,100"}
+Adriana: 
+Que saco. Faz meses que eu to falando pro Alexandre colocar câmera em casa, mas ele nunca me escuta. Devia ter colocado eu mesma. 
+
+[[Proximo|P6.3.O]]
+
+
+:: D9.11.M [finalM] {"position":"14200,2500","size":"100,100"}
+Adriana: 
+Que lugar apertado, misericórdia. 
+
+[[Proximo|D9.12.M]]
+
+
+:: D9.12.M [finalM] {"position":"14200,2300","size":"100,100"}
+(if: $finalE is true) [Policial Tiago:
+Parece até que só tem metade da casa aqui dentro.]
+
+(if: $finalO is true) [Adriana:
+Parece até que só tem metade da casa aqui dentro.]
+
+[[Proximo|P6.13.M]]
+
+
+:: D9.13.V.E [finalE] {"position":"12800,1700","size":"100,100"}
+Adriana: 
+Precisamos entrar.
+
+[[Próximo|D9.14.V.E]]
+
+
+:: D9.14.V.E [finalE] {"position":"13000,1700","size":"100,100"}
+Policial Tiago:
+Vou arrombar. Vocês dois, tomem cuidado.
+
+[[Próximo|P6.14.V.E]]
+
+
+:: D9.15.M [finalM] {"position":"14400,2300","size":"100,100"}
+Adriana em pensamento:
+que? Tem alguém aqui?
+
+[[Proximo|D9.17.M]]
+
+
+:: D9.15.V {"position":"13800,2100","size":"100,100"}
+Adriana: 
+A casa tá vazia? Mas o carro tava na garagem…
+
+[[Próximo|D9.16.V]]
+
+[[Proximo|D9.11.M]]
+
+
+:: D9.16.V [finalV] {"position":"14000,1700","size":"100,100"}
+Adriana: 
+Dexter, você tá vendo algo?
+
+[[Próximo|P6.15.V]]
+
+
+:: D9.17.M [finalM] {"position":"14400,2500","size":"100,100"}
+Ela começa a vasculhar as roupas mas não encontra nada.
+
+[[Proximo|D9.24.M]]
+
+
+:: D9.17.V [finalV] {"position":"13600,1700","size":"100,100"}
+Adriana: 
+O que tem ai amigão?
+
+[[Próximo|D9.18.V]]
+
+
+:: D9.18.V [finalV] {"position":"13600,1500","size":"100,100"}
+Adriana: 
+Ué? Tem só roupa aqui.
+
+[[Próximo|P6.16.V]]
+
+
+:: D9.19.V [finalV] {"position":"13600,1300","size":"100,100"}
+Adriana: 
+Calma, vou procurar.
+
+[[Tirar as roupas do guarda-roupa|D9.20.V]]
+[[Procurar nos bolsos|P6.20.V]]
+
+
+:: D9.2.E [finalE] {"position":"11200,3700","size":"100,100"}
+Policial Tiago:
+Sou Tiago. Policial, e estou trabalhando em um caso. Vocês têm câmeras de segurança?
+
+[[Próximo|D9.3.E]]
+
+
+:: D9.2.O [finalO] {"position":"8000,1900","size":"100,100"}
+Adriana: 
+30 mil reais. Que dinheiro é esse? Da onde isso veio?
+
+[[Proximo|D9.3.O]]
+
+
+:: D9.20.V [finalV] {"position":"13800,1300","size":"100,100"}
+Adriana: 
+Quer saber? é mais fácil fazer assim
+
+[[Próximo|P6.17.V]]
+
+
+:: D9.21.V [finalV] {"position":"13600,900","size":"100,100"}
+Adriana: 
+Dexter, não tem nada aqui. Só tem lixo, meu Deus. 
+
+[[Próximo|D9.22.V]]
+
+
+:: D9.22.V [finalV] {"position":"13800,900","size":"100,100"}
+Adriana: 
+Seja quem for que vive aqui, essa pessoa é muito desleixada.
+
+[[Próximo|D9.23.V]]
+
+
+:: D9.23.V [finalV] {"position":"14000,900","size":"100,100"}
+Adriana: 
+Você tem certeza mesmo?
+
+[[Próximo|P6.21.V]]
+
+
+:: D9.24.M [finalM] {"position":"14600,2500","size":"100,100"}
+Adriana: 
+Não, espera, ainda escuto a voz.
+
+[[Proximo|P6.25.M]]
+
+
+:: D9.24.V [finalV] {"position":"14000,1100","size":"100,100"}
+Adriana: 
+Seria tão mais fácil se você ainda conseguisse falar. Sinto muito amigão, pelo menos agora nós dois somos aposentados juntos, mas vamos continuar procurando.
+
+[[Tirar todas as roupas|D9.25.V]]
+
+
+:: D9.25.V [finalV] {"position":"14200,1100","size":"100,100"}
+Adriana: 
+Ah, eu já baguncei tudo isso aqui mesmo. Mais fácil tirar daqui.
+
+[[Próximo|P6.18.V]]
+
+
+:: D9.26.V [finalV] {"position":"14200,1300","size":"100,100"}
+Adriana: 
+O que é isso?
+
+[[ Próximo|P6.19.V]]
+
+
+:: D9.27.V [finalV] {"position":"14200,1500","size":"100,100"}
+Adriana: 
+É uma porta? É isso que você tava querendo me mostrar? Tem algum cheiro aqui?
+
+[[Proximo|D9.28]]
+
+
+:: D9.28 [finalV] {"position":"14200,1700","size":"100,100"}
+Adriana:
+Calma. Fica atrás de mim. A gente não sabe o que tem ali.
+
+(if: $finalE is true) [[[Próximo|D9.29.V.E]]]
+
+(if: $finalE is true) [[[Próximo|P11.1.V.O]]]
+
+
+:: D9.29.V.E [finalE] {"position":"15000,2100","size":"100,100"}
+Adriana: 
+Tiago! Tem algo aqui!
+
+[[Próximo|P7.1.V.E]]
+
+
+:: D9.3.E [finalE] {"position":"11200,3900","size":"100,100"}
+NPC: 
+Tenho sim, uma que dá pra rua e uma outra que pega a visão da garagem.
+
+[[Proximo|D9.4.E.]]
+
+
+:: D9.3.M [finalM] {"position":"13400,2900","size":"100,100"}
+Adriana: 
+O Corolla! Não acredito!
+
+(if: $finalE is true) [[[Proximo|D9.4.M.E]]]
+
+(if: $finalO is true) [[[Proximo|D14.20.O]]]
+
+
+:: D9.3.O [finalO] {"position":"8000,2100","size":"100,100"}
+Adriana: 
+Se isso é do sequestrador, ele realmente tem muito dinheiro. Isso significa que não foi um caso de tráfico humano. Graças a Deus. 
+
+[[Proximo|D9.4.O]]
+
+
+:: D9.4.E. [finalE] {"position":"11200,4100","size":"100,100"}
+Adriana: 
+Podemos ver as fitas?
+
+[[Próximo|D9.5.E]]
+
+
+:: D9.4.M.E [finalM finalE] {"position":"13800,3100","size":"100,100"}
+Policial Tiago:
+Precisamos entrar. Vou arrombar esse cadeado aqui.
+
+[[Proximo|D9.5.M.E]]
+
+
+:: D9.4.O [finalO] {"position":"8000,2300","size":"100,100"}
+Adriana: 
+Se fosse um assassino comum, não haveria sequestro. Bernardo tava dormindo, seria bem mais fácil matá-lo assim.
+
+[[Proximo|D9.5.O]]
+
+
+:: D9.5.E [finalE] {"position":"11400,4100","size":"100,100"}
+NPC: 
+Claro, podem entrar.
+
+[[Proximo|P5.9.E]]
+
+
+:: D9.5.M.E [finalM finalE] {"position":"14000,3100","size":"100,100"}
+Policial Tiago:
+Para trás
+
+[[Proximo|P6.6.M.E]]
+
+
+:: D9.5.O [finalO] {"position":"8000,2500","size":"100,100"}
+Adriana: 
+Então tem grande chance do Bê estar vivo. Preso em algum lugar. Por que?
+
+[[Reler a carta]]
+
+[[Proximo|D9.6.O]]
+
+
+:: D9.6.E [finalE] {"position":"11400,3500","size":"100,100"}
+Adriana: 
+Muito obrigada.
+
+[[Proximo|D9.7.E]]
+
+
+:: D9.6.O [finalO] {"position":"8200,2300","size":"100,100"}
+Adriana: 
+Deve ter algo aqui que eu ainda não percebi.
+
+[[Proximo|D9.7.O]]
+
+
+:: D9.7.E [finalE] {"position":"11400,3300","size":"100,100"}
+Adriana: 
+Melhor ir pra lá andando, o caminho é curto.
+
+[[Proximo|P6.7.E]]
+
+
+:: D9.7.O [finalO] {"position":"8200,2100","size":"100,100"}
+Adriana: 
+Ixe, tem uma mancha de caneta aqui. Quem escreveu, passou a mão por cima sem querer.
+
+[[Proximo|P6.2.O]]
+
+
+:: D9.8.O [finalO] {"position":"8200,1700","size":"100,100"}
+Adriana: 
+“Eu não tive escolha.” Escolha do que? De sequestrar meu filho? Não consigo entender isso.
+
+[[Proximo|D9.9.O]]
+
+
+:: D9.9.M.E [finalM finalE] {"position":"14000,2900","size":"100,100"}
+Policial Tiago: 
+Cuidado. Não encoste em nada suspeito.
+
+[[Proximo|D9.15.V]]
+
+
+:: D9.9.O [finalO] {"position":"8200,1500","size":"100,100"}
+Adriana: 
+Não faz sentido uma pessoa rica ser ameaçada para sequestrar uma criança.
+
+[[Proximo|D9.10.O]]
+
+
+:: Deixá-lo em paz [finalO] {"position":"16000,300","size":"100,100"}
+Adriana amarra ele em uma das pernas da mesa, tirando tudo de perto para ele não conseguir fugir com facilidade.
+
+[[Proximo|D15.61.V.O]]
+
+
+:: Doença? [finalO] {"position":"17000,1600","size":"100,100"}
+Recepcionista: 
+Não consta no sistema. 
+
+[[Proximo|D16.6.V.O]]
+
+(if: $receptionQuest is true) [[A quanto tempo ele trabalhava aqui?|Tempo?]]
+(set:$receptionQuest to false)
+
+
+:: F.10 {"position":"1200,3500","size":"100,100"}
+Francisco: 
+E eu realmente achei, Jesus diz que as crianças são as mais puras. E a Santa Ceia cerve pra se purificar,
+
+[[Próximo|F.11]]
+
+
+:: F.11 {"position":"1200,3700","size":"100,100"}
+Francisco: 
+Eu tinha que comer o fígado e beber o sangue de uma criança pura no primeiro domingo do mês.
+
+[[Próximo|F.12]]
+
+
+:: F.12 {"position":"1400,3700","size":"100,100"}
+Francisco: 
+Seu filho é um garoto tão bondoso, ele não me tratou mal mesmo com essa minha aparência, eu sinto muito por ele,
+
+[[Próximo|F.13]]
+
+
+:: F.13 {"position":"1600,3700","size":"100,100"}
+Francisco: 
+mas era o único jeito.
+
+[[Próximo|F.14]]
+
+
+:: F.14 {"position":"1800,3700","size":"100,100"}
+Adriana: 
+Como assim único jeito? Seu doente! 
+
+[[Próximo|F.15]]
+
+
+:: F.15 {"position":"2000,3700","size":"100,100"}
+aqui volta pra história original dependendo da ramificação
+
+
+:: F.2 {"position":"1400,3300","size":"100,100"}
+Francisco: 
+Eu me envolvi com as pessoas erradas, comecei a vender orgão do hospital em segredo e dar prioridade para pacientes ricos.
+
+[[Próximo|F.3]]
+
+
+:: F.3 {"position":"1600,3300","size":"100,100"}
+Francisco: 
+Mas eu fui longe demais, certo dia eu tive que tomar uma decisão importante, eu podia entregar um órgão para uma garotinha rica, ou um garoto pobre.
+
+[[Próximo|F.4]]
+
+
+:: F.4 {"position":"1800,3300","size":"100,100"}
+Francisco:
+Eu sabia que o menino estava pior e que se eu o salvasse primeiro teriam mais chances das duas crianças sobreviverem, mas a família da menina me subornou para dar prioridade a ela.
+
+[[Próximo|F.5]]
+
+
+:: F.5 {"position":"2000,3300","size":"100,100"}
+Francisco: 
+Eu acabei aceitando, eu já estava acostumado com ofertas daquele tipo, mas não consegui salvar o garoto
+
+[[Próximo|F.6]]
+
+
+:: F.6 {"position":"2000,3500","size":"100,100"}
+Francisco: 
+Depois disso a Avó do garoto, aquela velha esquita, ela me amaldiçoou
+
+[[Próximo|F.7]]
+
+
+:: F.7 {"position":"1800,3500","size":"100,100"}
+Francisco: 
+Óbvio que eu não acreditei de começo, mas olha pra mim, ela fez isso comigo! 
+
+[[Próximo|F.8]]
+
+
+:: F.8 {"position":"1600,3500","size":"100,100"}
+Francisco: 
+Eu não aguentava mais, minha pele toda doía, eu não conseguia nem ficar de pé por causa da falta de ferro, já tava cançado de comer fígado, não conseguia nem me olhar no espelho, Eu tinha certeza de que era algo maligno.
+
+[[Próximo|F.9]]
+
+
+:: F.9 {"position":"1400,3500","size":"100,100"}
+Francisco: 
+Então eu falei com o Padre, ele me disse pra continuar me cuidando, procurar me manter puro e ler a biblia, disse que lá eu acharia a minha cura.
+
+[[Próximo|F.10]]
+
+
+:: Final MEC {"position":"21300,2600","size":"100,100"}
+Adriana: 
+Assim eles vão ficar juntos até no paraíso. Amo vocês, meninos.
+
+
+:: Final MEQ {"position":"19700,1500","size":"100,100"}
+Francisco agora é procurado pela polícia, porém nunca mais é visto.
+
+
+:: Final VEC {"position":"21800,3000","size":"100,100"}
+A família Pereira, assim, consegue voltar a viver em paz.
+
+
+:: Final VEQ {"position":"21800,4800","size":"100,100"}
+Adriana lembra dos 30 mil que foram deixados por Francisco decidindo usar parte do dinheiro para o funeral de seu filho.
+
+[[Próximo|Final.V.E.Q]]
+
+
+:: Final.V.E.Q {"position":"21800,5000","size":"100,100"}
+O funeral de Bernardo é marcado para dois dias depois. Com o dinheiro, a criança recebe um funeral digno e o casal é acolhido por conhecidos.
+
+
+:: FinalMO [finalM finalO] {"position":"17000,800","size":"100,100"}
+Adriana, depois de uns meses já presa, não aguenta com o peso da culpa de tudo que causou e de tudo que aconteceu na vida de sua família e se mata na cadeia.
+
+
+:: FinalVO [finalV finalO] {"position":"21400,600","size":"100,100"}
+Ela e Bernardo voltam a sua rotina diária. Vivem tranquilos, e nada de semelhante acontece mais, já que os culpados do crime já tiveram suas devidas consequências.
+
+
+:: Flashback {"position":"1200,3300","size":"100,100"}
+Francisco:
+Eu era cirurgião chefe no hospital São Diego, tinha uma ótima carreira, mas a minha ganância acabou me consumindo.
+
+[[Próximo|F.2]]
+
+
+:: Flashback. [finalM finalO] {"position":"17600,400","size":"100,100"}
+
+
+[[Proximo|P13.9.M.O]]
+
+
+:: Ir atender [finalO] {"position":"8600,1700","size":"100,100"}
+Adriana vai em direção a porta, que ao abrir, se depara com Vitória, sua vizinha.
+
+[[Proximo|D10.4.O]]
+
+
+:: Matá-lo [finalO] {"position":"16200,300","size":"100,100"}
+Adriana pega o homem pelas pernas e o puxa até a sala da porta de metal.
+
+[[Proximo|D15.64.V.O]]
+
+
+:: N1.6 {"position":"4400,2500","size":"100,100"}
+Bernardo pega seu taco de baseball e vai em direção ao armário.
+
+[[Proximo|D3.11]]
+
+
+:: Olhar no armário [finalV] {"position":"5400,2400","size":"100,100"}
+Adriana: 
+Dexter? Dexter!
+
+(set: $finalV to true)
+(set: $finalM to false)
+
+[[Proximo|P2.1.V]]
+
+
+:: Olhar o taco de baseball [finalM] {"position":"4900,2000","size":"100,100"}
+Adriana: 
+Isso é.. sangue? Ai meu Deus, cadê meu filho?!
+
+(set: $finalV to false)
+(set: $finalM to true)
+
+[[Proximo|D5.1.M]]
+
+
+:: Onomatopeia1 {"position":"1200,2500","size":"100,100"}
+Telefone toca*
+
+Trrim! Trrim!
+
+[[Proximo|D1.1]]
+
+
+:: Onomatopeia2 {"position":"2200,2900","size":"100,100"}
+Click*
+
+Ligação encerrada.
+
+[[Proximo|timeSkip]]
+
+
+:: Onomatopeia3 {"position":"2600,2400","size":"100,100"}
+Telefone toca*
+
+Trrim! Trrim!
+
+[[Proximo|D2.1]]
+
+
+:: Onomatopeia4 {"position":"3000,2600","size":"100,100"}
+Click*
+
+Ligação encerrada.
+
+[[Proximo|D2.9]]
+
+
+:: P1.1 {"position":"4000,3100","size":"100,100"}
+Dexter deita embaixo da cama de bernardo e suspira fundo
+
+[[Proximo|D3.3]]
+
+
+:: P1.1.P {"position":"1400,1100","size":"100,100"}
+Mosca, desesperado, começa a quebrar objetos ao seu redor
+
+[[Próximo|D1.13.P]]
+
+
+:: P1.10.P {"position":"2000,1100","size":"100,100"}
+Francisco decide começar a irpara a igreja
+
+[[Próximo|P1.11.P]]
+
+
+:: P1.11.P {"position":"2200,1100","size":"100,100"}
+Francisco vai para o confessionário.
+
+[[Próximo|P1.12.P]]
+
+
+:: P1.12.P {"position":"2200,1300","size":"100,100"}
+Francisco e Adriana se conhecem na igreja.
+
+[[Próximo|P1.13.P]]
+
+
+:: P1.13.P {"position":"2200,1500","size":"100,100"}
+Os dois no altar se casando
+
+[[Próximo|finalComico]]
+
+
+:: P1.2 {"position":"4200,2900","size":"100,100"}
+Adriana dá um beijo na testa de Bernardo e sai do quarto, fechando a porta
+
+[[Proximo|P1.3]]
+
+
+:: P1.2.P {"position":"1400,1500","size":"100,100"}
+Algumas horas depois, Mosca escuta um som de sirene.
+uiuiuiuiu
+
+[[Próximo|D1.14.P]]
+
+
+:: P1.3 {"position":"4000,2900","size":"100,100"}
+Bernardo dorme
+
+[[Proximo|D3.6]]
+
+
+:: P1.3.P {"position":"1600,1900","size":"100,100"}
+BUM!
+
+A porta é destruida.
+
+[[Proximo|D1.18.P]]
+
+
+:: P1.4 {"position":"3600,2700","size":"100,100"}
+Bernardo percebe que a porta do seu armário está batendo
+
+[[Proximo|D3.8]]
+
+
+:: P1.4.P {"position":"1575,1100","size":"100,100"}
+Snif, Snif... Au-Au!
+
+[[Próximo|D1.21.P]]
+
+
+:: P1.5 {"position":"4000,2700","size":"100,100"}
+Bernardo coloca a mão embaixo da cama e percebe que Dexter ainda está lá. Faz carinho em seu pelo.
+
+[[Proximo|D3.9]]
+
+
+:: P1.5.P {"position":"1800,1500","size":"100,100"}
+A policia entra rapidamente no quarto e vai até a porta do cofre.
+
+[[Próximo|D1.23.P]]
+
+
+:: P1.6.P {"position":"2000,2100","size":"100,100"}
+BUM!!!
+
+A porta do cofre explode.
+
+[[Próximo|D1.31.P]]
+
+
+:: P1.7 {"position":"4000,2500","size":"100,100"}
+A porta continua batendo.
+
+[[Proximo|D3.12]]
+
+
+:: P1.7.P {"position":"2000,1700","size":"100,100"}
+Algum tempo depois...
+
+[[Próximo|P1.8.P]]
+
+
+:: P1.8 {"position":"3600,2500","size":"100,100"}
+Bernardo abre a porta e um pastor alemão sai de dentro do armário, ofegante e um pouco assustado.
+
+[[Proximo|D3.13]]
+
+
+:: P1.8.P {"position":"2000,1500","size":"100,100"}
+Francisco está fazendo uma cirurgia
+
+[[Próximo|P1.9.P]]
+
+
+:: P1.9 {"position":"4400,2300","size":"100,100"}
+Bernardo se vira para sua cama, mas não é rápido o suficiente. Ele pega no sono antes que pudesse entender o que aconteceu.
+
+[[Proximo|manhaSeguinte]]
+
+
+:: P1.9.P {"position":"2000,1300","size":"100,100"}
+Francisco entregando uma criança para os pais e todos felizes.
+
+[[Próximo|P1.10.P]]
+
+
+:: P10.0.O [finalO] {"position":"10600,2500","size":"100,100"}
+Adriana volta para casa para continuar com as investigações.
+
+[[Proximo|D14.1.O]]
+
+
+:: P10.1.O [finalO] {"position":"10600,2100","size":"100,100"}
+Ela coloca, no computador, a placa e o resto dos dados fornecidos nos documentos e descobre uma grande lista de multas.
+
+[[Proximo|D14.2.O]]
+
+
+:: P10.1.Q [finalQ] {"position":"17400,4500","size":"100,100"}
+Os dois saem então e vão até a igreja Santo Antônio.
+
+[[Proximo|P10.2.Q]]
+
+
+:: P10.10.V.O [finalV finalO] {"position":"11800,1500","size":"100,100"}
+Dexter sai disparado.
+
+[[Proximo|D14.14.V.O]]
+
+
+:: P10.11.M [finalM] {"position":"11800,3100","size":"100,100"}
+(if: $finalO is true) [Ela começa a bater de porta em porta.]
+
+(if: $finalE is true)[Eles começam a bater de porta em porta.]
+[[Proximo|D14.15.M]]
+
+
+:: P10.11.V [finalV] {"position":"11800,2300","size":"100,100"}
+Adriana começa a correr e tromba em um homem que estava com sacolas andando na calçada.
+
+[[Sai da frente!|D14.16.V]]
+[[Meu Deus, desculpa!|D14.17.V.O]]
+
+
+:: P10.12.M [finalM] {"position":"11800,3500","size":"100,100"}
+Sem resposta...
+
+[[Proximo|D14.16.M]]
+
+
+:: P10.12.V [finalV] {"position":"12200,2500","size":"100,100"}
+Adriana continua correndo até que Dexter para em frente de uma casa.
+
+[[Proximo|D14.18.V]]
+
+
+:: P10.13.M [finalM] {"position":"12000,3500","size":"100,100"}
+Após muitas tentativas falhas de campainhas sem serem atendidas e pessoas desinformadas, o celular de Adriana toca com uma ligação da Dra. Carol.
+
+[[Proximo|D14.18.M]]
+
+
+:: P10.13.V [finalV] {"position":"12200,2100","size":"100,100"}
+Dexter tenta latir, mas só sai um chiado baixo. Ele abana o rabo e senta
+
+(if: $finalO is true) [[[Proximo|D14.20.O]]]
+
+(if: $finalE is true) [[[Proximo|P6.13.V.E]]]
+
+
+
+
+:: P10.14.M [finalM] {"position":"13200,2900","size":"100,100"}
+ligação encerrada.
+
+[[Proximo|P10.15.M]]
+
+
+:: P10.14.O [finalO] {"position":"13400,2100","size":"100,100"}
+(if: $finalV is true) [Dexter obedece.]
+
+(else-if: $finalM is true) [Adriana da um passo para trás.]
+
+[[chutar a tranca]]
+
+
+:: P10.15.M [finalM] {"position":"13200,3100","size":"100,100"}
+(if: $finalO is true) [Adriana volta para o carro e vai em direção a casa.]
+
+(if: $finalE is true) [Adriana e o Tiago voltam para o carro e vão em direção a casa.]
+
+[[Proximo|P6.1.M]]
+
+
+:: P10.15.O [finalO] {"position":"13800,2300","size":"100,100"}
+
+(if: $finalV is true) [Adriana quebra a janela que dava pra garagem. Assim, ela e Dexter entram na casa.]
+
+(if: $finalM is true) [Adriana quebra a janela que dava pra garagem. Assim, ela e entra na casa.]
+
+[[Próximo|D9.15.V]]
+
+
+
+
+:: P10.2.O [finalO] {"position":"10800,1900","size":"100,100"}
+Adriana marca no quadro de cortiça todas as localizações onde foram levadas multas.
+
+[[Proximo|D14.3.O]]
+
+
+:: P10.2.Q [finalQ] {"position":"17800,4500","size":"100,100"}
+Chegando lá, a missa havia acabado a pouco. Então foram até o Padre.
+
+[[Proximo|D13.1.Q]]
+
+
+:: P10.3.O [finalO] {"position":"11000,2100","size":"100,100"}
+Adriana abre um armário com um cofre dentro, coloca a senha 1091 e pega de dentro um revólver de calibre 38.
+
+[[Proximo|D14.4.O]]
+
+
+:: P10.3.Q [finalQ] {"position":"18200,4100","size":"100,100"}
+Pensamento: 
+Os três fazem o sinal da cruz e rezam o terço completo juntos.
+
+[[Proximo|D13.12.Q]]
+
+
+:: P10.3.V.E.C {"position":"18200,2900","size":"100,100"}
+Ambos entram na viatura e dirigem até o Hospital São Diego.
+
+[[Proximo|P9.3.V.E.C]]
+
+
+:: P10.4.Q [finalQ] {"position":"19600,4500","size":"100,100"}
+Adriana e Alexandre voltam ao carro e adriana liga para Tiago.
+
+[[Proximo|D14.1.V.Q]]
+
+
+:: P10.4.V.E.C {"position":"18500,2300","size":"100,100"}
+Adriana e o Tiago dão a volta na mesa e a recepcionista que o deixa sentar no computador. Adriana fica em pé do lado dela.
+
+[[Proximo|P10.5.V.E.C]]
+
+
+:: P10.4.V.O [finalV finalO] {"position":"10800,1500","size":"100,100"}
+Adriana estala os dedos para chamar o cachorro, que aparece com o rabo abanando
+
+[[Proximo|D14.6.V.O]]
+
+
+:: P10.5.O [finalO] {"position":"11200,1900","size":"100,100"}
+Adriana pega o mapa e vai até Bairro Beberibe.
+
+[[Proximo|P10.6.O]]
+
+
+:: P10.5.Q [finalQ] {"position":"20600,4000","size":"100,100"}
+Alexandre a leva então até a delegacia, onde se despedem.
+
+[[Proximo|D14.12.Q]]
+
+
+:: P10.5.V.E.C {"position":"18300,2100","size":"100,100"}
+Olhando mais uns dados, descobrem que Francisco mora na rua Casa Amarela.
+
+[[Proximo|D13.12.V.E.C]]
+
+
+:: P10.6.O [finalO] {"position":"11200,2100","size":"100,100"}
+Parando em algumas casas, se identifica como policial e olha a gravação das câmeras em busca do Corolla preto.
+
+[[Proximo|D14.7.O]]
+
+
+:: P10.7.O [finalO] {"position":"11400,2500","size":"100,100"}
+Adriana olha gravações de dias diversos durante essa semana e acha uma gravação com o Corolla de placa KGS-0170 passando.
+
+[[Proximo|P10.8.O]]
+
+
+:: P10.8.O [finalO] {"position":"11400,2300","size":"100,100"}
+Acompanha o caminho o máximo que consegue pela gravação.
+
+[[Proximo|D14.13.O]]
+
+
+:: P10.9.O [finalO] {"position":"11400,1900","size":"100,100"}
+Adriana faz o caminho feito pelo carro. Segue reto e dobra uma esquerda.
+
+(if: $finalV is true) [[[Proximo|P10.10.V.O]]]
+
+(if: $finalM is true) [[[Proximo|D14.14.M]]]
+
+
+
+:: P11.1.Q [finalQ] {"position":"20000,3800","size":"100,100"}
+Adriana se encontra com Tiago e os dois seguem até o endereço da casa de Francisco,  sem saber ao certo o que esperar.
+
+[[Proximo|D15.1.V.E.Q]]
+
+
+:: P11.1.V.E.C {"position":"18500,2500","size":"100,100"}
+Agora vão em direção a casa de Francisco, sem saber ao certo o que esperar.
+
+[[Proximo|D15.1.V.E.Q]]
+
+
+:: P11.1.V.O [finalO] {"position":"14600,1700","size":"100,100"}
+Adriana entra, deixando a arma em punho, já preparada.
+
+[[Proximo|P11.2.V.O]]
+
+
+:: P11.10.V.E.C {"position":"21400,3800","size":"100,100"}
+Francisco levanta e dá um passo para trás. Adriana corre e se agacha no chão, abraçando seu filho.
+
+[[Proximo|D14.18.V.E.C]]
+
+
+:: P11.10.V.E.Q {"position":"21000,4800","size":"100,100"}
+O homem obedece, e deixa o órgão que estava segurando em cima de uma mesa. Tudo está muito ensanguentado.
+
+[[Proximo|D15.11.V.E.Q]]
+
+
+:: P11.10.V.O [finalO] {"position":"15800,900","size":"100,100"}
+Dentro da sala, tem um freezer e uma mesa com alguns pacotes e envelopes.
+
+[[Proximo|D15.45.V.O]]
+
+
+:: P11.11.V.E.C {"position":"21600,3000","size":"100,100"}
+O policial algema Francisco e o leva até a viatura.
+
+[[Proximo|D14.21.V.E.C]]
+
+
+:: P11.11.V.E.Q {"position":"21600,4800","size":"100,100"}
+Pensamento: 
+O policial algema Francisco e o leva até a viatura.
+
+[[Proximo|D15.22.V.E.Q]]
+
+
+:: P11.11.V.O [finalO] {"position":"16000,1100","size":"100,100"}
+Adriana segue em direção ao freezer e o abre
+
+[[Proximo|D15.47.V.O]]
+
+
+:: P11.12.V.E.C {"position":"21600,3600","size":"100,100"}
+Bernardo acorda, ainda sonolento.
+
+[[Proximo|D14.23.V.E.C]]
+
+
+:: P11.12.V.E.Q {"position":"21600,4200","size":"100,100"}
+Adriana carrega seu filho em seus braços e o policial volta para buscá-los.
+
+[[Proximo|D15.24.V.E.Q]]
+
+
+:: P11.12.V.O [finalO] {"position":"16200,1300","size":"100,100"}
+Dentro do freezer, Adriana só encontra muitos órgãos. Rins, Fígados, dentre outros. Todos separados e dentro de sacos transparente junto de muito sangue.
+
+(if: $pacotesOpen is true and $freezerOpen is true) [[[Proximo|RT2]]]
+
+(else:) [[[Olhar pacotes|RT2]]]
+
+
+:: P11.13.V.E.C {"position":"21800,3600","size":"100,100"}
+O policial volta.
+
+[[Proximo|D14.25.V.E.C]]
+
+
+:: P11.13.V.E.Q {"position":"21800,4400","size":"100,100"}
+Adriana não é capaz nem de falar.
+
+[[Próximo|P11.14.V.E.Q]]
+
+
+:: P11.13.V.O [finalO] {"position":"16000,1500","size":"100,100"}
+Uns envelopes são mais gordos que os outros, amassados e meio rasgados.
+
+[[Proximo|D15.50.V.O]]
+
+
+:: P11.14.V.E.C {"position":"21800,3200","size":"100,100"}
+Os dois voltam para casa. Adriana e Alexandre se sentem aliviados. Bernardo demora para despertar. O policial volta para a delegacia com Francisco e o prende por causa de Sequestro e tentativa de assassinato.
+
+[[Proximo|Final VEC]]
+
+
+:: P11.14.V.E.Q {"position":"21800,4600","size":"100,100"}
+Tiago a deixa em casa então. Adriana conta a Alexandre que seu filho morreu e ambos vivem o luto.
+
+[[Próximo|Final VEQ]]
+
+
+:: P11.14.V.O [finalO] {"position":"16400,1700","size":"100,100"}
+Adriana volta para a sala principal, onde o homem está jogado no chão, olhando para baixo.
+
+[[Proximo|D15.52.V.O]]
+
+
+:: P11.15.V.O [finalO] {"position":"16400,100","size":"100,100"}
+Adriana o deixa preso, sai e fecha a porta do porão, trancando-o por fora.
+
+[[Proximo|D15.63.V.O]]
+
+
+:: P11.16.V.O [finalO] {"position":"16400,300","size":"100,100"}
+Após Adriana o prender dentro do cofre, fazendo parecer que ele ficou preso sozinho, ela limpa suas digitais do local.
+
+[[Proximo|D15.63.V.O]]
+
+
+:: P11.17.V.O [finalO] {"position":"16600,500","size":"100,100"}
+Adriana pega a chave do carro roubado e dirige até o Hospital São Diego.
+
+[[Proximo|P12.1.V.O]]
+
+
+:: P11.2.V.E.Q {"position":"19200,2900","size":"100,100"}
+O policial arromba a porta e todos entram em uma sala com móveis bem antigos, porém é bem organizada. Tem um pouco de poeira.
+
+(if: $finalV is true) [[[Proximo|P11.4.V.E.Q]]]
+(if: $finalM is true) [[[Proximo|P9.6.M.E.Q]]]
+
+
+
+:: P11.2.V.O [finalO] {"position":"14600,1500","size":"100,100"}
+Abre a porta e entra numa sala secreta.
+
+[[Proximo|D15.1.V.O]]
+
+
+:: P11.3.V.O [finalO] {"position":"14600,700","size":"100,100"}
+Ele ergue as mãos e adriana percebe que ele tem uma mordida bem feia em seu braço direito.
+
+[[Proximo|P11.4.V.O]]
+
+
+:: P11.4.V.E.Q {"position":"20000,3000","size":"100,100"}
+Dexter sai farejando e ambos o seguem
+
+[[Proximo|D15.2.V.E.Q]]
+
+
+:: P11.4.V.O [finalO] {"position":"14600,500","size":"100,100"}
+(if: $finalV is true) [O homem tenta fugir, mas Dexter é mais rápido e dá uma mordida na coxa do homem, que cai no chão.]
+
+(else-if: $finalV is true) [O homem tenta fugir, mas Adriana é mais rápida e dá um tiro em sua coxa, para imobilizá-lo.]
+
+[[Proximo|D15.4.V.O]]
+
+
+:: P11.5.V.E.Q {"position":"20000,3400","size":"100,100"}
+Eles seguem Dexter até uma escada, que leva ao que se parece ser uma porta de um porão.
+
+[[Proximo|D15.3.V.E.Q]]
+
+
+:: P11.5.V.O [finalO] {"position":"14600,100","size":"100,100"}
+Adriana pega uma corda, que estava em cima da bancada ao lado de onde o homem caiu e o amarra.
+
+[[Proximo|D15.5.V.O]]
+
+
+:: P11.6.V.E.Q {"position":"20400,3000","size":"100,100"}
+Dexter obedece e o policial empunha novamente seu revólver. Fica posicionado logo atrás.
+
+[[Chutar a porta|P11.7.V.E.Q]]
+
+
+:: P11.6.V.O [finalO] {"position":"15400,500","size":"100,100"}
+Adriana levanta uma sobrancelha e o lembra da arma que está segurando.
+
+[[Proximo|D15.27.V.O]]
+
+
+:: P11.7.V.E.Q {"position":"20400,3200","size":"100,100"}
+A porta range e treme
+
+[[Chutar novamente|P11.8.V.E.Q]]
+
+
+:: P11.7.V.O [finalO] {"position":"15600,500","size":"100,100"}
+Adriana pega um papel e uma caneta que estavam jogados no canto da sala, e entrega para o sequestrador.
+
+[[Proximo|D15.41.V.O]]
+
+
+:: P11.8.V.E.Q {"position":"20400,3400","size":"100,100"}
+Adriana escuta um barulho agudo e a porta escancara, finalmente.
+
+[[Proximo|D15.8.V.E.Q]]
+
+
+:: P11.8.V.O [finalO] {"position":"15600,100","size":"100,100"}
+O homem pega o papel e escreve no papel a sequência “81078”
+
+[[Proximo|D15.42.V.O]]
+
+
+:: P11.9.V.E.C {"position":"21000,3800","size":"100,100"}
+Adriana, nervosa, começa a lacrimejar e faz muita força para segurar seu choro.
+
+[[Proximo|D14.10.V.E.C]]
+
+
+:: P11.9.V.E.Q {"position":"21000,4200","size":"100,100"}
+Adriana vê seu filho no chão. Nervosa, começa a chorar muito, mas ainda se mantém em posição.
+
+[[Proximo|D15.9.V.E.Q]]
+
+
+:: P11.9.V.O [finalO] {"position":"15800,700","size":"100,100"}
+Adriana vai até a porta e coloca o código 81078. A porta destranca e ela a abre.
+
+[[Proximo|P11.10.V.O]]
+
+
+:: P12.1.V.O [finalO] {"position":"16800,1200","size":"100,100"}
+Chegando no hospital, encontra a recepcionista e se direciona a ela.
+
+[[Proximo|D16.1.V.O]]
+
+
+:: P12.2.V.O [finalO] {"position":"16800,1800","size":"100,100"}
+Adriana dá a volta na mesa e a recepcionista a deixa sentar no computador. Fica em pé do lado dela.
+
+[[Proximo|P12.3.V.O]]
+
+
+:: P12.3.V.O [finalO] {"position":"17000,1800","size":"100,100"}
+Adriana olha mais uns dados e descobre que Francisco mora na rua Casa Amarela.
+
+[[Proximo|D16.9.V.O]]
+
+
+:: P12.4.V.O [finalO] {"position":"17200,1800","size":"100,100"}
+(if: $finalV is true) [Adriana, junto de Dexter vai em direção a casa de Francisco, sem saber ao certo o que esperar.]
+
+(if: $finalV is true) [Adriana vai em direção a casa de Francisco, sem saber ao certo o que esperar.]
+
+[[Proximo|P12.5.V.O]]
+
+
+:: P12.5.V.O [finalO] {"position":"17400,1800","size":"100,100"}
+Chegando lá, faz o mesmo que fez anteriormente e deixa seu carro uma esquina antes.
+
+[[Proximo|D16.11.V.O]]
+
+
+:: P13.1.M.O [finalM finalO] {"position":"18600,200","size":"100,100"}
+Adriana empunha novamente seu revólver.
+
+[[Chutar a porta|P13.2.M.O]]
+
+
+:: P13.10.M.O [finalM finalO] {"position":"17400,400","size":"100,100"}
+Adriana puxa a trava de sua arma, que continua apontada para Francisco.
+
+[[Proximo|D17.21.M.O]]
+
+
+:: P13.10.V.O [finalV finalO] {"position":"20600,600","size":"100,100"}
+Adriana levanta a arma em direção ao Francisco.
+
+[[Proximo|D17.22.V.O]]
+
+
+:: P13.11.M.O [finalM finalO] {"position":"17400,800","size":"100,100"}
+Adriana dá um tiro na barriga de Francisco, que cai no chão, gemendo de dor.
+
+[[Proximo|P13.12.M.O]]
+
+
+:: P13.11.V.O [finalV finalO] {"position":"20800,800","size":"100,100"}
+Barulho de tiro*
+
+[[Proximo|P13.12.V.O]]
+
+
+:: P13.12.M.O [finalM finalO] {"position":"17200,800","size":"100,100"}
+Consumida pela raiva, ela continua atirando até acabar as balas de sua arma.
+
+[[Proximo|P13.13.M.O]]
+
+
+:: P13.12.V.O [finalV finalO] {"position":"20800,600","size":"100,100"}
+Adriana dá dois tiros no peito de Francisco, que cai no chão, já morto.
+
+[[Proximo|D17.23.V.O]]
+
+
+:: P13.13.M.O [finalM finalO] {"position":"17200,600","size":"100,100"}
+Um tempo passa, e Adriana se assusta com o barulho da sirene da polícia, mas não é rápida o suficiente para sair dali.
+
+[[Proximo|D17.22.M.O]]
+
+
+:: P13.14.M.O [finalM finalO] {"position":"17000,400","size":"100,100"}
+Adriana solta a arma e fica abraçada com o corpo de seu filho no chão.
+
+[[Proximo|P13.15.M.O]]
+
+
+:: P13.14.V.O [finalV finalO] {"position":"20800,200","size":"100,100"}
+Adriana, tomada pela raiva, espanca Francisco, já morto no chão.
+
+[[Proximo|P13.15.V.O]]
+
+
+:: P13.15.M.O [finalM finalO] {"position":"17000,600","size":"100,100"}
+O policial a tira dali e ela é presa por assassinato. A polícia descobre sobre o caso de Francisco mas o caso é encerrado em razão de sua morte.
+
+[[Proximo|FinalMO]]
+
+
+:: P13.15.V.O [finalV finalO] {"position":"21000,200","size":"100,100"}
+Dá um soco em seu braço e um tiro na sua própria perna. Na tentativa de forjar uma cena de legítima defesa, coloca as digitais de Francisco em sua arma e depois a joga no chão.
+
+[[Proximo|P13.16.V.O]]
+
+
+:: P13.16.V.O [finalV finalO] {"position":"21000,400","size":"100,100"}
+Adriana disca 190 em seu telefone.
+
+[[Proximo|D17.24.V.O]]
+
+
+:: P13.17.V.O [finalV finalO] {"position":"21400,400","size":"100,100"}
+O tempo se passa, a polícia leva Adriana e Bernardo para casa. Adriana depõe sobre o caso do carro roubado, que é devolvido para o dono. Ela é julgada e solta por legítima defesa, assim como tinha planejado.
+
+[[Proximo|FinalVO]]
+
+
+:: P13.2.M.O [finalM finalO] {"position":"18600,400","size":"100,100"}
+A porta range e treme.
+
+[[Chutar novamente|P13.3.M.O]]
+
+
+:: P13.2.V.O [finalV finalO] {"position":"19200,400","size":"100,100"}
+Adriana pula a janela da casa e Dexter vem logo depois.
+
+[[Proximo|P13.3.V.O]]
+
+
+:: P13.3.M.O [finalM finalO] {"position":"18600,600","size":"100,100"}
+Adriana escuta um barulho agudo e a porta escancara, finalmente.
+
+[[Proximo|D17.6.M.O]]
+
+
+:: P13.3.V.O [finalV finalO] {"position":"19200,200","size":"100,100"}
+Os dois entram em uma sala com móveis bem antigos, porém é bem organizada. Tem um pouco de poeira.
+
+[[Proximo|P13.4.V.O]]
+
+
+:: P13.4.M.O [finalM finalO] {"position":"18400,800","size":"100,100"}
+Adriana não consegue terminar a frase, assim que vê seu filho ensanguentado no chão.
+
+[[Proximo|P13.5.M.O]]
+
+
+:: P13.4.V.O [finalV finalO] {"position":"19400,200","size":"100,100"}
+Dexter sai farejando e Adriana o segue.
+
+[[Proximo|D17.4.V.O]]
+
+
+:: P13.5.M.O [finalM finalO] {"position":"18400,600","size":"100,100"}
+Adriana, nervosa, começa a chorar muito, mas ainda se mantém em posição.
+
+[[Proximo|D17.7.M.O]]
+
+
+:: P13.5.V.O [finalV finalO] {"position":"19600,600","size":"100,100"}
+Dexter obedece e Adriana empunha novamente seu revólver.
+
+[[Chutar a porta]]
+
+
+:: P13.6.M.O [finalM finalO] {"position":"18200,200","size":"100,100"}
+O homem obedece, e deixa o órgão que estava segurando em cima de uma mesa.
+
+[[Proximo|D17.9.M.O]]
+
+
+:: P13.6.V.O [finalV finalO] {"position":"19800,400","size":"100,100"}
+Adriana entra e Dexter fica onde ela o tinha mandado ficar.
+
+[[Proximo|D17.9.V.O]]
+
+
+:: P13.7.M.O [finalM finalO] {"position":"18200,600","size":"100,100"}
+O homem obedece novamente, ele parece bem compreensível para alguém que está em uma cena do crime.
+
+[[Proximo|D17.10.M.O]]
+
+
+:: P13.7.V.O [finalV finalO] {"position":"20000,800","size":"100,100"}
+Adriana, nervosa, começa a lacrimejar e faz muita força para segurar seu choro.
+
+[[Proximo|D17.11.V.O]]
+
+
+:: P13.8.M.O [finalM finalO] {"position":"18000,400","size":"100,100"}
+Adriana perde a posição e se ajoelha ao lado do corpo do filho, chorando muito.
+
+[[Proximo|D17.13.M.O]]
+
+
+:: P13.8.V.O [finalV finalO] {"position":"20400,600","size":"100,100"}
+Adriana corre e se agacha no chão, abraçando seu filho, junto de dexter que começa a lamber o rosto do menino.
+
+[[Proximo|D17.19.V.O]]
+
+
+:: P13.9.M.O [finalM finalO] {"position":"17600,200","size":"100,100"}
+Adriana sente que seu corpo é tomado pela raiva.
+
+[[Proximo|D17.20.M.O]]
+
+
+:: P13.9.V.O [finalV finalO] {"position":"20600,200","size":"100,100"}
+Adriana sente que seu corpo é tomado pela raiva.
+
+[[Proximo|D17.21.V.O]]
+
+
+:: P2.1.M [finalM] {"position":"5100,1600","size":"100,100"}
+Ao olhar em baixo da cama, Adriana encontra dexter, que não estava respirando.
+
+[[Proximo|D5.2.M]]
+
+
+:: P2.1.V [finalV] {"position":"5400,2600","size":"100,100"}
+Dexter demora um pouco para acordar. sonolento, dá um bocejo e volta a dormir.
+
+[[Proximo|D5.1.V]]
+
+
+:: P2.2.M [finalM] {"position":"5600,1800","size":"100,100"}
+Assustados com a situação, Alexandre passa um tempo consolando Adriana.
+
+[[Proximo|D5.5.M]]
+
+
+:: P2.2.V [finalV] {"position":"5600,2400","size":"100,100"}
+Alguns minutos depois, talvez uma hora tenha se passado...
+
+[[Proximo|P3.1]]
+
+
+:: P2.3.M [finalM] {"position":"5800,1800","size":"100,100"}
+Alexandre encontra um envelope dentro do armário
+
+[[Proximo|D5.6.M]]
+
+
+:: P3.1 {"position":"6000,2500","size":"100,100"}
+Toc-Toc! 
+
+A policia bate na porta.
+
+[[Proximo|D6.1]]
+
+
+:: P4.1 {"position":"7200,2700","size":"100,100"}
+O policial faz breves testes em alguns pontos do quarto, como a janela e o cachorro.
+
+[[Proximo|D7.8]]
+
+
+:: P4.2.E [finalE] {"position":"8800,2900","size":"100,100"}
+Eles voltam para a sala e o policial senta no sofá ao lado do casal.
+
+[[Próximo|D7.18.E]]
+
+
+:: P4.2.O [finalO] {"position":"7400,2900","size":"100,100"}
+O policial vai embora. Adriana volta para o quarto e pega uma amostra do sangue também.
+
+[[Poximo|D7.11.V.O]]
+
+
+:: P4.3.E [finalE] {"position":"8600,3500","size":"100,100"}
+O policial abre sua bolsa e tira um notebook de dentro.
+
+[[Próximo|D7.33.E]]
+
+
+:: P4.3.V.O [finalO] {"position":"7600,2300","size":"100,100"}
+Adriana sai de casa e vai até um laboratório criminal.
+
+[[Proximo|D8.1.O]]
+
+
+:: P4.4.E [finalE] {"position":"8200,3500","size":"100,100"}
+Adriana e Alexandre se juntam ao policial para observar as câmeras.
+
+[[Próximo|D7.34.E]]
+
+
+:: P4.5.E [finalE] {"position":"8200,3700","size":"100,100"}
+Tudo que você vê é um Corolla de cor preta, de vidros escuros, saindo daquela rua de madrugada em alta velocidade.
+
+[[Próximo|D7.36.E]]
+
+
+:: P4.6.E [finalE] {"position":"9200,2900","size":"100,100"}
+Adriana e o policial saem então em direção a Rua Dolores Salgado, 61,  Zona Norte de Pernambuco, enquanto Alexandre fica em casa.
+
+[[Próximo|P5.1]]
+
+
+:: P5.1 {"position":"9600,2500","size":"100,100"}
+(if: $finalE is true)[Eventualmente, os dois chegam em uma rua sem saída. Param em frente a uma casa e tocam a campainha.]
+
+(else-if: $finalO is true) [Ao chegar, ela repara que é uma rua sem saída, não tão estreita. Ela para em frente a casa e toca a campainha.]
+
+
+[[Próximo|D7.4]]
+
+
+:: P5.1.O [finalO] {"position":"7000,1700","size":"100,100"}
+Adriana conta todo o ocorrido para Carol.
+
+[[Proximo|D8.4.O]]
+
+
+:: P5.10.E [finalE] {"position":"11400,3700","size":"100,100"}
+Eles companham o caminho o máximo que consegue pela gravação
+
+[[Proximo|D9.6.E]]
+
+
+:: P5.2 {"position":"10200,2900","size":"100,100"}
+O homem entra em casa e uns minutos depois volta com os documentos.
+
+[[Próximo|D8.9]]
+
+
+:: P5.3.E [finalE] {"position":"10600,2900","size":"100,100"}
+Os dois voltam para a viatura.
+
+[[Próximo|D8.10.E]]
+
+
+:: P5.9.E [finalE] {"position":"11400,3900","size":"100,100"}
+Os dois olham gravações de dias diversos durante essa semana e acham uma gravação com o Corolla de placa KGS-0170 passando.
+
+[[Proximo|P5.10.E]]
+
+
+:: P5.9.V [finalV] {"position":"12000,2500","size":"100,100"}
+(if: $finalV is true) [Tiago começa a correr logo em seguida, para alcançar os dois.
+
+[[Próximo|P10.12.V]]]
+
+(if: $finalM is true) [(go-to:"P10.12.V.O")]
+
+
+:: P6.1.E [finalE] {"position":"11200,2900","size":"100,100"}
+(if: $finalV is true) [Adriana e o policial então pegam o mapa e vão até o bairro Beberibe, junto de Dexter que segue eles até o carro.]
+
+(if: $finalM is true) [Adriana e Tiago pegam o mapa e vão até o bairro Beberibe.]
+
+[[Próximo|P6.2.E]]
+
+
+:: P6.1.M [finalM] {"position":"13400,3100","size":"100,100"}
+Estacionando o carro uma esquina antes e seguem andando, até chegar em frente da casa com garagem
+
+[[Proximo|D9.3.M]]
+
+
+:: P6.1.O [finalO] {"position":"8000,1500","size":"100,100"}
+Adriana decide voltar para casa organizar seus pensamentos.
+
+[[Proximo|D9.1.O]]
+
+
+:: P6.13.M [finalM] {"position":"14200,2100","size":"100,100"}
+Adriana vasculha em diferentes cômodos da casa, até chegar em um quarto.
+
+[[Proximo|P6.14.M]]
+
+
+:: P6.13.V.E [finalE] {"position":"12600,1700","size":"100,100"}
+No meio do caminho, Tiago pesquisa e descobre que a casa é de um homem chamado Paulo Camargo de Oliveira.
+
+[[Próximo|D9.13.V.E]]
+
+
+:: P6.14.M [finalM] {"position":"14400,2100","size":"100,100"}
+Ao abrir o guarda-roupa, ela imediatamente, começa a ouvir uma voz.
+
+[[Proximo|D9.15.M]]
+
+
+:: P6.14.V.E [finalE] {"position":"13200,1700","size":"100,100"}
+Assim, ele, Adriana e Dexter entram na casa.
+
+[[Próximo|D9.15.V]]
+
+
+:: P6.15.V [finalV] {"position":"13800,1700","size":"100,100"}
+Dexter segue andando pela casa. Entra em um quarto e senta na frente de um guarda-roupa.
+
+[[Próximo|D9.17.V]]
+
+
+:: P6.16.V [finalV] {"position":"13800,1500","size":"100,100"}
+Dexter chia novamente.
+
+[[Próximo|D9.19.V]]
+
+
+:: P6.17.V [finalV] {"position":"13800,1100","size":"100,100"}
+Adriana tira todas as roupas de dentro do guarda-roupa
+
+[[Próximo|P6.18.V]]
+
+
+
+:: P6.18.V [finalV] {"position":"14000,1300","size":"100,100"}
+Ela vê um feixe de luz, não tão claro vindo de uma quina do guarda-roupa.
+
+[[ Próximo|D9.26.V]]
+
+
+:: P6.19.V [finalV] {"position":"14000,1500","size":"100,100"}
+Dexter abana o rabo, respirando com a língua para fora.
+
+[[ Procurar nos bolsos|D9.27.V]]
+
+
+:: P6.2.E [finalE] {"position":"11200,3100","size":"100,100"}
+Eles param em algumas casas, se identificando como policiais e olham a gravação das câmeras em busca do Corolla preto.
+
+[[Próximo|P6.3.E]]
+
+
+
+:: P6.2.O [finalO] {"position":"8200,1900","size":"100,100"}
+Adriana anota num post-it: “Canhoto?” e coloca no quadro.
+
+[[Proximo|D9.8.O]]
+
+
+:: P6.20.V [finalV] {"position":"13600,1100","size":"100,100"}
+Adriana começa a revirar os bolsos de todas as calças, shorts e jaquetas do armário.
+
+[[Próximo|D9.21.V]]
+
+
+:: P6.21.V [finalV] {"position":"14200,900","size":"100,100"}
+Dexter, em resposta, levanta, cheira o armário, tenta latir novamente e senta, abanando o rabo.
+
+[[ Próximo|D9.24.V]]
+
+
+:: P6.25.M [finalM] {"position":"14600,2300","size":"100,100"}
+Adriana pega todas as roupas e joga num canto do quarto.
+
+[[Proximo|P6.26.M]]
+
+
+:: P6.26.M [finalM] {"position":"14600,2100","size":"100,100"}
+Ela vê um feixe de luz, não tão claro vindo de uma quina do guarda-roupa.
+
+(if: $finalE is true) [[[Proximo|D9.29.V.E]]]
+
+(if: $finalO is true) [[[Proximo|P11.1.V.O]]]
+
+
+
+:: P6.3.E [finalE] {"position":"11200,3300","size":"100,100"}
+Adriana: 
+Ô de casa!
+
+[[Próximo|D9.1.E]]
+
+
+:: P6.3.O [finalO] {"position":"8400,1700","size":"100,100"}
+Din-Don!
+
+A campainha da casa toca.
+
+[[Ir atender]] 
+[[Ficar em silêncio|P6.4.O]]
+
+
+:: P6.4.O [finalO] {"position":"8400,1900","size":"100,100"}
+Adriana se agacha no canto e fica em silêncio, assustada na possibilidade de quem pode ser.
+
+[[Proximo|P6.5.O]]
+
+
+:: P6.5.O [finalO] {"position":"8400,2100","size":"100,100"}
+Din-Don!
+
+A campainha toca outra vez...
+
+[[Ir atender|D10.2.O]] 
+[[Ficar em silêncio|D10.1.O]]
+
+
+:: P6.6.M.E [finalM finalE] {"position":"13800,2900","size":"100,100"}
+O policial então arromba o portãozinho da garagem e os dois entram na garagem
+
+[[Proximo|D9.9.M.E]]
+
+
+:: P6.6.O [finalO] {"position":"8800,1700","size":"100,100"}
+Adriana percebe que a Vitória estica o pescoço pra ver se tem algo dentro da sua casa, curiosa e enxerida.
+
+[[Proximo|D10.6.O]]
+
+
+:: P6.7.E [finalE] {"position":"11400,3100","size":"100,100"}
+(if: $finalV is true) [Eles fazem o caminho feito pelo carro. Seguem reto e dobram uma esquerda, até que Dexter sai disparado. [[Proximo|D14.15.V]]]
+
+(if: $finalM is true) [Então os dois fazem o caminho feito pelo carro. Seguem reto e dobram uma esquerda. [[Proximo|D14.14.M]]]
+
+
+
+:: P6.7.O [finalO] {"position":"8400,2500","size":"100,100"}
+Adriana e Vitória vão então ver as gravações da câmera de segurança. Adriana entra na sala, acha o computador e coloca a fita para tocar.
+
+[[Proximo|D10.10.O]]
+
+
+:: P6.8.O [finalO] {"position":"8800,2300","size":"100,100"}
+Tudo que Adriana é um Corolla de cor preta, de vidros escuros, saindo daquela rua de madrugada em alta velocidade.
+
+[[Proximo|D10.12.O]]
+
+
+:: P6.9.O [finalO] {"position":"9200,2100","size":"100,100"}
+Adriana volta para casa e coloca a fita para tocar novamente, agora prestando atenção em pequenos detalhes.
+
+[[Proximo|D10.16.O]]
+
+
+:: P7.1.O [finalO] {"position":"9600,1500","size":"100,100"}
+Adriana, então, sai de casa e volta ao laboratório de Carol
+
+[[Proximo|D12.1.O]]
+
+
+:: P7.1.V.E [finalE] {"position":"15200,2100","size":"100,100"}
+O policial entra no cômodo, já empunhando sua arma.
+
+[[Próximo|D10.1.V.E]]
+
+
+:: P7.10.M.E [finalM finalE] {"position":"14800,3100","size":"100,100"}
+O policial mobiliza o homem e o algema.
+
+[[Proximo|D10.11.M.E]]
+
+
+:: P7.15.E [finalE] {"position":"15600,2900","size":"100,100"}
+Adriana segue em direção ao freezer e o abre
+
+[[Proximo|D10.16.E]]
+
+
+:: P7.18.E [finalE] {"position":"15400,3300","size":"100,100"}
+A mesa do canto está cheia de envelopes. Tem dinheiro jogado em um canto e uma caneta estourada no outro.
+
+[[Proximo|D10.19.E]]
+
+(set: $envelope to true)
+
+
+:: P7.2.V.E [finalE] {"position":"15200,2300","size":"100,100"}
+Abre a porta e os dois entram em uma sala secreta.
+
+[[Próximo|D10.2.V.E]]
+
+
+:: P7.21.E [finalE] {"position":"15400,3500","size":"100,100"}
+Uns envelopes são mais gordos que os outros, amassados e meio rasgados
+
+[[Proximo|D10.22.E]]
+
+
+:: P7.3.V.E [finalE] {"position":"15400,2500","size":"100,100"}
+Ele ergue as mãos e adriana percebe que ele tem uma mordida bem feia no seu braço direito.
+
+(if: $finalV is true) [[[Próximo|P7.4.V.E]]]
+
+(if: $finalM is true) [[[Próximo|P7.5.M.E]]]
+
+
+:: P7.4.V.E [finalV finalE] {"position":"15800,2100","size":"100,100"}
+O homem tenta fugir, mas Dexter é mais rápido e dá uma mordida na coxa do homem, que cai no chão.
+
+[[Próximo|D10.5.V.E]]
+
+
+:: P7.5.M.E [finalM finalE] {"position":"14600,2900","size":"100,100"}
+O homem age desesperadamente e se tranca em uma porta de metal, com um cadeado numérico.
+
+[[Proximo|D10.6.M.E]]
+
+
+:: P7.5.V.E [finalV finalE] {"position":"16200,2300","size":"100,100"}
+O policial imobiliza o homem e o algema.
+
+[[Próximo|D10.7.V.E]]
+
+
+:: P7.6.V.E [finalV finalE] {"position":"15800,2500","size":"100,100"}
+O policial arromba a porta do cofre.
+
+[[Próximo|P7.7.E]]
+
+
+:: P7.7.E [finalE] {"position":"15200,2900","size":"100,100"}
+Dentro da sala, tem um freezer e uma mesa com alguns pacotes e envelopes, mas sem noticias do Bernardo.
+
+ [[Próximo|D10.13.E]]
+
+
+:: P7.8.M.E [finalM finalE] {"position":"14400,3300","size":"100,100"}
+O policial então atira duas vezes na tranca, até que a porta se abre.
+
+[[Proximo|D10.9.M.E]]
+
+
+:: P8.1 {"position":"17400,2200","size":"100,100"}
+O policial mostra a carta deixada na cena do crime com o monte de dinheiro.
+
+[[Proximo|D11.31.V.E.C]]
+
+
+:: P8.1.E [finalE] {"position":"15800,2900","size":"100,100"}
+O traficante é levado então para a delegacia, onde é interrogado
+
+
+[[Negociar|P8.2.Q]]
+
+
+:: P8.1.O [finalO] {"position":"10200,1500","size":"100,100"}
+Adriana mostra a fita.
+
+[[Proximo|D12.3.O]]
+
+
+:: P8.1.V.E.C {"position":"17000,3000","size":"100,100"}
+O policial levanta uma sobrancelha, não está muito convencido.
+
+[[Proximo|D11.16.V.E.C]]
+
+
+:: P8.14.Q [finalQ] {"position":"16600,4500","size":"100,100"}
+O Policial sai da sala e deixa Paulo lá, que fica em silêncio.
+
+[[Proximo|P8.15.Q]]
+
+
+:: P8.15.Q [finalQ] {"position":"16800,4500","size":"100,100"}
+Adriana estava esperando na entrada da delegacia, já que não foi autorizada a fazer parte do interrogatório.
+
+[[Proximo|D11.14.Q]]
+
+
+:: P8.16.M.E.C {"position":"20100,2600","size":"100,100"}
+Adriana vê seu filho no chão. Nervosa, começa a chorar muito, mas ainda se mantém em posição.
+
+[[Próximo|D11.17.M.E.C]]
+
+
+:: P8.19.M.E.C {"position":"20100,2000","size":"100,100"}
+O homem obedece, e deixa o órgão que estava segurando em cima de uma mesa. Tudo está muito ensanguentado.
+
+[[Próximo|D11.20.M.E.C]]
+
+
+:: P8.2.O [finalO] {"position":"9600,1700","size":"100,100"}
+Adriana faz uma cara de coitada para a Carol e mostra o quão cansada está.
+
+[[Proximo|D12.6.O]]
+
+
+:: P8.2.Q [finalE] {"position":"16000,2900","size":"100,100"}
+O policial e o traficante estão sozinhos em uma sala, com um espelho falso em uma janela que dá visão para a parte de fora da sala.
+
+[[Proximo|D11.3]]
+
+
+:: P8.2.V.E.C {"position":"17800,3000","size":"100,100"}
+O Policial sai da sala e deixa Paulo lá
+
+[[Proximo|D11.38.V.E.C]]
+
+
+:: P8.26.M.E.C {"position":"20300,2600","size":"100,100"}
+Adriana perde a posição e se ajoelha ao lado do corpo do filho, chorando muito.
+
+[[Próximo|D11.27.M.E.C]]
+
+
+:: P8.3.O [finalO] {"position":"9800,1900","size":"100,100"}
+Adriana entra no sistema e procura a placa “KGS-0170”.
+
+[[Proximo|D12.7.O]]
+
+
+:: P8.3.Q [finalQ] {"position":"17000,4100","size":"100,100"}
+Adriana aceita o conselho de Tiago e vai pra casa.
+
+[[Proximo|D12.1.Q]]
+
+
+:: P8.32.M.E.C {"position":"20700,1800","size":"100,100"}
+Francisco dá um passo para trás.
+
+[[Próximo|D11.33.M.E.C]]
+
+
+:: P8.37.M.E.C {"position":"20900,2600","size":"100,100"}
+O policial algema Francisco e o leva até a viatura.
+
+[[Próximo|D11.38.M.E.C]]
+
+
+:: P8.4.O [finalO] {"position":"9600,2100","size":"100,100"}
+Adriana segue até a Rua Dolores Salgado, 61,  Zona Norte de Pernambuco.
+
+[[Proximo|P5.1]]
+
+
+:: P8.40.M.E.C {"position":"20900,2000","size":"100,100"}
+Adriana carrega seu filho e o policial volta para buscá-los.
+
+[[Próximo|D11.41.M.E.C]]
+
+
+:: P8.42.M.E.C {"position":"21100,1800","size":"100,100"}
+Adriana não é capaz nem de falar.
+
+[[Próximo|D11.43.M.E.C]]
+
+
+:: P8.44.M.E.C {"position":"21100,2200","size":"100,100"}
+Adriana usa parte dos 30mil para fazer um funeral para Bernardo.
+
+[[Próximo|P8.45.M.E.C]]
+
+
+:: P8.45.M.E.C {"position":"21100,2400","size":"100,100"}
+O funeral de Bernardo é marcado para dois dias depois. Com o dinheiro, a criança recebe um funeral digno e o casal é acolhido por conhecidos.
+
+[[Próximo|P8.46.M.E.C]]
+
+
+:: P8.46.M.E.C {"position":"21100,2600","size":"100,100"}
+Dexter é cremado e suas cinzas são jogadas no túmulo de Bernardo.
+
+[[Próximo|Final MEC]]
+
+
+:: P9.1.Q [finalQ] {"position":"17400,3700","size":"100,100"}
+Adriana toma um banho e passa umas horas deitada. Tenta desligar um pouco a cabeça e descansar, mas simplesmente não consegue.
+
+[[Proximo|D12.7.Q]]
+
+
+:: P9.1.V.E.C {"position":"18200,3300","size":"100,100"}
+Adriana estava esperando na entrada da delegacia, já que não foi autorizada a fazer parte do interrogatório.
+
+[[Proximo|D12.1.V.E.C]]
+
+
+:: P9.10.M.E.Q {"position":"19300,2300","size":"100,100"}
+A porta range e treme
+
+[[Chutar novamente|P9.11.M.E.Q]]
+
+
+:: P9.11.M.E.Q {"position":"19300,2500","size":"100,100"}
+Adriana escuta um barulho agudo e a porta escancara, finalmente.
+
+[[Proximo|D11.15.M.E.C]]
+
+
+:: P9.13.M.E.Q {"position":"18900,1900","size":"100,100"}
+Adriana vê seu filho no chão. Nervosa, começa a chorar muito
+
+[[Proximo|D12.14.M.E.Q]]
+
+
+:: P9.16.M.E.Q {"position":"18900,1300","size":"100,100"}
+Adriana corre até o corpo de seu filho.
+
+[[Proximo|P9.17.M.E.Q]]
+
+
+:: P9.17.M.E.Q {"position":"18900,1100","size":"100,100"}
+Adriana vê seu filho no cão, com a barriga aberta, com o cão cheio de sangue e vómito
+
+[[Proximo|P9.18.M.E.Q]]
+
+
+:: P9.18.M.E.Q {"position":"19100,1100","size":"100,100"}
+Adriana se ajoelha do lado de seu filho e encontra uma faca
+
+[[Proximo|D12.19.M.E.Q]]
+
+
+:: P9.2.Q [finalQ] {"position":"17400,4300","size":"100,100"}
+Adriana faz que sim com a cabeça.
+
+[[Proximo|P10.1.Q]]
+
+
+:: P9.2.V.E.C {"position":"18600,3300","size":"100,100"}
+Tiago descreve o interrogatório.
+
+[[Proximo|D12.2.V.E.C]]
+
+
+:: P9.20.M.E.Q {"position":"19100,1500","size":"100,100"}
+O policial olha para Adriana e a vê segurando a faca.
+
+[[Proximo|P9.21.M.E.Q]]
+
+
+:: P9.21.M.E.Q {"position":"19100,1700","size":"100,100"}
+Adriana não consegue aguentar o peso do luto. Antes que o policial possa reagir, Adriana tenta tirar sua própria vida.
+
+[[Proximo|D12.22.M.E.Q]]
+
+
+:: P9.25.M.E.Q {"position":"19300,1700","size":"100,100"}
+O policial liga para o SAMU, que chega alguns minutos depois.
+
+[[Proximo|P9.26.M.E.Q]]
+
+
+:: P9.26.M.E.Q {"position":"19300,1500","size":"100,100"}
+Adriana é levada às pressas. Chegando lá, encontra Alexandre já esperando.
+
+[[Proximo|P9.27.M.E.Q]]
+
+
+:: P9.27.M.E.Q {"position":"19300,1300","size":"100,100"}
+Ela é internada e Alex fica em sua companhia.
+
+[[Proximo|D12.28.M.E.Q]]
+
+
+:: P9.3.V.E.C {"position":"18100,2500","size":"100,100"}
+Chegando no hospital, encontra a recepcionista e se direciona a ela
+
+[[Proximo|D12.5.V.E.C]]
+
+
+:: P9.30.M.E.Q {"position":"19500,1300","size":"100,100"}
+Adriana fecha o olho
+
+[[Proximo|P9.31.M.E.Q]]
+
+
+:: P9.31.M.E.Q {"position":"19500,1500","size":"100,100"}
+Piiiiiiiiiiii
+
+[[Proximo|P9.32.M.E.Q]]
+
+
+:: P9.32.M.E.Q {"position":"19500,1700","size":"100,100"}
+Alexandre começa a chorar muito.
+
+[[Proximo|P9.33.M.E.Q]]
+
+
+:: P9.33.M.E.Q {"position":"19500,1900","size":"100,100"}
+Em razão da demora da autópsia, Bernardo e Adriana são enterrados juntos, um ao lado do outro.
+
+[[Proximo|P9.34.M.E.Q]]
+
+
+:: P9.34.M.E.Q {"position":"19700,1900","size":"100,100"}
+Dexter é cremado e suas cinzas são jogadas no túmulo dos dois.
+
+[[Proximo|D12.35.M.E.Q]]
+
+
+:: P9.6.M.E.Q {"position":"18900,2500","size":"100,100"}
+Adriana procura algo fora do lugar por toda a casa, até achar uma porta de madeira que a leva para um porão. Tem um cheiro forte vindo de dentro. 
+
+[[Proximo|D12.7.M.E.Q]]
+
+
+:: P9.9.M.E.Q {"position":"19100,2300","size":"100,100"}
+O policial empunha novamente seu revólver. Fica posicionado logo atrás.
+
+[[Chutar porta|P9.10.M.E.Q]]
+
+
+:: Pegar corda [finalO] {"position":"15200,500","size":"100,100"}
+(if: $finalV is true) [Adriana pega outro pedaço de corda no mesmo lugar e amarra na ferida aberta da segunda mordida, com intenção de machucá-lo.]
+
+(if: $finalM is true) [Adriana pega outro pedaço de corda no mesmo lugar e amarra na ferida aberta do tiro, com intenção de machucá-lo.]
+
+[[Proximo|D15.22.V.O]]
+
+
+:: Que doença? {"position":"18300,1900","size":"100,100"}
+Recepcionista: 
+Não consta no sistema. 
+
+[[Proximo|D13.10.V.E.C]]
+
+(if: $receptionQuest is true) [[A quanto tempo ele trabalhava aqui?]]
+(set:$receptionQuest to false)
+
+
+:: RT2 [finalO] {"position":"16200,1500","size":"100,100"}
+(if: $pacotesOpen is true and $freezerOpen is true) [(go-to: "P11.14.V.O")]
+
+(else-if: $pacotesOpen is true) [(go-to: "olhar freezer")]
+
+(else-if: $freezerOpen is true) [(go-to:"olhar pacotes")]
+
+[[P11.14.V.O]]
+
+
+:: Reler a carta [finalO] {"position":"8200,2500","size":"100,100"}
+“Sinto muito pelo seu filho. Eu não tive escolha”
+ 
+ [[Próximo|D9.6.O]]
+
+
+:: Tempo? [finalO] {"position":"17000,1400","size":"100,100"}
+Recepcionista: 
+Ah, mais ou menos uns 25 anos. Começou de baixo, subiu durante os anos até que chegou na parte de coordenação das cirurgias.
+
+[[Proximo|D16.6.V.O]]
+
+(if: $receptionQuest is true) [[Que doença?|Doença?]]
+(set:$receptionQuest to false)
+
+
+:: Tentar pular o muro subindo na lixeira [finalO] {"position":"13600,2500","size":"100,100"}
+(if: $finalV is true) [Adriana então sobe em uma caçamba de lixo que estava na calçada e pula o portão. Logo em seguida, Dexter faz o mesmo.]
+
+(if: $finalM is true) [Adriana então sobe em uma caçamba de lixo que estava na calçada e pula o portão.]
+
+[[Proximo|D14.21.O]]
+
+
+:: aHistoria1 {"position":"21400,5000","size":"100,100"}
+(introduzir o FlashBack do Francisco)
+
+[[Proximo|D15.21.V.E.Q]]
+
+
+:: aHistoria2 {"position":"21200,3400","size":"100,100"}
+(introduzir o FlashBack do Francisco)
+
+[[Proximo|D14.16.V.E.C]]
+
+
+:: chutar a tranca [finalO] {"position":"13600,2100","size":"100,100"}
+Nada acontece...
+
+(set: $enzoKick to false)
+
+[[chutar novamente]]
+
+
+:: chutar novamente [finalO] {"position":"13600,2300","size":"100,100"}
+Nada acontece...
+
+(if: $enzoKick is true) [[Tentar pular o muro subindo na lixeira]]
+(set: $enzoKick to true)
+
+[[chutar novamente]]
+
+
+:: finalComico {"position":"2200,1700","size":"100,100"}
+Francisco e Adriana felizes brincando com Bernardo.
+
+
+:: flashbackvec {"position":"21400,3200","size":"100,100"}
+[[Proximo|D14.20.V.E.C]]
+
+
+:: manhaSeguinte {"position":"4800,2400","size":"100,100"}
+Por volta das 7h40
+
+[[Proximo|D4.1]]
+
+
+:: oInicio {"position":"1200,2700","size":"100,100"}
+Papa-Figo: 
+Uma história em Visual Novel
+
+[[Jogar|Onomatopeia1]] 
+[[Créditos|osCreditos]]
+
+
+:: olhar freezer [finalO] {"position":"16000,1300","size":"100,100"}
+Adriana: 
+Que lugar esquisito… Santo Deus.
+
+(set: $freezerOpen to true)
+[[Proximo|P11.11.V.O]]
+
+
+:: olhar pacotes [finalO] {"position":"15800,1500","size":"100,100"}
+A mesa do canto está cheia de envelopes. Tem dinheiro jogado em um canto e uma caneta estourada no outro.)
+
+(set: $pacotesOpen to true)
+
+[[Proximo|D15.48.V.O]]
+
+
+:: olharEmbaixoCamaArrumarDepois {"position":"4900,1600","size":"100,100"}
+Adriana:
+
+[[Olhar embaixo da cama|P2.1.M]]
+
+[[Olhar no armário|olharEmbaixoCamaArrumarDepoisAgoraArmario]]
+
+
+:: olharEmbaixoCamaArrumarDepoisAgoraArmario {"position":"5000,1300","size":"100,100"}
+Adriana: 
+O que é isso?  “Sinto muito pelo seu filho. Eu não tive escolha”. O que?! Que dinheiro é esse?
+
+[[Próximo|olharEmbaixoCamaArrumarDepoisAgoraArmario.1]]
+
+
+:: olharEmbaixoCamaArrumarDepoisAgoraArmario.1 {"position":"5000,1100","size":"100,100"}
+Adriana: 
+Meu Deus, isso são 30 mil reais. De onde veio esse dinheiro? Nossa família nunca teve o suficiente para sacar uma quantidade dessa de uma vez só. Isso não é nosso.
+
+[[Olhar Embaixo da cama|olharEmbaixoCamaArrumarDepoisAgoraArmario.2]]
+
+
+:: olharEmbaixoCamaArrumarDepoisAgoraArmario.2 {"position":"5200,1300","size":"100,100"}
+Adriana:
+Dexter!! Dexter!! Ei, ei, Dexter! (começa a chorar)
+
+[[Próximo|olharEmbaixoCamaArrumarDepoisAgoraArmario.3]]
+
+
+:: olharEmbaixoCamaArrumarDepoisAgoraArmario.3 {"position":"5200,1100","size":"100,100"}
+Adriana:
+Alex! Vem aqui! Por favor! Alex! É o Dexter! (soluço) Por favor carinha, fica comigo… fica comigo (soluço) por favor…
+
+[[Próximo|olharEmbaixoCamaArrumarDepoisAgoraArmario.4]]
+
+
+:: olharEmbaixoCamaArrumarDepoisAgoraArmario.4 {"position":"5400,1300","size":"100,100"}
+Alexandre chega, desesperado
+
+[[Próximo|olharEmbaixoCamaArrumarDepoisAgoraArmario.5]]
+
+
+:: olharEmbaixoCamaArrumarDepoisAgoraArmario.5 {"position":"5400,1100","size":"100,100"}
+Alexandre: Meu Deus. Calma, vai ficar tudo bem. Calma, eu to aqui com você.
+(Alexandre passa um tempo consolando Adriana. Também estava assustado com toda a situação.)
+
+[[Proximo|D5.7.M]]
+
+
+:: osCreditos {"position":"1200,2900","size":"100,100"}
+Grupo:
+Camila Pepe de Souza - Artes
+Diego Cavalheiro Barbosa - Programação e Roteiro
+Giovana Silveira Moraes da Costa - Roteiro e Artes
+Leone Feltran - Artes
+Luis Felipe Rodrigues Scalise - Programação e Roteiro
+
+Design de Games - 2º sem/2026
+[[Voltar para o início|oInicio]]
+
+
+:: semNomeArrumarDepois {"position":"5500,2000","size":"100,100"}
+Adriana passa uns minutos ali com o corpo de dexter, chorando. Alexandre continua passando informações aos policiais.
+
+[[Próximo|semNomeArrumarDepois.1]]
+
+
+:: semNomeArrumarDepois.1 {"position":"5500,2200","size":"100,100"}
+Adriana: 
+Tem alguma coisa no armário. A porta tá aberta.
+(Olha e encontra uma carta)
+
+[[Próximo|semNomeArrumarDepois.2]]
+
+
+:: semNomeArrumarDepois.2 {"position":"5700,2000","size":"100,100"}
+Adriana: 
+O que é isso? “Sinto muito pelo seu filho. Eu não tive escolha”. O que?! Que dinheiro é esse?
+
+[[Próximo|semNomeArrumarDepois.3]]
+
+
+:: semNomeArrumarDepois.3 {"position":"5700,2200","size":"100,100"}
+Alexandre:
+Chamei a polícia.
+
+
+[[Próximo|semNomeArrumarDepois.4]]
+
+
+:: semNomeArrumarDepois.4 {"position":"5900,2000","size":"100,100"}
+Adriana: 
+O Dexter.. tá embaixo da cama. Eu também achei isso.
+
+
+:: timeSkip {"position":"2200,2700","size":"100,100"}
+Dois meses depois...
+
+[[Proximo|Onomatopeia3]]
+
+
+:: timeSkip2 {"position":"3200,2800","size":"100,100"}
+Um mês depois, na casa da família Pereira
+
+[[Proximo|D3.1]]
